@@ -1,0 +1,59 @@
+/***** General Styles *****/
+body {
+	padding-top:65px !important;
+}
+.img-responsive {
+	width:100%;
+}
+a.iframeTitle {
+	display:none;
+}
+/***** Advertisements *****/
+.advertisementTitle {
+	display:none;
+	width:300px !important;
+	margin:0 auto;
+	border-bottom:1px solid #999999;
+	margin-bottom:7px;
+}
+.advertisementTitle div {
+	width:68px;
+  	margin:0 auto;
+  	font-family:'Open Sans', sans-serif;
+  	font-size:8px;
+  	font-weight:600;
+  	height:11px;
+  	line-height:11px;
+  	position:relative;
+  	background:#fff;
+  	top:5px;
+  	text-align:center;
+}
+.advertisementContent {
+	line-height:0;	
+}
+.advertisementContent iframe {
+	margin:auto !important;
+}
+.HP_300_250, .HP_300_250_B, .HP_320x50_B, .ROS_300_250, .ROS_300_250_b, .ROS_320x50_B {
+	width:100%;
+}
+.HP_320x50 {
+	background-color:#e9e9e9;
+	position:fixed !important;
+	bottom:0 !important;
+	left:0 !important;
+	right:0 !important;
+	z-index:99999;
+}
+.ROS_320x50 {
+	background-color:#e9e9e9;
+	position:fixed !important;
+	bottom:0 !important;
+	left:0 !important;
+	right:0 !important;
+	z-index:1000;
+}
+body.open-sidebar .HP_320x50 {
+	z-index: 1;
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<title>sport24</title>
+	<link rel="self" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=multipleTypeVideo&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=50"/>
+	<link rel="first" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=multipleTypeVideo&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=50"/>
+	<link rel="next" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=multipleTypeVideo&amp;view=generic/v2/latest-atom&amp;page=2&amp;items=50"/>
+	<link rel="last" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=multipleTypeVideo&amp;view=generic/v2/latest-atom&amp;page=150&amp;items=50"/>
+	<link rel="alternate" href="http://www.sport24.gr/"/>
+	<subtitle>sport24</subtitle>
+	<id>http://www.sport24.gr/</id>
+	<icon>
+		http://www.sport24.gr/skins/bugs-fixed/img/logo-big-transparent_1.png
+	</icon>
+	<updated>2015-04-02T11:41:00+02:00</updated>
+	<entry>
+		<title>Μπαρτσελόνα - Αούκας 2-0 (δυο γκολ ο Μπλάνκο)</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/mpartselona-aoukas-2-0-dyo-gkol-o-mplanko.3391314.html"/>
+		<link rel="@supertitle" title=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/multimedia/video/article3391312.ece/BINARY/w620/Untitled+9.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391314</id>
+		<updated>2015-04-02T11:41:00+02:00</updated>
+		<published>2015-04-02T11:41:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="youTube" href="https://www.youtube.com/embed/j3l8ENpYCkw" code="j3l8ENpYCkw" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Trick Shots με τους πιο απίθανους τρόπους</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/trick-shots-me-toys-pio-apithanoys-tropoys.3391158.html"/>
+		<link rel="@supertitle" title=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/multimedia/video/article3391157.ece/BINARY/w620/Untitled+4.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391158</id>
+		<updated>2015-04-02T10:04:00+02:00</updated>
+		<published>2015-04-02T10:04:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="youTube" href="https://www.youtube.com/embed/rioGL6UN9Qk" code="rioGL6UN9Qk" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Έτοιμος για πυγμαχικό αγώνα ο Μαραντόνα</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/etoimos-gia-pygmaxiko-agwna-o-marantona.3390855.html"/>
+		<link rel="@supertitle" title=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3390857.ece/BINARY/w620/MARADONA1.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Βαγγέλης Σταματόπουλος</name>
+		</author>
+		<id>3390855</id>
+		<updated>2015-04-01T23:10:00+02:00</updated>
+		<published>2015-04-01T23:10:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="youTube" href="https://www.youtube.com/embed/MWCyoJcHt6w" code="MWCyoJcHt6w" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Ο Ιβάνοβιτς σχολιάζει την Άλμπα</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/o-ivanovits-sxoliazei-thn-almpa.3390548.html"/>
+		<link rel="@supertitle" title="Ο Ιβάνοβιτς σχολιάζει την Άλμπα"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/article3339129.ece/BINARY/w620/ivanovic-mikri.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3390548</id>
+		<updated>2015-04-01T19:48:00+02:00</updated>
+		<published>2015-04-01T19:48:00+02:00</published>
+		<summary>Ο Ιβάνοβιτς σχολιάζει την Άλμπα</summary>
+		<link rel="enclosure" type="dailyMotion" href="http://www.dailymotion.com/embed/video/x2lfiag" code="x2lfiag" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Ο Σλότερ για τον αγώνα με την Άλμπα</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/o-sloter-gia-ton-agwna-me-thn-almpa.3390542.html"/>
+		<link rel="@supertitle" title="Ο Σλότερ για τον αγώνα με την Άλμπα"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/article3390526.ece/BINARY/w620/%CF%83%CE%BB%CE%BF%CF%84%CE%B5%CF%81.jpg" title="" credits="" caption=""/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="video" label="Videos"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3390542</id>
+		<updated>2015-04-01T19:43:00+02:00</updated>
+		<published>2015-04-01T19:47:00+02:00</published>
+		<summary>Ο Σλότερ για τον αγώνα με την Άλμπα</summary>
+		<link rel="enclosure" type="dailyMotion" href="http://www.dailymotion.com/embed/video/x2lffsc" code="x2lffsc" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Ο Μπλουμς μιλά για την Άλμπα</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/o-mployms-mila-gia-thn-almpa.3390540.html"/>
+		<link rel="@supertitle" title="Ο Μπλουμς μιλά για την Άλμπα"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/article3390524.ece/BINARY/w620/%CE%BC%CF%80%CE%BB%CE%BF%CF%85%CE%BC%CF%82.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3390540</id>
+		<updated>2015-04-01T19:42:00+02:00</updated>
+		<published>2015-04-01T19:42:00+02:00</published>
+		<summary>Ο Μπλουμς μιλά για την Άλμπα</summary>
+		<link rel="enclosure" type="dailyMotion" href="http://www.dailymotion.com/embed/video/x2lffoj" code="x2lffoj" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Το συγκινητικό βίντεο της Ρίβερ Πλέιτ</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/to-sygkinhtiko-vinteo-ths-river-pleit.3390221.html"/>
+		<link rel="@supertitle" title=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/libertadores/article3367538.ece/BINARY/w620/river.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Βασίλης Τεμπέλης</name>
+		</author>
+		<id>3390221</id>
+		<updated>2015-04-01T17:16:00+02:00</updated>
+		<published>2015-04-01T17:16:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="youTube" href="https://www.youtube.com/embed/qR9SDpJ3BbY" code="qR9SDpJ3BbY" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Ο τραυματισμός του Αλάμπα με τη Βοσνία</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/o-traymatismos-toy-alampa-me-th-vosnia.3390062.html"/>
+		<link rel="@supertitle" title=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/omades/RealMadritis/article3383699.ece/BINARY/w620/David%2BAlaba%2BReal%2BMadrid%2Bv%2BFC%2BBayern%2BMuenchen%2BfBZaoxiP9Krl.jpg" title="" credits="" caption=""/>
+		<category term="video" label="Videos"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Βασίλης Τεμπέλης</name>
+		</author>
+		<id>3390062</id>
+		<updated>2015-04-01T16:17:00+02:00</updated>
+		<published>2015-04-01T16:17:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="youTube" href="https://www.youtube.com/embed/SWBKKmE3BcE" code="SWBKKmE3BcE" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Η γκολάρα του Σι και η αντίδραση του φιλάθλου</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/video/h-gkolara-toy-si-kai-h-antidrash-toy-filathloy.3389760.html"/>
+		<link rel="@supertitle" title=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/multimedia/video/article3389758.ece/BINARY/w620/Untitled+5.jpg" title="" credits="" caption=""/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="video" label="Videos"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3389760</id>
+		<updated>2015-04-01T13:46:00+02:00</updated>
+		<published>2015-04-02T07:07:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="youTube" href="https://www.youtube.com/embed/zOFrdIMvIAM" code="zOFrdIMvIAM" comment="embed"/>
+	</entry>
+	<entry>
+		<title>Ερώτημα Super Basketball (02/4)</title>
+		<type>multipleTypeVideo</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/erwthma-super-basketball-02-4.3390049.html"/>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Βασίλης Ασημακόπουλος</name>
+		</author>
+		<id>3390049</id>
+		<updated>2015-03-31T15:59:00+02:00</updated>
+		<published>2015-04-01T15:59:00+02:00</published>
+		<summary/>
+		<link rel="enclosure" type="advancedCode" comment="embed"/>
+		<content:encoded>
+			<![CDATA[
+				<script type="text/javascript" src="//cdn.playbuzz.com/widget/feed.js"></script> <div class="pb_feed" data-embed-by="5eb30d6a-aaaf-442c-8c75-4621aaaa6550" data-game="/sport2410/4-1-2015-12-36-52-pm" data-recommend="false" data-game-info="false" data-comments="false" data-shares="false" ></div>
+			]]>
+		</content:encoded>
+	</entry>
+</feed>

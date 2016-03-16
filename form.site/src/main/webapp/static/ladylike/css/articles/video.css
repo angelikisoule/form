@@ -1,0 +1,83 @@
+/***** Article Generic *****/
+.article.videos {
+	position:relative;
+}
+.article.videos .banner {
+	position:absolute;
+	top:10px;
+	left:10px;
+	color:#fff;
+	padding:6px;
+	background-color:#05cb98;
+	font-family:'Open Sans', sans-serif;
+	font-size:11px;
+	line-height:11px;
+	font-weight:600;
+	z-index:9;
+}
+.article.videos .title {
+	display:block;
+	position:relative;	
+}
+.article.videos h1 {
+	position:relative; /*For Arrow*/
+	margin-top:21px;
+	margin-bottom:50px;
+	color:#202020;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	font-size:24px;
+	line-height:24px;
+	font-weight:400;
+}
+.article.videos .arrow {
+	display:block;
+	position:absolute;
+	top:-35px;
+	left:12px;
+	background-image:url(/static/ladylike/images/xs/Arrow.png);
+	background-repeat:no-repeat;
+	background-size:24px 15px;
+	width:24px;
+	height:14px;
+	z-index:999;
+}
+.more {
+    text-align:center;
+}
+.more a {
+	display:inline-block;
+  	width:auto;
+  	background:#ff5050;
+  	font-family:'Open Sans', sans-serif;
+  	font-size:11px;
+  	font-weight:600;
+  	line-height:30px;
+  	padding:0 14px;
+  	margin:45px 0 39px 0;
+  	border-radius:0;
+}
+.more a:link, .more a:visited, .more a:hover, .more a:active {
+    color:#fff;
+}
+.more a:active {
+	background:#000;
+}
+iframe.embed-responsive-item{
+	z-index: 10000;
+}
+/***** Static Video *****/
+.video {
+	margin-bottom:15px;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	.article.videos .arrow {
+		background-image:url(/static/ladylike/images/sm/Arrow.png);
+	}
+}

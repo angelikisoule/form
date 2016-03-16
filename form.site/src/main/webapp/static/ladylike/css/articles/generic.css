@@ -1,0 +1,145 @@
+/***** Article Generic *****/
+.article.generic {
+	position:relative;
+}
+.article.generic .banner {
+	position:absolute;
+	top:10px;
+	left:10px;
+	color:#fff;
+	padding:6px;
+	background-color:#05cb98;
+	font-family:'Open Sans', sans-serif;
+	font-size:11px;
+	line-height:11px;
+	font-weight:600;
+	z-index:9;
+}
+.article.generic .title {
+	display:block;
+	position:relative;	
+}
+.article.generic .arrow {
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:12px;
+	background-image:url(/static/ladylike/images/xs/Arrow.png);
+	background-repeat:no-repeat;
+	background-size:24px 15px;
+	width:24px;
+	height:14px;
+}
+.article.generic h1 {
+	margin-top:18px;
+	margin-bottom:6px;
+	font-size:24px;
+	line-height:24px;
+}
+.article.generic h1 a {
+	color:#202020;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	font-size:24px;
+	line-height:24px;
+	font-weight:400;
+	text-decoration:none;
+}
+.article.generic p {
+	margin:0 0 34px;
+	color:#4c4c4c;
+	font-family:'Open Sans', sans-serif;
+	font-size:12px;
+	line-height:16px;
+	font-weight:400;
+}
+/***** Article Mini *****/
+.mini {
+	border-top:1px solid #202020;
+	border-bottom:1px solid #202020;
+	padding:12px 0;
+	margin-bottom:33px;
+	position:relative;
+}
+.mini .picture {
+	display:block;
+	position:absolute;
+	top:0;
+	left:10px;
+	width:72px;
+	height:72px;
+	overflow:hidden;
+}
+.mini .picture img {
+	height:72px;
+	width:auto;
+}
+.mini .title {
+	display:block;
+	padding-left:83px;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	color:#202020;
+	font-size:24px;
+	line-height:24px;
+	font-weight:400;
+	text-decoration:none;
+	height:72px;
+	overflow:hidden;
+}
+/***** Sponsored Articles *****/
+hr.sponsored {
+	margin-top:0;
+	margin-bottom:1px;
+	border-top:2px solid #202020;
+}
+h2.sponsored {
+	border-top:1px solid #202020;
+	font-family:Georgia;
+	color:#202020;
+	font-size:25px;
+	line-height:25px;
+	font-weight:700;
+	font-style:italic;
+	margin-top:0;
+	margin-bottom:0;
+	padding:9px 0;
+	letter-spacing:-0.6px;
+	position:relative;
+}
+h2.sponsored span {
+	display:inline-block;
+  	font-family:'Open Sans', sans-serif;
+	font-size:5px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:6px;
+	padding:0 5px;
+	color:#fff;
+	background:#CBCBCB;
+	position:absolute;
+	right:0;
+	top:-10px;
+}
+.sponsoredBanner {
+	position:absolute;
+	top:1px;
+	right:0;
+	width:auto;
+	height:40px;
+	z-index:9;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	.article.generic .arrow {
+		background-image:url(/static/ladylike/images/sm/Arrow.png);
+	}
+	.article.generic p {
+		font-size:13px;
+		line-height:17px;
+	}
+}

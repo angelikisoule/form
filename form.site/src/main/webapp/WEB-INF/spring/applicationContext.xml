@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p"
+		xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:jee="http://www.springframework.org/schema/jee"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+        xmlns:task="http://www.springframework.org/schema/task"
+        xmlns:util="http://www.springframework.org/schema/util"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        					http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        					http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+        					http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        					http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+        					http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        					http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd
+        					http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <!-- Enable Component Scanning -->
+	<context:component-scan base-package="gr.media24.mSites.data.dao" annotation-config="true" />
+    <context:component-scan base-package="gr.media24.mSites.core.service.implementation" annotation-config="true" />
+    <context:component-scan base-package="gr.media24.mSites.tasks.escenic" annotation-config="true" />
+    <context:component-scan base-package="gr.media24.mSites.tasks.api" annotation-config="true" />
+
+	<!-- JNDI-based Data Source Lookup -->
+	<jee:jndi-lookup id="dataSource" jndi-name="jdbc/dataSource"/>
+	
+	<!-- JDBC Template Configuration -->
+	<bean class="org.springframework.jdbc.core.JdbcTemplate" p:dataSource-ref="dataSource"  />
+	
+	<!-- Hibernate Properties -->
+	<util:properties id="hibernateProperties">
+		<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+      	<prop key="hibernate.show_sql">true</prop>
+		<!--'create' to build a new database on each run; 
+			'update' to modify an existing database; 
+			'create-drop' means the same as 'create' but also drops tables when Hibernate closes; 
+			'validate' makes no changes to the database-->
+      	<prop key="hibernate.hbm2ddl.auto">validate</prop>
+      	<prop key="hibernate.show_sql">false</prop>
+      	<prop key="hibernate.format_sql">false</prop>
+      	<prop key="hibernate.use_sql_comments">false</prop>
+      	<prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory</prop>
+      	<prop key="hibernate.cache.use_second_level_cache">true</prop>
+      	<prop key="hibernate.cache.use_query_cache">true</prop>
+      	<prop key="hibernate.generate_statistics">false</prop>
+	</util:properties>
+	
+	<!-- Hibernate's Session Factory -->
+	<bean id="sessionFactory"
+		  class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"
+		  p:dataSource-ref="dataSource"
+		  p:hibernateProperties-ref="hibernateProperties"
+		  p:packagesToScan="gr.media24.mSites.data.entities" />
+	
+	<!-- Transaction Manager -->
+	<bean id="transactionManager"
+		  class="org.springframework.orm.hibernate4.HibernateTransactionManager"
+		  p:sessionFactory-ref="sessionFactory" />
+	
+	<!-- Activate @Transactional Annotations -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<!-- Scheduled Tasks -->
+	<bean id="escenicUpdater" class="gr.media24.mSites.tasks.escenic.EscenicUpdater"/>
+	<bean id="apiUpdater" class="gr.media24.mSites.tasks.api.ApiUpdater"/>
+	<task:scheduler id="scheduler" pool-size="2" />
+	<task:scheduled-tasks scheduler="scheduler">
+    	<!-- escenicUpdater Will Be Used Only For Newspapers So You Don't Need To Have It Running All Day Long -->
+    	<task:scheduled ref="escenicUpdater" method="run" cron="0 */15 6-12 * * *"/>
+    	<task:scheduled ref="apiUpdater" method="run" initial-delay="180000" fixed-delay="180000"/>
+	</task:scheduled-tasks>
+
+	<!-- ServiceInjectionFilter Bean -->
+	<bean id="serviceInjectionFilter" class="gr.media24.mSites.core.filters.ServiceInjectionFilter" />
+
+	<!-- Java Mail Sender -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="localhost" />
+		<property name="port" value="25" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.debug">false</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- Settings Bean and Newspapers Map -->
+	<bean id="settings" class="gr.media24.mSites.core.Settings">
+		<property name="defaultPublicationId" value="528" />
+        <property name="defaultPublicationName" value="ladylike" />
+        <property name="articlesToReadDynamically" value="3" />
+        <!-- The Order In Which You Define The Map Entries Affects The Order The Categories Will Be Presented In /newspapers/ View -->
+        <property name="newspapersMap">
+            <map>
+            	<entry key="WEEKLY_MAG">
+                    <value>people,egw_weekly,ok_,hello_,loipon,ciao,hi,you-magazine</value>
+                </entry>
+                <entry key="TV_MAGAZINES">
+                	<value>thletheaths,thlerama,tv_zaping</value>
+                </entry>
+                <entry key="WEEKLY_PRESS">
+                	<value>athens_voice,lifo</value>
+                </entry>
+                <entry key="ENTHETA_EFIMERIDON">
+                	<value>proto_thema_casa_viva,proto_thema_people,real_news_real_life,real_news_taste,bhma_politismos,bhma_vivlia,bhmagazino,tv_ethnos,ethnos_kyriakis_taksidi,kathimerini_taksidia</value>
+                </entry>
+              	<entry key="WOMEN_MAGAZINES">
+                	<value>cosmopolitan,elle,in_style,glamour,madame_figaro,marie_claire,mirror,l_officiel</value>
+                </entry>
+              	<entry key="FITNESS_KAI_EVEKSIA">
+                	<value>forma,shape,vita,ygeia_kai_evexia</value>
+                </entry>
+              	<entry key="SUNDAY_PAPERS">
+                	<value>kyriakatiki_dimokratia,to_vima_tis_kyriakis,ethnos_tis_kyriakis,kyriakatiki_eleftherotypia,kathimerini_tis_kyriakis,typos_tis_kyriakis,makedonia_tis_kyriakis,kyriakatiki_apogevmatini,to_proto_thema,real_news,apokalypseis,to_paron,to_arthro,i_vradyni_tis_kyriakis,o_logosn,kyriakatiki_avriani,i_chora_tis_kyriakis,eleftheri_oran,i_nikin,free_sunday__city_press_,epikairotitan,24_oresn,avgi_tis_kyriakis,kyriakatikos_rizospastis,geniki_dimoprasionn,veto,toxwni,espresso_ti_kyriakis,kontra_news,kyriakatiki_enimerosi</value>
+                </entry>
+			</map>
+		</property>
+		<property name="dailyNewspapers">
+			<list>
+				<value>MORNING</value>
+				<value>AFTERNOON</value>
+			</list>
+		</property>
+		<!-- Reserved Articles Map -->
+		<property name="reservedArticlesMap">
+		 	<map>
+            	<entry key="article2894036">
+                    <value>terms</value>
+                </entry>
+                <entry key="article2894156">
+                    <value>privacy</value>
+                </entry>
+        	</map>
+		</property>
+		<!-- Advertisements -->
+		<property name="inlineAdvertisements">
+			<map>
+				<entry key="ROS_A">
+					<value>&lt;div class='col-xs-12'&gt;&lt;div class='advertisementTitle text-center ROS_300_250'&gt;&lt;div class='ad_label'&gt;ADVERTISING&lt;/div&gt;&lt;/div&gt;&lt;div class='advertisementContent text-center ROS_300_250'&gt;&lt;script language='javascript'&gt;document.write('&lt;scr'+'ipt language=\'javascript1.1\' src=\'http://adserver.adtech.de/addyn/3.0/1444/4590818/0/170/ADTECH;loc=100;target=_blank;kvpath='+window.location.pathname.replace(/[^a-zA-Z0-9]/g,'').toLowerCase()+';grp=[group];misc='+new Date().getTime()+'\'&gt;&lt;/scri'+'pt&gt;');&lt;/script&gt;&lt;noscript&gt;&lt;a href='http://adserver.adtech.de/adlink/3.0/1444/4590818/0/170/ADTECH;loc=300;grp=[group]' target='_blank'&gt;&lt;img src='http://adserver.adtech.de/adserv/3.0/1444/4590818/0/170/ADTECH;loc=300;grp=[group]' border='0' width='300' height='250'&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;</value>
+				</entry>
+				<entry key="ROS_B">
+					<value>&lt;div class='col-xs-12'&gt;&lt;div class='advertisementTitle ROS_300_250_B'&gt;&lt;div class='ad_label'&gt;ADVERTISING&lt;/div&gt;&lt;/div&gt;&lt;div class='advertisementContent text-center ROS_300_250_B'&gt;&lt;script language='javascript'&gt;if(window.adgroupid == undefined) { window.adgroupid = Math.round(Math.random() * 1000); } document.write('&lt;scr'+'ipt language=\'javascript1.1\' src=\'http://adserver.adtech.de/addyn/3.0/1370/5063321/0/170/ADTECH;loc=100;target=_blank;key=key1+key2+key3+key4;grp='+window.adgroupid+';misc='+new Date().getTime()+'\'&gt;&lt;/scri'+'pt&gt;');&lt;/script&gt;&lt;noscript&gt;&lt;a href='http://adserver.adtech.de/adlink/3.0/1370/5063321/0/170/ADTECH;loc=300;key=key1+key2+key3+key4' target='_blank'&gt;&lt;img src='http://adserver.adtech.de/adserv/3.0/1370/5063321/0/170/ADTECH;loc=300;key=key1+key2+key3+key4' border='0' width='300' height='250'&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

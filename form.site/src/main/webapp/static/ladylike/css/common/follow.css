@@ -1,0 +1,199 @@
+.row.social {
+    padding-top:17px;
+    padding-bottom:55px;
+    background-color:#1d1d1d;
+}
+.row.social .logo {
+    background-image:url(/static/ladylike/images/xs/Logo.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:202px 39px;
+    height:39px;
+    margin-bottom:13px;
+}
+.row.social .logo a {
+    display:block;
+    height:100%;
+    width:202px;
+    margin:0 auto;
+    margin-bottom:13px;
+}
+.row.social .logo hr {
+    margin-top:0;
+    margin-bottom:0;
+    border-top:2px solid #fff;
+}
+.row.social .follow {
+    font-family:'Open Sans', sans-serif;
+    color:#b5b5b5;
+    font-size:13px;
+    font-weight:400;
+    padding-top:7px;
+    padding-bottom:30px;
+}
+.row.social a, .goToTop a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.row.social .followFacebook {
+    background-image:url(/static/ladylike/images/xs/Facebook.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:10px 21px;
+    height:21px;
+}
+.row.social .followTwitter {
+    background-image:url(/static/ladylike/images/xs/Twitter.png);
+    background-repeat:no-repeat;
+    background-position:center 2px;
+    background-size:21px 17px;
+    height:21px;
+}
+.row.social .followPinterest {
+    background-image:url(/static/ladylike/images/xs/Pinterest.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:16px 21px;
+    height:21px;
+}
+.row.social .followInstagram {
+    background-image:url(/static/ladylike/images/xs/Instagram.png);
+    background-repeat:no-repeat;
+    background-position:center 2px;
+    background-size:18px 17px;
+    height:21px;
+}
+.row.social .followYouTube {
+    background-image:url(/static/ladylike/images/xs/YouTube.png);
+    background-repeat:no-repeat;
+    background-position:center 4px;
+    background-size:17px 13px;
+    height:21px;
+}
+.terms {	
+    background:#fff;
+}
+.terms .goToTop {
+    position:relative;
+    top:-35px;
+    background-image:url(/static/ladylike/images/xs/Top.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:73px;
+    width:73px;
+    height:73px;
+    margin:0 auto;
+}
+.terms .contact {
+    position:relative;
+    top:-15px;	
+}
+.terms .contact .row div {
+    padding-left:5px;
+    padding-right:5px;
+}
+.terms .contact a {
+    font-family:'Open Sans', sans-serif;
+    color:#868686;
+    font-size:10px;
+    font-weight:400;
+    text-decoration:none;
+}
+.terms .copyrights hr {
+    margin-top:18px;
+    margin-bottom:18px;
+    width:50px;
+    border-top:1px solid #b5b5b5;
+}
+.terms .copyrights {
+    position:relative;
+    top:0px;
+    font-family:'Open Sans', sans-serif;
+    font-size:8px;
+    font-weight:400;
+    color:#868686;
+}
+.terms .copyrights div {
+    margin-top:8px;
+    margin-bottom:14px;
+}
+.terms .copyrights div:last-child {
+    margin-top:0;
+    margin-bottom:0;
+    color:#c2bebe;
+}
+.terms .copyrights a.company {
+    display:block;
+    background-image:url(/static/ladylike/images/xs/24Media.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:35px 38px;
+    width:35px;
+    height:38px;
+    margin:0 auto;
+}
+
+.ened{
+    background-image: url(/static/ladylike/images/xs/ened-newsLD-320.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px 30px;
+    width: 26px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top:15px;
+}
+.ened_bar{
+    background:#efefef;    
+    height: 20px;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+    
+    .ened_bar{
+    background:#efefef;    
+    height:20px;
+}
+    
+    .ened{
+    background-image: url(/static/ladylike/images/sm/ened-newsLD-640.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px 30px;
+    width: 26px;
+    height: 30px;
+    }
+    
+    .row.social .logo {
+        background-image:url(/static/ladylike/images/sm/Logo.png);
+    }
+    .row.social .followFacebook {
+        background-image:url(/static/ladylike/images/sm/Facebook.png);
+    }
+    .row.social .followTwitter {
+        background-image:url(/static/ladylike/images/sm/Twitter.png);
+    }
+    .row.social .followPinterest {
+        background-image:url(/static/ladylike/images/sm/Pinterest.png);
+    }
+    .row.social .followInstagram {
+        background-image:url(/static/ladylike/images/sm/Instagram.png);
+    }
+    .row.social .followYouTube {
+        background-image:url(/static/ladylike/images/sm/YouTube.png);
+    }
+    .terms .goToTop {
+        background-image:url(/static/ladylike/images/sm/Top.png);
+    }
+    .terms .copyrights a.company {
+        background-image:url(/static/ladylike/images/sm/24Media.png);
+    }
+}

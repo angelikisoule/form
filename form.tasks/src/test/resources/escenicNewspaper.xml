@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>
+		NEWS 24|7 -Nέα με άποψη, για την Ελλάδα και τον Kόσμο. Blogs, Videos, Πρωτοσέλιδα
+	</title>
+	<link rel="alternate" href="http://news247.gr/newspapers/Sport/"/>
+	<subtitle>Αθλητικές</subtitle>
+	<id>http://news247.gr/newspapers/Sport/</id>
+	<icon>http://news247.gr/skins/news247-v2.0/img/logo.png</icon>
+	<updated>2015-04-05T02:49:04Z</updated>
+	<entry>
+		<title>GOAL NEWS</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/goal_news/goal-news.3396511.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/goal_news/article3396511.ece/BINARY/w300/20542957.jpg" title="GOAL NEWS"/>
+		<category term="goal_news" label="GOAL NEWS"/>
+		<category label="GOAL NEWS"/>
+		<id>http://news247.gr/3396511</id>
+		<updated>2015-04-05T04:00:04Z</updated>
+		<published>2015-04-05T04:00:04Z</published>
+	</entry>
+	<entry>
+		<title>SPORTDAY</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/sportday/sportday.3396512.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/sportday/article3396512.ece/BINARY/w300/20542920.jpg" title="SPORTDAY"/>
+		<category term="sportday" label="SPORTDAY"/>
+		<category label="SPORTDAY"/>
+		<id>http://news247.gr/3396512</id>
+		<updated>2015-04-05T04:00:09Z</updated>
+		<published>2015-04-05T04:00:09Z</published>
+	</entry>
+	<entry>
+		<title>LIVE SPORT</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/live_sport/live-sport.3396504.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/live_sport/article3396504.ece/BINARY/w300/20542768.jpg" title="LIVE SPORT"/>
+		<category term="live_sport" label="LIVE SPORT"/>
+		<category label="LIVE SPORT"/>
+		<id>http://news247.gr/3396504</id>
+		<updated>2015-04-05T04:00:58Z</updated>
+		<published>2015-04-05T04:00:58Z</published>
+	</entry>
+	<entry>
+		<title>ΦΩΣ ΤΩΝ ΣΠΟΡ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/fos_ton_spor/fws-twn-spor.3396508.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/fos_ton_spor/article3396508.ece/BINARY/w300/20543067.jpg" title="ΦΩΣ ΤΩΝ ΣΠΟΡ"/>
+		<category term="fos_ton_spor" label="ΦΩΣ ΤΩΝ ΣΠΟΡ"/>
+		<category label="ΦΩΣ ΤΩΝ ΣΠΟΡ"/>
+		<id>http://news247.gr/3396508</id>
+		<updated>2015-04-05T04:00:48Z</updated>
+		<published>2015-04-05T04:00:48Z</published>
+	</entry>
+	<entry>
+		<title>ΩΡΑ ΓΙΑ ΣΠΟΡ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/ora_gia_spor/wra-gia-spor.3396503.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/ora_gia_spor/article3396503.ece/BINARY/w300/20542809.jpg" title="ΩΡΑ ΓΙΑ ΣΠΟΡ"/>
+		<category term="ora_gia_spor" label="ΩΡΑ ΓΙΑ ΣΠΟΡ"/>
+		<category label="ΩΡΑ ΓΙΑ ΣΠΟΡ"/>
+		<id>http://news247.gr/3396503</id>
+		<updated>2015-04-05T04:00:53Z</updated>
+		<published>2015-04-05T04:00:53Z</published>
+	</entry>
+	<entry>
+		<title>Η ΓΑΤΑ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/i_gata/h-gata.3396514.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/i_gata/article3396514.ece/BINARY/w300/20543120.jpg" title="Η ΓΑΤΑ"/>
+		<category term="i_gata" label="Η ΓΑΤΑ"/>
+		<category label="Η ΓΑΤΑ"/>
+		<id>http://news247.gr/3396514</id>
+		<updated>2015-04-05T04:00:52Z</updated>
+		<published>2015-04-05T04:00:52Z</published>
+	</entry>
+	<entry>
+		<title>ΣΠΟΡ ΤΟΥ ΒΟΡΡΑ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/spor_tou_vorra/spor-toy-vorra.3396543.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/spor_tou_vorra/article3396543.ece/BINARY/w300/sporttouvora.jpg" title="ΣΠΟΡ ΤΟΥ ΒΟΡΡΑ"/>
+		<category term="spor_tou_vorra" label="ΣΠΟΡ ΤΟΥ ΒΟΡΡΑ"/>
+		<category label="ΣΠΟΡ ΤΟΥ ΒΟΡΡΑ"/>
+		<id>http://news247.gr/3396543</id>
+		<updated>2015-04-05T04:00:01Z</updated>
+		<published>2015-04-05T04:00:01Z</published>
+	</entry>
+	<entry>
+		<title>ΠΡΩΤΑΘΛΗΤΗΣ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/protathlitis/prwtathlhths.3396510.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/protathlitis/article3396510.ece/BINARY/w300/20542979.jpg" title="ΠΡΩΤΑΘΛΗΤΗΣ"/>
+		<category term="protathlitis" label="ΠΡΩΤΑΘΛΗΤΗΣ"/>
+		<category label="ΠΡΩΤΑΘΛΗΤΗΣ"/>
+		<id>http://news247.gr/3396510</id>
+		<updated>2015-04-05T04:00:58Z</updated>
+		<published>2015-04-05T04:00:58Z</published>
+	</entry>
+	<entry>
+		<title>Η ΠΡΑΣΙΝΗ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/i_prasini/h-prasinh.3396505.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/i_prasini/article3396505.ece/BINARY/w300/20542752.jpg" title="Η ΠΡΑΣΙΝΗ"/>
+		<category term="i_prasini" label="Η ΠΡΑΣΙΝΗ"/>
+		<category label="Η ΠΡΑΣΙΝΗ"/>
+		<id>http://news247.gr/3396505</id>
+		<updated>2015-04-05T04:00:03Z</updated>
+		<published>2015-04-05T04:00:03Z</published>
+	</entry>
+	<entry>
+		<title>METROSPORT</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/metrosport/metrosport.3396539.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/metrosport/article3396539.ece/BINARY/w300/PROTOSELIDO+METROSPORT.jpg" title="METROSPORT"/>
+		<category term="metrosport" label="METROSPORT"/>
+		<category label="METROSPORT"/>
+		<id>http://news247.gr/3396539</id>
+		<updated>2015-04-05T04:00:28Z</updated>
+		<published>2015-04-05T04:00:28Z</published>
+	</entry>
+	<entry>
+		<title>ΓΑΥΡΟΣ</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/gavros/gavros.3396509.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/gavros/article3396509.ece/BINARY/w300/20543040.jpg" title="ΓΑΥΡΟΣ"/>
+		<category term="gavros" label="ΓΑΥΡΟΣ"/>
+		<category label="ΓΑΥΡΟΣ"/>
+		<id>http://news247.gr/3396509</id>
+		<updated>catch this!</updated>
+		<published>2015-04-05T04:00:53Z</published>
+	</entry>
+	<entry>
+		<title>ARENA PRESS</title>
+		<link rel="alternate" href="http://news247.gr/newspapers/Sport/arena_press/arena-press.3396541.html"/>
+		<link rel="enclosure" type="image/jpeg" href="http://news247.gr/newspapers/Sport/arena_press/article3396541.ece/BINARY/w300/ARE_0504_001_CMYK.jpg" title="ARENA PRESS"/>
+		<category term="arena_press" label="ARENA PRESS"/>
+		<id>http://news247.gr/3396541</id>
+		<updated>2015-04-05T04:00:18Z</updated>
+		<published>1990-04-05T04:00:18Z</published>
+	</entry>
+</feed>

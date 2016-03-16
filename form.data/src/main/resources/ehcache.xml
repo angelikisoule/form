@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xsi:noNamespaceSchemaLocation="ehcache.xsd" 
+		 updateCheck="false"
+		 dynamicConfig="false"
+		 name="mSitesCacheManager">
+	<diskStore path="java.io.tmpdir"/>
+	<!-- SECOND LEVEL CACHE -->
+	<!-- It is Good To Have defaultCache Defined But You Have To Make Sure
+		 That All Your Entities Will Explicitly Use One Of The Other Regions -->
+	<defaultCache 
+		maxEntriesLocalHeap="500" 
+		eternal="false" 
+		timeToIdleSeconds="300"
+		timeToLiveSeconds="300"
+		memoryStoreEvictionPolicy="LRU"
+		overflowToDisk="false">
+	</defaultCache>
+	<cache 
+		name="SHORT_TERM"
+		maxEntriesLocalHeap="5000" 
+		eternal="false" 
+		timeToIdleSeconds="300"
+		timeToLiveSeconds="300"
+		memoryStoreEvictionPolicy="LRU"
+		overflowToDisk="false">
+	</cache>
+	<cache 
+		name="LONG_TERM"
+		maxEntriesLocalHeap="500" 
+		eternal="false" 
+		timeToIdleSeconds="1800"
+		timeToLiveSeconds="1800"
+		memoryStoreEvictionPolicy="LRU"
+		overflowToDisk="false">
+	</cache>
+	<!-- QUERY CACHE -->
+	<cache
+		name="org.hibernate.cache.internal.StandardQueryCache"
+		maxEntriesLocalHeap="500"
+		eternal="false"
+		timeToIdleSeconds="300"
+		timeToLiveSeconds="300">
+		<persistence strategy="none"/>
+	</cache>
+	<!-- It is important that the cache timeout of the underlying cache 
+		 implementation be set to a higher value than the timeouts of any 
+		 of the query caches. In fact, it is recommend that the underlying 
+		 cache not be configured for expiry at all. -->
+	<cache
+		name="org.hibernate.cache.spi.UpdateTimestampsCache"
+		maxEntriesLocalHeap="5000"
+		eternal="true">
+		<persistence strategy="none"/>
+	</cache>
+	<cache 
+		name="query.LONG_TERM"
+		maxEntriesLocalHeap="500" 
+		eternal="false"
+		timeToIdleSeconds="1800"
+		timeToLiveSeconds="1800">
+		<persistence strategy="none"/>
+	</cache>
+</ehcache>

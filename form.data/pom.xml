@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+  	<parent>
+    	<groupId>gr.media24.mSites</groupId>
+    	<artifactId>mSites</artifactId>
+    	<version>1.0</version>
+  	</parent>
+  	<artifactId>mSites.data</artifactId>
+  	<name>mSites.data</name>
+  	<dependencies>
+  		<!-- Spring Framework -->
+  	  	<dependency>
+	  		<groupId>org.springframework</groupId> 
+           	<artifactId>spring-context</artifactId> 
+  		</dependency>
+  		<dependency>
+	    	<groupId>org.springframework</groupId>
+	    	<artifactId>spring-orm</artifactId>
+		</dependency>
+  		<dependency>
+	    	<groupId>org.springframework</groupId>
+	    	<artifactId>spring-tx</artifactId>
+		</dependency>
+		<dependency>
+       		<groupId>org.springframework</groupId>
+        	<artifactId>spring-jdbc</artifactId>
+	    </dependency>
+	    <dependency>
+           	<groupId>org.springframework</groupId>
+           	<artifactId>spring-test</artifactId>
+           	<scope>test</scope>
+        </dependency>
+		<!-- Spring Security -->
+		<dependency>
+            <groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+	  	</dependency>
+  		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+		</dependency>
+		<dependency>
+		     <groupId>org.hibernate</groupId>
+		     <artifactId>hibernate-entitymanager</artifactId>
+		</dependency>
+       <dependency>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-validator</artifactId>
+   		</dependency>
+   		<dependency>
+        	<groupId>org.hibernate</groupId>
+        	<artifactId>hibernate-ehcache</artifactId>
+        	<exclusions>
+            	<exclusion>
+            		<groupId>net.sf.ehcache</groupId>
+					<artifactId>ehcache-core</artifactId>
+            	</exclusion>
+            </exclusions>
+       	</dependency>
+       	<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+		<!-- MySQL Connector -->
+       	<dependency>
+        	<groupId>mysql</groupId>
+           	<artifactId>mysql-connector-java</artifactId>
+           	<type>jar</type>
+       	</dependency>
+      	<!-- Apache Commons Dependencies -->
+	   	<dependency>
+	    	<groupId>org.apache.commons</groupId>
+	       	<artifactId>commons-lang3</artifactId>
+      	</dependency>
+   		<!-- Guava Google Libaries -->
+     	<dependency>
+           	<groupId>com.google.guava</groupId>
+           	<artifactId>guava</artifactId>
+           	<type>jar</type>
+       	</dependency>
+  	</dependencies>
+</project>

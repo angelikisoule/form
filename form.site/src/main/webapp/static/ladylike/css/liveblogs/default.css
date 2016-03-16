@@ -1,0 +1,233 @@
+/***** Typography *****/
+#commentContainer * {
+	font-family:'Open Sans',sans-serif;
+}
+#commentContainer .comment h1, #commentContainer .comment h2 {
+	font-size:15px;
+	font-weight:700;
+	font-style:normal;
+	margin:0;
+}
+#commentContainer .comment h3, #commentContainer .comment h4, #commentContainer .comment h5, #commentContainer .comment h6 {
+	font-size:13px;
+	font-style:normal;
+	font-weight:normal;
+	margin:0;
+}
+#commentContainer .comment p {
+	margin:0;
+}
+#commentContainer div, #commentContainer span, #commentContainer a {
+	color:#464646;
+}
+#commentContainer .commentContent a {
+	font-size:12px;
+	color:#ff5050;
+	font-weight:bold;
+	text-decoration:none;
+}
+/***** Scaffold *****/
+#commentContainer {
+	width:100%;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+#commentContainer .comment .commentTimestamp {
+	position:relative;
+	top:25px;
+	left:15%;
+	width:85%;
+	color:#acacac;
+}
+#commentContainer .comment .commentTimestamp small {
+	font-size:9px;
+	font-weight:400;
+}
+#commentContainer .comment .commentContent {
+	position:relative; /*For The Arrow*/
+	background-color:#F7F7F7;
+	width:86%;
+	margin:25px 0 0 14%;
+	padding:14px;
+	font-size:12px;
+	font-weight:400;
+	color:#464646;
+}
+#commentContainer .comment .commentContent:after {
+	content:" ";
+  	width:0;
+  	height:0;
+  	border-left:10px solid transparent;
+  	border-right:10px solid transparent;
+  	border-top:10px solid #F7F7F7;
+  	position:absolute;
+  	left:-10px;
+  	top:0;
+}
+#commentContainer .comment .commentTweet, #commentContainer .comment .commentPic, #commentContainer .comment .commentVideo {
+	width:86%;
+	float:none!important;
+	padding:0 14px 14px 14px;
+	margin-left:14%;
+	margin-top:-15px;
+	background:#F7F7F7;
+}
+#commentContainer .comment .commentTweet {
+	width:86%!important;
+}
+#commentContainer .comment .commentVideo {
+	padding-bottom:10px;
+}
+#commentContainer .comment .commentPic img {
+	max-width:100%;
+	width:100%;
+}
+#commentContainer .comment .commentVideo iframe {
+	width:100%;
+}
+/***** Editors and Other Tags *****/
+#commentContainer .comment {
+	background-image:url(/static/ladylike/images/xs/LiveDefault.png);
+	background-repeat:no-repeat;
+	background-position:0 40px;
+	background-size:25px;
+}
+#commentContainer .comment.xagia {
+	background-image:url(/static/ladylike/images/xs/LiveXagia.png);
+}
+#commentContainer .comment.xristopoulou {
+	background-image:url(/static/ladylike/images/xs/LiveMarietta.png);
+}
+#commentContainer .comment.palioura {
+	background-image:url(/static/ladylike/images/xs/LiveMarion.png);
+}
+#commentContainer .comment.dhma {
+	background-image:url(/static/ladylike/images/xs/LiveDespoina.png);
+}
+#commentContainer .comment.mamah {
+	background-image:url(/static/ladylike/images/xs/LiveMamai.png);
+}
+#commentContainer .comment.saitaki {
+	background-image:url(/static/ladylike/images/xs/LiveSaitaki.png);
+}
+/***** Form *****/
+#liveblogging-more-button {
+	display:block;
+  	height:30px;
+  	width:101px;
+  	background-color:#ff5050;
+  	color:white;
+  	font-size:11px;
+  	font-weight:700;
+  	text-align:center;
+  	text-decoration:none;
+  	line-height:30px;
+  	margin:40px auto;
+}
+#liveblog-usercommentform {
+	background:#f7f7f7;
+  	width:100%;
+  	margin-left:0;
+  	margin-bottom:14px;
+}
+#liveblog-usercommentform form {
+	padding:1% 3%;
+	display:block!important; /*Always Visible*/
+}
+#liveblog-usercommentform label {
+	color:#959595;
+	margin:10px 0 0 0;
+	padding:0;
+	font-size:11px;
+	font-weight:600;
+}
+#liveblog-usercommentform input, #liveblog-usercommentform label, #liveblog-usercommentform textarea {
+	display:block;
+	width:100%;
+	font-size:12px;
+	color:#000;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	border:none;
+}
+#liveblog-usercommentform textarea {
+	height:100px;
+}
+#liveblog-usercommentform .buttonContainer {
+	display:inline-block;
+	width:100%;
+	padding:10px 1%;
+}
+#liveblog-usercommentform .button {
+	display:inline-block;
+	font-size:11px;
+	font-weight:700;
+	text-decoration: none;
+}
+#liveblog-usercommentform .button:active {
+	position:relative;
+}
+#liveblog-usercommentform .buttonContainer .goog-css3-button {
+	display:block;
+	float:right;
+	font-size:11px;
+	line-height:30px;
+	padding:0 14px;
+	margin:0 0 0 10px;
+	text-align:center;
+	white-space:nowrap;
+	outline:0;
+	color:#fff;
+	background:#ff5050;
+	border:none;
+}
+.error.liveblog-message, .success.liveblog-message {
+	text-align: center;
+	clear:both;
+	width:100%;
+}
+#introContainer, #liveblog-usercommentform .counter, #commentContainer .comment .social, #commentContainer .comment .author, #scoreboardContainer, #liveblog-usercommentform .sendButton, #liveblog-usercommentform .buttonContainer .goog-css3-button:last-child, br {
+	display:none;
+}
+/***** Scrollbar *****/
+#commentContainer::-webkit-scrollbar {
+	width:5px;
+}
+#commentContainer::-webkit-scrollbar-thumb {
+	background-color:#959595;
+}
+#commentContainer::-webkit-scrollbar-track, #commentContainer::-webkit-scrollbar-piece {
+	-webkit-box-shadow:none;
+	background-color:transparent;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	#commentContainer .comment {
+		background-image:url(/static/ladylike/images/sm/LiveDefault.png);
+	}
+	#commentContainer .comment.xagia {
+		background-image:url(/static/ladylike/images/sm/LiveXagia.png);
+	}
+	#commentContainer .comment.xristopoulou {
+		background-image:url(/static/ladylike/images/sm/LiveMarietta.png);
+	}
+	#commentContainer .comment.palioura {
+		background-image:url(/static/ladylike/images/sm/LiveMarion.png);
+	}
+	#commentContainer .comment.dhma {
+		background-image:url(/static/ladylike/images/sm/LiveDespoina.png);
+	}
+	#commentContainer .comment.mamah {
+		background-image:url(/static/ladylike/images/sm/LiveMamai.png);
+	}
+	#commentContainer .comment.saitaki {
+		background-image:url(/static/ladylike/images/sm/LiveSaitaki.png);
+	}
+}

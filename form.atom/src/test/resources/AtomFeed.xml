@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<title>sport24</title>
+	<link rel="self" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=news&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=100"/>
+	<link rel="first" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=news&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=100"/>
+	<link rel="next" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=news&amp;view=generic/v2/latest-atom&amp;page=2&amp;items=100"/>
+	<link rel="last" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=news&amp;view=generic/v2/latest-atom&amp;page=163&amp;items=100"/>
+	<link rel="alternate" href="http://www.sport24.gr/"/>
+	<subtitle>sport24</subtitle>
+	<id>http://www.sport24.gr/</id>
+	<icon>http://www.sport24.gr/skins/bugs-fixed/img/logo-big-transparent_1.png</icon>
+	<updated>2015-04-02T13:59:00+02:00</updated>
+	<entry>
+		<title>Η πρεμιέρα του Ράικονεν Jr</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Sports/Motorsport/Formula1/h-premiera-toy-raikonen-jr.3391634.html"/>
+		<link rel="@supertitle" title="Η ΠΑΤΡΟΤΗΤΑ ΤΟΥ ΑΛΛΑΞΕ ΤΗ ΖΩΗ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/Motorsport/Formula1/article3391631.ece/BINARY/w620/raikkon.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/Sports/Motorsport/Formula1/article3391633.ece/BINARY/w620/ssss.jpg" credits="" caption=""/>
+		<category term="Sports" label="Σπορ"/>
+		<category term="Motorsport" label="Motorsport"/>
+		<category term="Formula1" label="Formula 1"/>
+		<category term="Formula1" label="Formula 1"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="" label="testing-null"/>
+		<category term="testing-null" label=""/>
+		<category term="" label=""/>
+		<author>
+			<name>Γιώτα Κουνάλη</name>
+		</author>
+		<id>3391634</id>
+		<updated>2015-04-02T13:59:00+02:00</updated>
+		<published>2015-04-02T14:01:00+02:00</published>
+		<summary>Ο Κίμι Ράικονεν μοιράστηκε μια φωτογραφία του γιου του, Ρόμπιν. Μητέρα και μωρό ταξιδεύουν μαζί με τον οδηγό της Ferrari στους αγώνες.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Πέρα από την αγωνιστική άνοδο του Κίμι Ράικονεν, έχοντας ένα μονοθέσιο σαν το φετινό που του ταιριάζει, ο Φινλανδός ταξιδεύει με έξτρα φορτίο φέτος στα Grand Prix.</p><p>Τον οδηγό της Ferrari συνοδεύει πέρα από τη μελαχροινή σύντροφο του, τη Μίντου και ο γιος τους που ήρθε στη ζωή τον περασμένο Ιανουάριο.</p><p>Ο μικρός Ρόμπιν έχει ήδη... βρεθεί σε δύο Grand Prix. Ο πρώην παγκόσμιος πρωταθλητής μοιράστηκε μια φωτογραφία με το γιο του.</p> <p><img id="_29d86c3d-9e37-442d-a4db-ce7fd0d32137" src="http://www.sport24.gr/Sports/Motorsport/Formula1/article3391633.ece/BINARY/ssss.jpg" width="120" /></p> <p>Θεωρείται εξαιρετικά απίθανο να ακολουθήσει το παράδειγμα του ο Σεμπάστιαν Φέτελ και να επιτρέψει να κυκλοφορήσει μια φωτογραφία της κόρης του, της Έμα που έχει συμπληρώσει το πρώτο της χρόνο. </p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Έντεκα αθλητικά γεγονότα που έμοιαζαν με ψέμα, αλλά δεν ήταν</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Columns/alexandros-lothano/enteka-athlhtika-gegonota-poy-emoiazan-me-psema-alla-den-htan.3389260.html"/>
+		<link rel="@supertitle" title="ΚΑΙ ΟΜΩΣ, ΕΙΝΑΙ ΑΛΗΘΕΙΑ!"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/article3389277.ece/BINARY/w620/VASIKI.jpg" title="" credits="" caption="Ελλάδα EURO 2004"/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389290.ece/BINARY/w620/KARELIN-GARDNER.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389289.ece/BINARY/w620/IVANISEVIC.jpeg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389292.ece/BINARY/w620/SOVIET-BASKET.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389282.ece/BINARY/w620/BRAZIL-GERMANY.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389283.ece/BINARY/w620/DOUGLAS-TYSON.jpeg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389281.ece/BINARY/w620/BILLY+MILLS.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389284.ece/BINARY/w620/EURO1987.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389285.ece/BINARY/w620/EURO2004.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389293.ece/BINARY/w620/USA-ENGLAND.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389288.ece/BINARY/w620/HOCKEY.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/incoming/article3389291.ece/BINARY/w620/MARACANAZO.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389316&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Σήκωσέ το!" code="3389316"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389300&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Την ημέρα που η Βραζιλία έκλαψε" code="3389300"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389311&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Και τάβλα ο Τάισον!" code="3389311"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389313&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Ήρωας από το πουθενά" code="3389313"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389299&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Όχι, δεν ήταν τυπογραφικό λάθος" code="3389299"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389307&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Θαύμα στον πάγο" code="3389307"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389309&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="«Ολόχρυση» Ελλάδα" code="3389309"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389312&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Η υπόκλιση του «Μεγάλου Αλεξάνδρου»" code="3389312"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389318&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Εφτά τραγούδια θα σου πω" code="3389318"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389304&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="«Τα τρία δευτερόλεπτα»" code="3389304"/>
+		<link rel="enclosure" comment="embed" type="advancedCode" href="http://content.24media.gr/develop/article?article=3389301&amp;profile=c3BvcnQyNHJvaQ==&amp;view=generic/v2/article-atom" title="Μπίλι ο τρομερός" code="3389301"/>
+		<category term="" label=""/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Λοθάνο</name>
+		</author>
+		<id>3389260</id>
+		<updated>2015-04-01T17:43:00+02:00</updated>
+		<published>2015-04-01T17:43:00+02:00</published>
+		<summary>Στην γιορτή του ψέματος, έντεκα αθλητικά γεγονότα που έμοιαζαν με ψέμα, αλλά δεν ήταν (φωτογραφίες, VIDEOS).</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Μέχρι το (πολύ μακρινό) 1564, οι Γάλλοι γιόρταζαν την Πρωτοχρονιά την 1η Απριλίου. Ο βασιλιάς Κάρολος ο 9ος, όμως, καθιέρωσε ως πρώτη μέρα του χρόνου την 1η Ιανουαρίου.
+			]]>
+			<![CDATA[
+			Υπήρχαν πολίτες που συνέχιζαν να γιορτάζουν την παλιά Πρωτοχρονιά και φίλοι που τους έστελναν πρωτοχρονιάτικα δώρα για να τους κοροϊδέψουν. </p><p>Κάπως έτσι, λέει ο
+			]]>
+			<![CDATA[
+			θρύλος, πως καθιερώθηκε η Πρωταπριλιά ως «η ημέρα του ψέματος». Στον αθλητισμό, υπάρχουν δεκάδες, ενδεχομένως εκατοντάδες γεγονότα που έμοιαζαν με ψέματα, αλλά δεν
+			]]>
+			<![CDATA[
+			ήταν. </p><p>Διαλέξαμε μια ενδεκάδα από αυτά. Απολαύστε τα!</p><p><img id="_134d2064-6769-4327-9930-026d8260d6ab" src="http://www.sport24.gr/incoming/article3389293.ece/BINARY/USA-ENGLAND.jpg" width="120" />&nbsp;</p> <p><strong>Και οι Αμερικανοί παίζουν μπάλα</strong></p> <p><strong>Πότε και που:&nbsp;</strong>29 Ιουνίου του 1950, στο &laquo;Εστάδιο Ιντεπεντένσια&raquo; του Μπέλο Οριζόντε, στην Βραζιλία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Η Αγγλία έπαιζε για πρώτη φορά σε Παγκόσμιο Κύπελλο, ύστερα από διαμάχη με την ΦΙΦΑ. Ήταν η &laquo;χώρα του ποδοσφαίρου&raquo;, αυτή που το εφηύρε, ένα από τα μεγάλα φαβορί για να πάρει την κούπα. Οι Ηνωμένες Πολιτείες αποτελούνταν από ημι - επαγγελματίες ποδοσφαιριστές και προέρχονταν από εφτά διαδοχικές ήττες, με απολογισμό τερμάτων 2-45. Δεν είχαν καμία τύχη και το κοντέρ θα έγραφε πολλά.</p> <p><strong>Τι έγινε:&nbsp;</strong>Οι Άγγλοι ήταν τόσο σίγουροι για την άνετη νίκη τους, που άφησαν εκτός ενδεκάδας τον καλύτερό τους παίκτη, Στάνλεϊ Μάθιους, ο οποίος δεν μπορούσε να μπει στην διάρκεια του αγώνα, αφού ακόμα δεν γίνονταν αλλαγές. Η Αγγλία &laquo;βομβάρδισε&raquo; την εστία του Φρανκ Μπόργκι, ο οποίος έπιασε τα πάντα, ακόμα και ένα πέναλτι του Σταν Μόρτενσεν. Στο 38' ο Τζο Γκάετζενς, Αϊτινός χωρίς αμερικανική υπηκοότητα, πετυχαίνει με κεφαλιά ένα γκολ που έμελλε να χαρίσει μια, απίστευτη, μια ιστορική νίκη στις ΗΠΑ. &laquo;<em>Οι παίκτες μου είναι πρόβατα έτοιμα για σφαγή</em>&raquo; έλεγε, παραμονές του αγώνα, ο προπονητής Μπιλ Τζέφρι. Στην Αγγλία, κάποιες εφημερίδες δημοσίευσαν πως η εθνική τους ομάδα νίκησε 10-0, αφού δεν μπορούσαν να πιστέψουν ότι είχε ηττηθεί από μια παρέα ημί - επαγγελματιών.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Για να νικήσεις 1-0, χρειάζεται απλά να ακουμπήσεις την μπάλα μόνο μια φορά</em>&raquo;&nbsp;<strong>(Γουόλτερ Μπαρ, αριστερό μπακ των ΗΠΑ)</strong></p> <p><img id="_0a4fd0b9-3539-4588-94cd-5a6698f846d4" src="http://www.sport24.gr/incoming/article3389291.ece/BINARY/MARACANAZO.jpg" width="120" />&nbsp;</p> <p><strong>Πρώτα, το &laquo;Μαρακανάσο&raquo;</strong></p> <p><strong>Πότε και που:&nbsp;</strong>16 Ιουλίου του 1950, στο &laquo;Μαρακανά&raquo; του Ρίο ντε Τζανέιρο, στην Βραζιλία</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Η οικοδέσποινα Βραζιλία χρειάζονταν απλώς μια ισοπαλία κόντρα στην Ουρουγουάη για να κατακτήσει το πρώτο της Μουντιάλ. Είχαν φτιαχτεί χρυσά ρολόγια με την επιγραφή &laquo;παγκόσμιοι πρωταθλητές&raquo; για τους Βραζιλιάνους, ενώ είχαν τυπωθεί χιλιάδες μπλουζάκια που γιόρταζαν την επικείμενη κατάκτηση της κούπας από την &laquo;Σελεσάο&raquo;. Η &laquo;Σελέστε&raquo;, παρ' ότι ήταν η πρώτη παγκόσμια πρωταθλήτρια στην ιστορία, χρειάζονταν μόνο νίκη, σε τελική φάση ομίλων (η μοναδική διοργάνωση που διεξήχθη με αυτό το φορμάτ), ώστε να &laquo;κλέψει&raquo; το τρόπαιο. Πλάκα κάνουμε, μπροστά σε 200 χιλιάδες Βραζιλιάνους στο &laquo;Μαρακανά&raquo;;</p> <p><strong>Τι έγινε:&nbsp;</strong>Η Βραζιλία έχει τον έλεγχο και τις ευκαιρίες, προηγείται στο ξεκίνημα του δευτέρου ημιχρόνου (47' Φριάσα) και όλα δείχνουν να έχουν τελειώσει. Η Ουρουγουάη, όμως, δεν είχε πει την τελευταία της λέξη και επιτυγχάνει ολοκληρωτική ανατροπή με γκολ των Χουάν Αλμπέρτο Σκιαφίνο (66') και Αλσίδες Γκίτζια (79'). Τα λεπτά περνούν βασανιστικά, ο Άγγλος διαιτητής Τζορτζ Ρίντερ σφυρίζει το φινάλε και ένα ολόκληρο έθνος βυθίζεται στο πένθος. Ο θρύλος λέει πως εκατοντάδες άνθρωποι αυτοκτόνησαν από την απελπισία τους. Η απονομή του τροπαίου στην Ουρουγουάη έγινε στα αποδυτήρια.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Η μεγαλύτερη ποινή στην χώρα μου για ένα έγκλημα είναι 30 χρόνια. Εγώ μετράω ήδη 45 για ένα έγκλημα που δεν έκανα</em>&raquo;<strong>(Μοασίρ Μπαρμπόζα, τερματοφύλακας της Βραζιλίας)</strong></p> <p><img id="_7d8d5a22-62d3-4ef9-8ac9-8d6de77a9aba" src="http://www.sport24.gr/incoming/article3389281.ece/BINARY/BILLY+MILLS.jpg" width="120" />&nbsp;</p> <p><strong>Ο φτερωτός Ινδιάνος</strong></p> <p><strong>Πότε και που:&nbsp;</strong>14 Οκτωβρίου του 1964, στο Ολυμπιακό Στάδιο του Τόκιο, στην Ιαπωνία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Στον αγώνα των δέκα χιλιάδων μέτρων στους Ολυμπιακούς Αγώνες, ο παγκόσμιος ρέκορντμαν, Αυστραλός Ρον Κλαρκ, ήταν το μεγάλο φαβορί για το χρυσό μετάλλιο. Μεγάλοι του αντίπαλοι ο προηγούμενος χρυσός ολυμπιονίκης, Σοβιετικός Πιότρ Μπολότνικοφ και ο Νεοζηλανδός Μάρει Χάλμπεργκ.</p> <p><strong>Τι έγινε:&nbsp;</strong>Ο Μπίλι Μιλς, μέλος της ινδιάνικης φυλής των Ογκλάλα Σιού , ορφανός από τα δώδεκα του, βρήκε καταφύγιο στο τρέξιμο και την πυγμαχία. Ήταν παντελώς άγνωστος μεταξύ των 29 αθλητών που πήραν μέρος στον τελικό, έχοντας σχεδόν ένα λεπτό περισσότερο, ως χρόνο, από τον Κλαρκ. Κρατήθηκε από την αρχή κοντά στην κορυφή της κούρσας και, στα τελευταία μέτρα της, ξεπέρασε τον Κλαρκ και τον Τυνήσιο, Μοχαμέντ Γκαμουντί. Μια από τις μεγαλύτερες εκπλήξεις στην ιστορία των Ολυμπιακών Αγώνων ήταν γεγονός.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Το κίνητρο πήγαζε από εκείνη την φευγαλέα στιγμή που ξέρεις πως είσαι ο καλύτερος στον κόσμο</em>&raquo;&nbsp;<strong>(Μπίλι Μιλς)</strong></p> <p><img id="_2ff6016a-2473-49f9-b612-58380c0b7144" src="http://www.sport24.gr/incoming/article3389292.ece/BINARY/SOVIET-BASKET.jpg" width="120" />&nbsp;</p> <p><strong>Το καλάθι - σταθμός του Μπέλοφ</strong></p> <p><strong>Πότε και που:&nbsp;</strong>9 Σεπτεμβρίου του 1972, στη &laquo;Ρούντι Σεντλμάγερ Χάλε&raquo; του Μονάχου, στην Γερμανία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Από το 1936, όταν το μπάσκετ εισήχθη στο πρόγραμμα των Ολυμπιακών Αγώνων, οι Ηνωμένες Πολιτείες είχαν κατακτήσει όλα τα χρυσά μετάλλια, φτάνοντας στον τελικό με συνολικό, ολυμπιακό σερί 63-0. Η Σοβιετική Ένωση ήταν πολύ καλή ομάδα, αλλά θα έπρεπε να αποδεχθεί ότι θα ηττηθεί σε έναν ακόμα τελικό.</p> <p><strong>Τι έγινε:&nbsp;</strong>Οι Σοβιετικοί κοιτούν στα μάτια τους Αμερικανούς, οι οποίοι πάντως καταφέρνουν να προηγηθούν 50-49, λίγο πριν από το φινάλε. Ακολουθεί τεράστιο μπάχαλο με τα δευτερόλεπτα που απέμεναν, οι Αμερικανοί έφτασαν να πανηγυρίσουν τη νίκη. Εν τέλει, όμως, η &laquo;μπίλια&raquo; κάθισε στα τρία δευτερόλεπτα, με την Σοβιετική Ένωση να επαναφέρει από την τελική γραμμή. Ο Ιβάν Εντέσκο πετάει απελπισμένος στην μπάλα, αυτή φτάνει κάτω από το αμερικανικό καλάθι στον Αλεξάντερ Μπέλοφ, ο οποίος αποφεύγει Κέβιν Τζόιτς και Τζιμ Φορμπς, σημειώνοντας ένα ιστορικό καλάθι για το τελικό 51-50. Οι Ρώσοι πανηγυρίζουν έξαλλα, οι Αμερικανοί ακόμα διαμαρτύρονται, 44 χρόνια μετά, αρνούμενοι να παραλάβουν τα ασημένια μετάλλια. Η ιστορία, όμως, έγραψε για το τέλος αμερικανικής κυριαρχίας.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Ε λοιπόν, μας γαμ.ε</em>&raquo;<strong>&nbsp;(Ρίτσαρντ Νίξον, πρόεδρος των Ηνωμένων Πολιτειών)</strong></p> <p><img id="_144e8339-64a5-443a-9952-82b4ae031a3b" src="http://www.sport24.gr/incoming/article3389288.ece/BINARY/HOCKEY.jpg" width="120" />&nbsp;</p> <p><strong>Η &laquo;ρεβάνς&raquo; στο χόκεϊ</strong></p> <p><strong>Πότε και που:&nbsp;</strong>22 Φεβρουαρίου του 1980, στην &laquo;Χερμπ Μπρουκς Αρένα&raquo; του Λέικ Πλάσιτ της Νέας Υόρκης, στις Ηνωμένες Πολιτείες.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Η ομάδα χόκεϊ της Σοβιετικής Ένωσης ήταν ο φόβος και ο τρόμος στον πάγο. Από το 1964 και για τέσσερις διαδοχικούς Ολυμπιακούς Αγώνες, μετρούσε ισάριθμα χρυσά μετάλλια, με ρεκόρ 27 νίκες, μια ισοπαλία και μια ήττα, με 175-44 γκολ! Η ομάδα των Ηνωμένων Πολιτειών αποτελούνταν από ερασιτέχνες και αθλητές από τα κολλέγια. Η νικήτρια στον ημιτελικό του ολυμπιακού τουρνουά, εν μέσω του &laquo;ψυχρού πολέμου&raquo; έδειχνε δεδομένη και θα αποτελούσε ένα ακόμα &laquo;χτύπημα&raquo; των Σοβιετικών στους Αμερικανούς. Σε αγώνα επίδειξης πριν από τους Αγώνες, είχαν νικήσει δια περιπάτου με 10-3.</p> <p><strong>Τι έγινε:&nbsp;</strong>Οι πιτσιρικάδες των ΗΠΑ τα δίνουν όλα, &laquo;πετάνε&raquo; πάνω στον πάγο χάρη στην στήριξη των συμπατριωτών τους στις εξέδρες και, με γκολ του Μάικ Ερουζιόνε, προηγούνται 4-3, δέκα λεπτά πριν από το φινάλε. Αντέχουν στην αφόρητη πίεση των Σοβιετικών και πανηγυρίζουν μια απίστευτη νίκη, η οποία έμεινε στην ιστορία ως &laquo;Το θαύμα στον πάγο&raquo; και, βεβαίως, έγινε και ταινία. Μετά από αυτή τη νίκη, βεβαίως, οι ΗΠΑ ήταν ασταμάτητες και κατέκτησαν το χρυσό μετάλλιο, νικώντας στον τελικό την Φινλανδία.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Για ένα σύνολο κολεγιόπαιδων, το να νικούν την κορυφαία ομάδα που έπαιξε ποτέ χόκεϊ επί πάγου, ήταν το καλύτερο συναίσθημα. Αν παίζαμε δέκα φορές κόντρα σε εκείνη την ομάδα, θα χάναμε και τις δέκα. Εκείνο το βράδυ έγινε σύζευξη αστέρων</em>&raquo;&nbsp;<strong>(Νιλ Μπρότεν, παίκτης των Ηνωμένων Πολιτειών)</strong></p> <p><img id="_748cfbc1-a545-4639-9902-286b421dbc95" src="http://www.sport24.gr/incoming/article3389284.ece/BINARY/EURO1987.jpg" width="120" />&nbsp;</p> <p><strong>&laquo;Είμαστε πια πρωταθλητές&raquo;</strong></p> <p><strong>Πότε και που:&nbsp;</strong>14 Ιουνίου του 1987, Στάδιο &laquo;Ειρήνης και Φιλίας&raquo; του Πειραιά, στην Ελλάδα.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Η πανίσχυρη Σοβιετική Ένωση του Αλεξάντερ Γκομέλσκι, έστω και χωρίς τον τραυματία Άρβινας Σαμπόνις, θα πάλευε για την πρώτη θέση με την Γιουγκοσλαβία του &laquo;Μότσαρτ&raquo; Ντράζεν Πέτροβιτς. Αυτό το ζευγάρι είχε &laquo;κλειδώσει&raquo; για τον τελικό του Ευρωμπάσκετ.</p> <p><strong>Τι έγινε:&nbsp;</strong>Η διοργανώτρια Ελλάδα, καθοδηγούμενη από έναν &laquo;εξωγήινο&raquo; Νίκο Γκάλη και ένα απίστευτο, παραδομένο στους ήρωες του, φίλαθλο κοινό, νικάει δύο φορές την Γιουγκοσλαβία στον δρόμο για τον τελικό. Η Σοβιετική Ένωση αντέχει (και) στην πίεση του κόσμου, προηγείται λίγο πριν από το τέλος, αλλά η Ελλάδα δεν τα παρατάει ποτέ. Το ματς οδηγείται στην παράταση και εκεί ο Αργύρης Καμπούρης σημειώνει δύο ελεύθερες βολές που άλλαξαν για πάντα την μοίρα του αθλητισμού στην χώρα μας. Ναι, ήμασταν πια πρωταθλητές.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Η πρόκριση στα χέρια αυτού του τίμιου γίγαντα</em>&raquo;&nbsp;<strong>(Φίλιππος Συρίγος, για τις δύο βολές του Αργύρη Καμπούρη που εν τέλει θα χάριζαν το κύπελλο)</strong></p> <p><img id="_4fc7a77f-5091-4495-89da-5c7e2c552c71" src="http://www.sport24.gr/incoming/article3389283.ece/BINARY/DOUGLAS-TYSON.jpeg" width="120" />&nbsp;</p> <p><strong>Και τα &laquo;σίδερα&raquo; λυγίζουν</strong></p> <p><strong>Πότε και που:&nbsp;</strong>10 Φεβρουαρίου του 1990, στο &laquo;Τόκιο Ντόουμ&raquo; του Τόκιο, στην Ιαπωνία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Ο Μάικ Τάισον φτάνει στον τελικό του παγκοσμίου πρωταθλήματος υπερβαρέων βαρών όντας αήττητος και διαλύοντας κάθε αντίπαλο που έβρισκε μπροστά του. Ο &laquo;σιδερένιος Μάικ&raquo;, όπως ήταν γνωστός, είχε 37 νίκες, 32 εκ των οποίων με νοκ άουτ και 17 στον πρώτο γύρο! Ο Τζέιμς &laquo;Μπάστερ&raquo; Ντάγκλας δεν είχε καμία πιθανότητα. Το έλεγαν και τα στοιχήματα (42 προς ένα), αλλά και οι ίδιοι οι &laquo;ειδικοί&raquo; δημοσιογράφοι, οι οποίοι άδειασαν την αίθουσα όπου έλαβε χώρα η συνέντευξη Τύπου, πριν από τον αγώνα. Έμειναν ελάχιστοι και ένας εξ' αυτών ρώτησε τον πυγμάχο του Οχάιο: &laquo;<em>Εσύ είσαι ο &laquo;Μπάστερ&raquo; Ντάγκλας, έτσι δεν είναι;</em>&raquo;.</p> <p><strong>Τι έγινε:&nbsp;</strong>Ο Ντάγκλας, παρ' ότι βυθισμένος σε κατάθλιψη, αφού 23 ημέρες πριν από τον αγώνα είχε χάσει την μητέρα του, ήταν συγκλονιστικός πάνω στο ρινγκ, αλύγιστος. Ο Τάισον έριξε στο καναβάτσο τον Ντάγκλας στον όγδοο γύρο, αλλά ο Τζέιμς σηκώθηκε μετά από μέτρημα εννέα δευτερολέπτων (!) και στο ένατο, ξεκίνησε την αντεπίθεσή του. Στον δέκατο, ο Τάισον έπεσε, για πρώτη φορά. Και δεν σηκώθηκε. Ο Ντάγκλας ήταν ο νέος παγκόσμιος πρωταθλητής, κόντρα σε όλα τα προγνωστικά.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Κέρδισε χάρη στην μητέρα μου. Ο Θεός να ευλογεί την καρδιά της</em>&raquo;&nbsp;<strong>(Τζέιμς &laquo;Μπάστερ&raquo; Ντάγκλας)</strong></p> <p><img id="_21ec3a3c-dc27-43db-ac8d-af1586703bda" src="http://www.sport24.gr/incoming/article3389290.ece/BINARY/KARELIN-GARDNER.jpg" width="120" />&nbsp;</p> <p>Καρέλιν - Γκάρντνερ (2000)</p> <p><strong>Πότε και που:&nbsp;</strong>27 Σεπτεμβρίου του 2000, στο Συνεδριακό Κέντρο Επιδείξεων του Σίδνεϊ, στην Αυστραλία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Στην ζωή του, ο Αλεξάντερ Καρέλιν είχε χάσει μόλις έναν αγώνα. Και αυτόν το μακρινό 1987, όταν ήταν 19 ετών, στο σοβιετικό πρωτάθλημα. Η &laquo;ρωσική αρκούδα&raquo;, &laquo;ο Μέγας Αλέξανδρος&raquo; ή &laquo;ο Ρώσος Κινγκ Κονγκ&raquo; ήταν μερικά από τα παρατσούκλια που ακολουθούσαν τον τεράστιο αθλητή της ελληνορωμαϊκής πάλης, ο οποίος είχε πάρει τρία διαδοχικά χρυσά μετάλλια στην κατηγορία των σούπερ υπερβαρέων και ετοιμάζονταν για το τέταρτο. Ο Ρούλον Γκάρντνερ, ένα αγροτόπαιδο από το Άφρον του Γουαϊόμινγκ, ήταν απλώς ο &laquo;επίτιμος καλεσμένος&raquo; στον τελικό, κόντρα σε έναν αθλητή που δεν είχε παραχωρήσει ούτε πόντο σε αγώνα, τα προηγούμενα έξι χρόνια.</p> <p><strong>Τι έγινε:&nbsp;</strong>Ο Γκάρντνερ αποδεικνύεται πολύ σκληρό καρύδι, κουράζοντας αφάνταστα τον αιφνιδιασμένο Καρέλιν. Στον δεύτερο γύρο, καταφέρνει με ωραία κίνηση να πάρει έναν πόντο, τον οποίο του πίστωσαν οι κριτές, αφού πρώτα χρειάστηκε να δουν το βίντεο. Στη συνέχεια, αντέχει κάθε επίθεση του Ρώσου και τον υποχρεώνει σε μια ήττα που αποτελεί, αναμφίβολα, την μεγαλύτερη έκπληξη των Ολυμπιακών Αγώνων σε ατομικό άθλημα.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Στο&nbsp;τέλος,&nbsp;ψέλλισε&nbsp;κάτι&nbsp;στα&nbsp;ρώσικα.&nbsp;Νομίζω ότι ήταν 'τα παρατάω</em><strong>&raquo; (Ρούλον Γκάρντνερ)</strong></p> <p><img id="_464aec00-dba7-4ba4-bda7-4659134f9050" src="http://www.sport24.gr/incoming/article3389289.ece/BINARY/IVANISEVIC.jpeg" width="120" />&nbsp;</p> <p><strong>&laquo;Άγρια&raquo; ομορφιά στο Γουίμπλεντον</strong></p> <p><strong>Πότε και που:&nbsp;</strong>25 Ιουνίου του 2001, στο κεντρικό κορτ του Γουίμπλεντον του Λονδίνου, στην Αγγλία</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Ο Αμερικανός Πιτ Σάμπρας, τέσσερις φορές νικητής στο Γουίμπλεντον, ήταν το μεγάλο φαβορί, σε ένα τουρνουά με &laquo;δελφίνους&raquo; τον συμπατριώτη του, Αντρέ Αγκάσι και τον Αυστραλό Πάτρικ Ράφτερ. Ο Κροάτης Γκόραν Ιβανίσεβιτς, ο οποίος είχε ταλαιπωρηθεί από τραυματισμό στον ώμο, δεν θύμιζε σε τίποτα τον τενίστα που είχε φτάσει σε τρεις τελικούς κατά το παρελθόν. Αυτή του η επίδοση του έδωσε &laquo;wild&nbsp;card&raquo; για να πάρει μέρος, αφού είχε κατρακυλήσει στο νούμερο 125 και, βάσει αυτού, δεν είχε δικαίωμα συμμετοχής. Κομπάρσος θα ήταν και τίποτε παραπάνω.</p> <p><strong>Τι έγινε:&nbsp;</strong>Ο Σάμπρας αποκλείεται στον τέταρτο γύρο από έναν 19χρονο ανερχόμενο Ελβετό ονόματι Ρότζερ Φέντερερ, ενώ ο Ράφτερ νικάει τον Αγκάσι στον ημιτελικό. Αντίπαλος του Αυστραλού στον τελικό ο Ιβανίσεβιτς, ο οποίος έχει βρει τον καλό του εαυτό, αποκλείοντας κατά σειρά Γκόντγουϊν, Μογιά, Ρόντικ, Ρουσέντσκι, Σάφιν και Χένμαν. Σε έναν συγκλονιστικό τελικό που κρίνεται στα πέντε σετ, ο Γκόραν κατακτά τον μοναδικό τίτλο Γκραν Σλαμ της καριέρας του, όντας βεβαίως ο πρώτος με τόσο χαμηλό νούμερο κατάταξης που κατακτά το τουρνουά τένις με το μεγαλύτερο πρεστίζ στον κόσμο. Κόντρα σε όλα, μα όλα τα προγνωστικά.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Ήταν οι 15 πιο όμορφες ημέρες της ζωής μου</em>&raquo;&nbsp;<strong>(Γκόραν Ιβανίσεβιτς)</strong></p> <p><img id="_f0329c5b-98cb-4b26-a8fa-ff3e84277af2" src="http://www.sport24.gr/incoming/article3389285.ece/BINARY/EURO2004.jpg" width="120" />&nbsp;</p> <p><strong>Το πιο ωραίο παραμύθι</strong></p> <p><strong>Πότε και που:&nbsp;</strong>4 Ιουλίου του 2004, στο &laquo;Λουζ&raquo; της Λισσαβόνας, στην Πορτογαλία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>Η οικοδέσποινα Πορτογαλία έμοιαζε πιο έτοιμη από ποτέ να κατακτήσει το Ευρωπαϊκό Πρωτάθλημα. Είχε αποκλείσει Αγγλία και Ολλανδία και στον τελικό περίμενε την &laquo;μικρή&raquo; Ελλάδα, από την οποία είχε γνωρίσει ήττα - σοκ στην πρεμιέρα της διοργάνωσης. Η ώρα για την ρεβάνς είχε φτάσει.</p> <p><strong>Τι έγινε:&nbsp;</strong>Η &laquo;ατσάλινη&raquo; ομάδα του Ότο Ρεχάγκελ σχεδόν δεν ανησυχεί από τις προσπάθειες της παρέας των Λουίς Φίγκο και Κριστιάνο Ρονάλντο. Επιβάλλει απόλυτα τον ρυθμό της και, με μια κεφαλιά του Άγγελου Χαριστέα (57'), ολοκληρώνει την μεγαλύτερη έκπληξη σε κατάκτηση τίτλου από εθνική ομάδα, σε ποδοσφαιρική διοργάνωση. Το 1992, οι Δανοί μαζεύτηκαν από τις παραλίες και κατέκτησαν το Euro, αλλά το κατόρθωμά τους μάλλον ωχριά μπροστά σε αυτό της Ελλάδας.</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Δεν πίστευα ότι μπορούσαμε να χάσουμε αυτό το κύπελλο. Αλλά, κατά περίεργο τρόπο, όταν η Ελλάδα απέκλεισε την Τσεχία, κοιταχτήκαμε ο ένας με τον άλλο με ανάμεικτα συναισθήματα. &laquo;Γαμώτο, και πάλι με την Ελλάδα;&raquo; είπαμε&raquo;</em><strong>&nbsp;(Κριστιάνο Ρονάλντο)</strong></p> <p><img id="_6895f1f0-0014-4d67-83c5-851e1e6f6246" src="http://www.sport24.gr/incoming/article3389282.ece/BINARY/BRAZIL-GERMANY.jpg" width="120" />&nbsp;</p> <p><strong>και τώρα &laquo;Μινεϊράσο&raquo;</strong></p> <p><strong>Πότε και που:&nbsp;</strong>8 Ιουλίου του 2014, στο &laquo;Μινεϊράο&raquo; του Μπέλο Οριζόντε, στην Βραζιλία.</p> <p><strong>Τι &laquo;έπρεπε&raquo; να γίνει&raquo;:&nbsp;</strong>64 χρόνια μετά την τραγωδία του &laquo;Μαρακανάσο&raquo;, η μοίρα έδινε μια δεύτερη ευκαιρία στην Βραζιλία, σε δικό της Μουντιάλ. Παρ' ότι είχε χάσει με τραυματισμό τον Νεϊμάρ και δεν είχε τον τιμωρημένο αρχηγό Τιάγκο Σίλβα, η &laquo;Σελεσάο&raquo; φτάνει στον ημιτελικό με την Γερμανία με την αυτοπεποίθηση στο φουλ. Της το χρωστάει η μοίρα, δεν γίνεται να χάσει και ειδικά από την ομάδα, κόντρα στην οποία είχε πάρει το πέμπτο της αστέρι, το 2002.</p> <p><strong>Τι έγινε:&nbsp;</strong>Η Γερμανία δεν καταλαβαίνει από μοίρες. Διαλύει μια τραγική Βραζιλία με 7-1 (11' Μίλερ, 23' Κλόζε, 24', 26' Κρόος, 29' Κεντίρα, 79' Σίρλε - 90' Όσκαρ) και δίνει την εντύπωση πως κατά διαστήματα ρίχνει στροφές, για να μην φτάσει το σκορ σε διψήφιο αριθμό. Το &laquo;Μαρακανάσο&raquo; δεν είναι πλέον η πιο ταπεινωτική ήττα στην ιστορία της Βραζιλίας, αφού το γερμανικό 7-1 προκάλεσε &laquo;σοκ και δέος&raquo; στην παγκόσμια ποδοσφαιρική κοινότητα. Και, σαν να μην έφτανε ο διασυρμός, ο Μίροσλαβ Κλόζε έπαιρνε από τον Ρονάλντο τον τίτλο του πρώτου σκόρερ στην ιστορία των Μουντιάλ. Πόσα χτυπήματα να αντέξει κανείς;</p> <p><strong>Είπαν:&nbsp;</strong>&laquo;<em>Ήταν η χειρότερη μέρα της ζωής μου</em>&raquo;&nbsp;<strong>(Λουίς Φελίπε Σκολάρι, ομοσπονδιακός προπονητής της Βραζιλίας)</strong></p> <p><strong>Όχι, δεν ήταν τυπογραφικό λάθος</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/oxi-den-htan-typografiko-lathos.3389299.html" id="_21bf8031-cb82-4b5f-8087-aea2f6826a16">Όχι, δεν ήταν τυπογραφικό λάθος</a><iframe width="580" height="435" src="https://www.youtube.com/embed/_PNU6zPgBKE" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Την ημέρα που η Βραζιλία έκλαψε</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/thn-hmera-poy-h-vrazilia-eklapse.3389300.html" id="_9c83eb89-efaf-4f53-83d3-37a63b2e6860">Την ημέρα που η Βραζιλία έκλαψε</a><iframe width="580" height="435" src="https://www.youtube.com/embed/1uvGXdAlq3o" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Μπίλι ο τρομερός</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/mpili-o-tromeros.3389301.html" id="_d809ac5c-aa9b-40ed-9a99-de5933fcde4d">Μπίλι ο τρομερός</a><iframe width="580" height="435" src="https://www.youtube.com/embed/vs6G8NfEyVk" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>&laquo;Τα τρία δευτερόλεπτα&raquo;</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/ta-tria-deyterolepta.3389304.html" id="_0ce3136d-3f23-40f2-9e92-b06881fe2cb6">&laquo;Τα τρία δευτερόλεπτα&raquo;</a><iframe width="580" height="435" src="https://www.youtube.com/embed/Y3wa7cy_yV8" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Θαύμα στον πάγο</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/thauma-ston-pago.3389307.html" id="_1246db11-9d08-477a-b87a-103eeac96f2c">Θαύμα στον πάγο</a><iframe width="580" height="435" src="https://www.youtube.com/embed/8gfD134ED54" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>&laquo;Ολόχρυση&raquo; Ελλάδα</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/oloxrysh-ellada.3389309.html" id="_d9ded1d4-08f0-4a43-94c9-55ab0e03cf1d">&laquo;Ολόχρυση&raquo; Ελλάδα</a><iframe width="580" height="435" src="https://www.youtube.com/embed/Rui5NfPp5hI" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Και τάβλα ο Τάισον!</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/kai-tavla-o-taison.3389311.html" id="_9cc93d98-0469-431b-8f01-fa200f72c7b6">Και τάβλα ο Τάισον!</a><iframe width="580" height="435" src="https://www.youtube.com/embed/euZ08eWV4ME" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Η υπόκλιση του &laquo;Μεγάλου Αλεξάνδρου&raquo;</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/h-ypoklish-toy-megaloy-aleksandroy.3389312.html" id="_ebae7c4c-0df3-4cf5-b13b-61c0a22a9cd5">Η υπόκλιση του &laquo;Μεγάλου Αλεξάνδρου&raquo;</a><iframe width="580" height="435" src="https://www.youtube.com/embed/F9yiCuX1hV8" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Ήρωας από το πουθενά</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/hrwas-apo-to-poythena.3389313.html" id="_8d6d64bb-5d2f-4916-9db6-f1e632e0bd25">Ήρωας από το πουθενά</a><iframe width="580" height="435" src="https://www.youtube.com/embed/_PBPyrx8c8w" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Σήκωσέ το!</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/shkwse-to.3389316.html" id="_d89d53ed-d879-4fee-a41f-bf2ad729036f">Σήκωσέ το!</a><iframe width="420" height="315" src="https://www.youtube.com/embed/OVU6XYJPLw8" frameborder="0" allowfullscreen=""></iframe> </strong></p> <p><strong>Εφτά τραγούδια θα σου πω</strong></p> <p><strong> <a href="http://www.sport24.gr/multimedia/video/efta-tragoudia-tha-soy-pw.3389318.html" id="_21ebd7c0-f6e3-4af2-bd88-7ee2a1a4bd7f">Εφτά τραγούδια θα σου πω</a><iframe width="580" height="435" src="https://www.youtube.com/embed/RWfwoZHqMwk" frameborder="0" allowfullscreen=""></iframe>&nbsp;</strong></p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Ο Hancock και οι άλλοι</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/USA/Ncaa/o-hancock-kai-oi-alloi.3391494.html"/>
+		<link rel="@supertitle" title="ΟΙ ΧΑΜΕΝΟΙ MOP ΤΗΣ MARCH MADNESS"/>
+		<link rel="enclosure" type="tag" title="Kate_Moss" display_name="Kate Moss"/>
+		<link rel="enclosure" type="tag" title="free-the-nipple" display_name="free the nipple"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/USA/Ncaa/article3391636.ece/BINARY/w620/FotorCreated.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/Basket/USA/Ncaa/article3391649.ece/BINARY/w620/FotorCreated1.jpg" credits="" caption=""/>
+		<category term="Ncaa" label="NCAA"/>
+		<category term="USA" label="ΗΠΑ"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3391494</id>
+		<updated>2015-04-02T13:50:00+02:00</updated>
+		<published>2015-04-02T13:50:00+02:00</published>
+		<summary>Με αφορμή την αλλαγή καριέρας του Luke Hancock, το Sport24.gr θυμάται περιπτώσεις παικτών που αναδείχθηκαν MOP σε Final Four της March Madness, αλλά ουδέποτε δικαίωσαν τις προσδοκίες.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Καταρχάς να πούμε πως στο Final Four της March Madness ο όρος του MVP (Most Valuable Player) αντικαθίσταται από αυτόν του MOP (Most Outstanding Player). Άλλη λέξη, ίδια σημασία. Υπάρχουν βέβαια περιπτ
+			]]>
+			<![CDATA[
+			ώσεις που ο κορυφαίος παίκτης του Final Four δεν μπορεί να δικαιώσει τις προσδοκίες που υπάρχουν από αυτόν. Γιατί είναι σαφές πως όταν αναδεικνύεσαι ο κορυφαίος παίκτης στο κολεγιακό πρωτάθλημα, τότε έχεις ταλέντο.</p><p>Ο Luke Hancock αναδείχθηκε MOP στο Final Four του 2013, αλλά μόλις χθες (1/4) έγινε γνωστό πως δεν θα κάνει καριέρα στα παρκέ, αλλά στα γραφεία. Ο λόγος δεν είναι άλλος από την αλλαγή επαγγελματικού προσανατολισμού του απόφοιτου του Louisville, ο οποίος πλέον <strong><a href="http://www.sport24.gr/Basket/OmadesBasket/A1Panionios/o-xankok-egine-xrhmatooikonomikos-sumvoylos.3389612.html" title="">θα εργάζεται πλέον ως χρηματοοικονομικός σύμβουλος</a></strong>.</p> <p>Με αφορμή αυτό το γεγονός, το Sport24.gr έψαξε και βρήκε τους MOP των Final Four της March Madness που δεν έκαναν καριέρα, στον βαθμό που προβλεπόταν με βάση την απόδοσή τους στο κολεγιακό πρωτάθλημα. Κι η έρευνα έδειξε πως πολλά από τα &quot;χαμένα ταλέντα&quot; του NCAA έχουν περάσει από τα μέρη μας.</p> <p>Για παράδειγμα, ποιος δεν θυμάται την περίπτωση του <strong>Ed O'Bannon</strong>, ο οποίος κατέκτησε τον τίτλο με το UCLA το 1995 και αναδείχθηκε MOP εκείνου του Final Four. Μετά από αυτό όμως, τι; Αφού πέρασε τρία χρόνια μεταξύ φθοράς και αφθαρσίας στο ΝΒΑ (με τους New Jersey Nets και τους Dallas Mavericks), αγωνίστηκε στο CBA, για να ακολουθήσει η περιπλάνησή του ανά τον κόσμο. Κατά τη διάρκεια των ταξιδιών του, βρέθηκε για &quot;ένα φεγγάρι&quot; στη χώρα μας, όπου φόρεσε τη φανέλα του Ηρακλείου (1999-2000). Για ένα παιχνίδι (στην πρεμιέρα με τον Ολυμπιακό), πριν αποχωρήσει για να πάρει τη θέση του ο Jimmy Oliver.</p> <p>Αντίστοιχη περίπτωση είναι ο MOP του 1993, <strong>Donald Williams</strong>, που δεν κατάφερε να στεριώσει στο κορυφαίο πρωτάθλημα του πλανήτη, με αποτέλεσμα να περάσει τον Ατλαντικό για να παίξει στην Ευρώπη (στην πορεία βέβαια πήγε μέχρι τις Φιλιππίνες). Ο απόφοιτος του North Carolina πέρασε από τα μέρη μας, όπου φόρεσε τη φανέλα του Σπόρτιγκ (1997-'98), ενώ δύο χρόνια μετά αγωνίστηκε στην Κύπρο με τα χρώματα της ΑΕΛ. Παρεμπιπτόντως, δοκίμασε την τύχη του στη Μεγάλη Βρετανία και τη Γαλλία, με το μεσοδιάστημα να τον βρίσκει στους Harlem Globetrotters.</p> <p>Πιο πρόσφατη είναι η περίπτωση του <strong>Mateen Cleaves</strong>, που αναδείχθηκε πρωταθλητής με το Michigan State το 2000. Παρότι άπαντες περίμεναν την &quot;εκτόξευσή&quot; του, στα χρόνια που ακολούθησαν δεν μπόρεσε να δικαιολογήσει τον &quot;θόρυβο&quot; που είχε δημιουργηθεί γύρω από το όνομά του. Επελέγη μεν στο Νο14 του draft εκείνης της χρονιάς, αλλά επί της ουσίας ποτέ δεν έδειξε πως έχει θέση στο ΝΒΑ (έπαιξε σε Detroit, Sacramento, Cleveland και Seattle), πριν αρχίσει να περνάει τα χρόνια του μεταξύ NBDL και Ευρώπης. Κάπου εκεί (το 2007-08) ήρθε στη χώρα μας, για λογαριασμό του Πανιωνίου. Όχι ότι έκανε κάτι αξιομνημόνευτο εδώ. Έπαιξε σε μόλις πέντε παιχνίδια, μετρώντας 2.8 πόντους και 1.6 ασίστ κατά μέσο όρο.</p> <p><img id="_8ef0cacc-8a12-4ee0-b5fd-20ad180ab49e" src="http://www.sport24.gr/Basket/USA/Ncaa/article3391649.ece/BINARY/FotorCreated1.jpg" width="120" /><strong>Η λίστα περιλαμβάνει ακόμη τους</strong>:</p> <p>1. <strong>Miles Simon</strong> (MOP του 1997, με το Arizona), που έπαιξε σε Ιταλία (Λιβόρνο, Βαρέζε), Ισραήλ (Μακάμπι Ραανανά και Τουρκία (Τάμποργκ Πίλσενερ), πριν αποσυρθεί από τη δράση το 2005, για να αναλάβει πόστο ασίσταντ κόουτς στους &quot;Wildcats&quot;. Στη συνέχεια εργάστηκε στο ESPN ως αναλυτής/σχολιαστής αγώνων του κολεγιακού πρωταθλήματος.</p> <p>2. <strong>Jeff Sheppard</strong> (MOP του 1998, με το Kentucky), που έμεινε για ένα χρόνο στους Atlanta Hawks, με την καριέρα του να συνεχίζεται στην Ιταλία, όπου φόρεσε τη φανέλα των Μπενετόν Τρεβίζο, Ροζέτο και Ρόμα. Το 2001 αποφάσισε να βάλει πρόωρο τέλος στην καριέρα του, δηλώνοντας σοκαρισμένος από το τρομοκρατικό χτύπημα στους &quot;Δίδυμους Πύργους&quot; της Νέας Υόρκης. Πλέον ζει με τη γυναίκα του και τα δυο τους παιδιά στο Kentcuky.</p> <p>3. <strong>Anderson Hunt</strong> (MOP του 1990, με το UNLV), που δεν έπαιξε ποτέ στο ΝΒΑ. Αντίθετα, αγωνίστηκε στο CBA, με την πορεία της καριέρας του να τον βρίσκει σε Τουρκία, Πολωνία και Γαλλία. Αφότου κρέμασε τη φανέλα του είπε να δοκιμάσει την επαγγελματική του ιδιότητα ως υπαλλήλου στο Imperial Palace Hotel and Casino του Las Vegas, ενώ πλέον συμμετέχει σε πρόγραμμα μπάσκετ για μικρές ηλικίες, με την ονομασία &quot;4point4&quot; Sports.</p> <h2>Η άλλη πλευρά</h2> <p>Επειδή όμως οι προαναφερθέντες αποτελούν την εξαίρεση του κανόνα, να αναφέρουμε πως οι περισσότεροι εξ όσων αναδείχθηκαν πολυτιμότεροι παίκτες σε κάποιο από τα Final Four της March Madness, κυριάρχησαν στο ΝΒΑ. Καλύτερα παραδείγματα από τους Kareem Abdul Jabbar (του UCLA), Bill Walton (επίσηυς, του UCLA), Magic Johnson (του Michigan State), του Isiah Thomas (του Indiana), του Hakeem Olajuwon (του Houston), του Patrick Ewing (του Georgetown) και του Tony Delk (του Kentucky) δεν υπάρχουν.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>"Το σκεπτικό της κίνησης - κοάλα"</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/interviews/to-skeptiko-ths-kinhshs-koala.3391380.html"/>
+		<link rel="@supertitle" title="Ο ΝΤΑΝΙΕΛ ΝΑΔΑΛΕΣ ΣΤΟ SPORT24.GR"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Paraxena/article3388531.ece/BINARY/w620/cuatre.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391653.ece/BINARY/w620/daniel_nadales.jpg" credits="" caption=""/>
+		<category term="interviews" label="Συνεντεύξεις"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Βασίλης Τεμπέλης</name>
+		</author>
+		<id>3391380</id>
+		<updated>2015-04-02T13:50:00+02:00</updated>
+		<published>2015-04-02T13:50:00+02:00</published>
+		<summary>Είδε τη φωτογραφία του στα μεγαλύτερα ΜΜΕ του κόσμου. Ο Ντανιέλ Ναδάλες εξηγεί στο Sport24.gr πως εμπνεύστηκε την "κίνηση - κοάλα", τον πιο παράξενο τρόπο να αμυνθείς σε κόρνερ.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Ο Ντανιέλ Ναδάλες της Κουάρτε βρήκε έναν <a href="http://www.sport24.gr/Paraxena/o-pio-paraksenos-tropos-na-amyntheis-se-korner.3388522.html" title="">πρωτότυπο τρόπο να αμυνθεί σε εκτέλεση κόρνερ της Τερουέλ</a> για την τρίτη κατηγορία, στην Αραγονία της Ισπανίας.</p><p>Ο Ισπανός αμυντικός και ξάδερφος του Φόνσι Ναδάλες που αγωνίζεται στην Ελλάδα με τη φανέλα του ΠΑΣ Γιάννινα εξηγεί στο <strong>Sport24.gr</strong> το σκεπτικό της κίνησής του.</p><p>Ήταν αυθόρμητο ή το είχε σκεφτεί; Το είχε δοκιμάσει ξανά; Θα το έκανε ξανά, ενδεχομένως, στο μέλλον; Δείτε τις απαντήσεις στο <strong>Sport24.gr :</strong></p> <p><em>&quot;Ήταν κάτι αυθόρμητο, κάτι που σκέφτηκα για να σταματήσω ένα πιθανό γκολ της αντιπάλου ομάδας από το κόρνερ. Ήδη, είχαν παίκτες πολύ ψηλούς σε σχέση με εμάς.</em></p> <p><em>Ποτέ δεν το είχα δοκιμάσει, ούτε στις προπονήσεις ούτε κάπου αλλού. Έμαθα μετά το ματς, ότι εξαιτίας αυτής της κίνησης μπορεί να τιμωρηθώ και γι' αυτό υπόσχομαι να μην το κάνω ξανά στο μέλλον, για να μην καταδικάσω την ομάδα μου.&quot;</em></p> <p>Μετά τη φωτογραφία, από τη Marca πρώτα και από τα κορυφαία ΜΜΕ παγκοσμίως εν συνεχεία, άρχισαν να βγαίνουν τα πρώτα ανέκδοτα. Πως αντέδρασε σε αυτά ο Ντανιέλ Ναδάλες;</p> <p><em>&quot;Το μάθαμε την επόμενη ημέρα, όταν βγήκε η φωτογραφία. Αυτή η κίνηση, διήρκησε ένα δευτερόλεπτο και μέχρι να δω τη φωτογραφία δεν είχα συνειδητοποιήσει ότι το είχα κάνει. Μετά, φυσιολογικά υπήρχαν πολλά γέλια. Αυτή ήταν, η πρώτη αντίδραση.</em></p> <p><em>Από τη στιγμή που διέρρευσε η φωτογραφία στο Ίντερνετ και στα μέσα κοινωνικής δικτύωσης, έγινε χαμός. Τα περισσότερα αστεία και τα καλύτερα που είχα δει, ήταν με το Photoshop.&quot;</em></p> <p>Όπως είπαμε, ο Ντάνιελ Ναδάλες είναι ξάδερφος του Ισπανού - επίσης αμυντικού - του ΠΑΣ Γιάννινα, Φόνσι Ναδάλες. Τι γνωρίζει ο &quot;πρωταγωνιστής&quot; των τελευταίων ημερών στην Ισπανία, για την Ελλάδα και το ελληνικό ποδόσφαιρο;</p> <p><em>&quot;Ο ξάδερφός μου, ο Φόνσι, παίζει στον ΠΑΣ Γιάννινα, οπότε γνωρίζω αρκετά πράγματα για το ελληνικό ποδόσφαιρο και το εκτιμώ πολύ. Στην Ισπανία είναι ιδιαίτερα δημοφιλές, από τους συμπατριώτες μας που αγωνίζονται στην Ελλάδα. Ο Φόνσι μου έχει μιλήσει με εξαιρετικά λόγια για την Ελλάδα και τον πολιτισμό της. Θα ήταν τιμή και υπερηφάνεια για εμένα να έπαιζα κι εγώ, είτε ως αντίπαλος είτε ο συμπαίκτες με τον Φόνσι.&quot;</em></p> <p>Γιατί ο αμυντικός της Κουάρτε επέλεξε να &quot;κλείσει&quot; τη γωνία εκείνη; Τι φοβόταν; Γιατί το έκανε; Δείτε τι απαντά στο <strong>Sport24.gr</strong></p> <p><em>&quot;Πρέπει να κρατήσεις απαραβίαστη την εστία σου με κάθε κόστος και σε αυτή την περίπτωση, σε αυτό το ματς οι αντίπαλοι που ήταν πιο ψηλοί, κυνηγούσαν τις στημένες φάσεις και προσπαθούσαν να στείλουν την μπάλα στη γωνία. Εγώ προσπάθησα με κάθε μέσο να αποτρέψω την μπάλα να μπει, στα δίχτυα.&quot;</em></p> <p>Τα ισπανικά ΜΜΕ δεν άργησαν να βγάλουν το παρατσούκλι κίνηση - κοάλα. Έγινε διάσημος, μόνο από ένα δευτερόλεπτο. Πως αντιδρά σε όλα αυτά; Πως τα αντιμετωπίζει;</p> <p><em>&quot;Κίνηση - κοάλα; Χαχα, είναι κάτι που το αντιμετωπίζω με χιούμορ. Έχουν βγει πολλά ανέκδοτα γι΄αυτό το θέμα. Αλλά, ξαναλέω ότι δεν θα το επαναλάβω. Έμαθα ότι μπορεί να φέρει κυρώσεις για την ομάδα. Τώρα το μόνο που θέλω είναι να απολαύσω τη δημοσιότητά μου.&quot;</em></p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Εργοτέλης: "Ενωμένοι για την υπέρβαση"</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/omades/Ergotelis/ergotelhs-enwmenoi-gia-thn-ypervash.3391629.html"/>
+		<link rel="@supertitle" title="Η ΑΝΑΚΟΙΝΩΣΗ ΤΗΣ ΠΑΕ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/omades/Ergotelis/article3391626.ece/BINARY/w620/1216730.jpg" title="" credits="" caption=""/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="omades" label="Ομάδες"/>
+		<category term="Ergotelis" label="Εργοτέλης"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391629</id>
+		<updated>2015-04-02T13:39:00+02:00</updated>
+		<published>2015-04-02T13:40:00+02:00</published>
+		<summary>Κάλεσμα στον κόσμο του Εργοτέλη απηύθυνε η διοίκηση της Κρητικής ομάδας εν όψει του αγώνα με τον Πανθρακικό.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Νίκη θέλει ο Εργοτέλης στο κυριακάτικο(5/4) παιχνίδι με τον Πανθρακικό προκειμένου να διατηρήσει "ζωντανές" τις ελπίδες για παραμονή στην κατηγορία. Η διοίκηση των Κρητικών εξέδωσε ανακοίνωση καλώντας τον κόσμο του Εργοτέλη να στηρίξει την προσπάθεια που κάνει η ομάδα για να μείνει στην SuperLeague.</p><p><strong>Aναλυτικά η ανακοίνωση...</strong></p> <p>&quot;<em>Η πίστη μας ότι ο Εργοτέλης μπορεί ακόμα μια φορά να ξεπεράσει εμπόδια που φαίνονται ανυπέρβλητα, ξέρουμε ότι προκαλεί ανησυχία και άγχος σε αυτούς που νομίζουν ότι έχουν ήδη πετύχει το σκοπό τους.</em></p> <p><em>Ξέρουμε όμως, ότι προκαλεί επίσης και το ένστικτο του κόσμου του Εργοτέλη, του Ηρακλείου και της Κρήτης να πάρει μέρος στη πιο μεγάλη μάχη της σύγχρονης ιστορίας της ομάδας μας.</em></p> <p><em>Μια μάχη που αυτή τη φορά δεν θα είναι άνιση. Δε θα το επιτρέψουμε να είναι.</em></p> <p><em>Μια γροθιά για ένα σκοπό: Την αρχή μιας ακόμα ΥΠΕΡΒΑΣΗΣ.</em></p> <p><em>Αυτό το μήνυμα θα στείλουν οι παίκτες της ομάδας μας μέσα από τον αγωνιστικό χώρο.</em></p> <p><em>Αυτό το μήνυμα θα φύγει, με τη φωνή σας, &nbsp;από τις εξέδρες του &nbsp;Παγκρήτιου Σταδίου την ερχόμενη Κυριακή στις 17:15</em>&quot;.<br />&nbsp;</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Preview: Μπαρτσελόνα – Ρεάλ Μαδρίτης</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/Euroleague/preview-mpartselona-real-madriths.3391619.html"/>
+		<link rel="@supertitle" title="ΤΟ CLASICO ΚΡΙΝΕΙ ΤΗΝ ΚΟΡΥΦΗ ΣΤΟΝ Ε' ΟΜΙΛΟ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_alba_Berlin/article3391616.ece/BINARY/w620/999.jpg" title="" credits="" caption=""/>
+		<link rel="related" type="text/html" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_barcelona/to-koreo-ths-mpartselona.3387670.html" title="Το κορεό της Μπαρτσελόνα"/>
+		<link rel="related" type="text/html" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_barcelona/xanei-to-cl-sico-o-ntolman.3390468.html" title="Χάνει το clásico ο Ντόλμαν"/>
+		<category term="eb-news" label="Ειδήσεις"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="eb_real_madrid" label="Real Madrid"/>
+		<category term="eb_barcelona" label="FC Barcelona"/>
+		<category term="Euroleague" label="Euroleague"/>
+		<author>
+			<name>Γιάννης Σταυρουλάκης</name>
+		</author>
+		<id>3391619</id>
+		<updated>2015-04-02T13:33:00+02:00</updated>
+		<published>2015-04-02T13:37:00+02:00</published>
+		<summary>Η Μπαρτσελόνα και η Ρεάλ έχουν ήδη εξασφαλίσει την πρόκριση στα playoffs. Έτσι η αποψινή (02/04, 21:45) αναμέτρηση στο Palau Blaugrana θα κρίνει, εν πολλοίς, την κατάταξη στην κορυφή του Ε' ομίλου.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Συγκεκριμένα οι Καταλανοί έχουν την ευκαιρία να ανέβουν στην πρώτη θέση του Ε' ομίλου, σε περίπτωση νίκης με +24 πόντους ώστε να καλύψουν τη διαφορά της ήττας (σ.σ. 97-73) στη Μαδρίτη.</p><p><strong><a href="euroleague.sport24.gr/stats/standings" title="">Η κατάταξη στον Ε' όμιλο</a></strong></p> <p>Στο μεταξύ, ο Τσάβι Πασκουάλ επιβεβαίωσε κατά τη διάρκεια της συνέντευξης Τύπου για τον αγώνα με τη &quot;Βασίλισσα&quot; ότι ο Τζάστιν Ντόλμαν δεν πρόκειται να αγωνιστεί <strong><a href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_barcelona/article3390468.ece" title="">λόγω ενοχλήσεων στη δεξιά γάμπα</a></strong> ενώ οι φίλοι της Μπαρτσελόνα εντυπωσιάζουν ένα <strong><a href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_barcelona/article3387670.ece" title="">εντυπωσιακό κορεό</a></strong></p> <p><strong>Ενδιαφέροντα στοιχεία</strong></p> <p><strong>Μπαρτσελόνα<br /></strong>- Ο κόουτς Τσάβι Πασκουάλ έχει χρησιμοποιήσει 12 διαφορετικούς παίκτες στις βασικές πεντάδες των Καταλανών. Ουδείς, πάντως, έχει ξεκινήσει βασικός σε όλες τις αναμετρήσεις της Μπαρτσελόνα φέτος.<br />- Ο Άντε Τόμιτς αγωνίστηκε για 2μιση χρόνια στη Ρεάλ Μαδρίτης (2009-12). Παράλληλα χρειάζεται ένα κόψιμο για να φτάσει τα 100 στην καριέρα του στην Euroleague ενώ έχει σημειώσει 12 συνεχόμενες εύστοχες βολές.<br />- Ο Χουάν Κάρλος Ναβάρο έχει πετύχει τουλάχιστον ένα τρίποντο στις τελευταίες έξι παρουσίες του στη διοργάνωση.<br />- Ο Μπραντ Όλεσον μετράει 20 συνεχόμενες εύστοχες βολές.<br />- Ο Ματσέι Λάμπε ξεκίνησε την επαγγελματική του καριέρα στη Ρεάλ Μαδρίτης. Αγωνίστηκε στη &quot;Βασίλισσα&quot; τη διετία 2001-'03.</p> <p><strong>Ρεάλ Μαδρίτης<br /></strong>- Ο κόουτς Πάμπλο Λάσο έχει χρησιμοποιήσει 11 διαφορετικούς παίκτες στις βασικές πεντάδες των Μαδριλένων. Μόνο ο Σέρχιο Γιούλ έχει ξεκινήσει πενταδάτος σε όλα τα ματς της Ρεάλ.<br />- Ο Ρούντι Φερνάντεθ έχει κάνει τουλάχιστον ένα κλέψιμο στις 15 από τις τελευταίες 16 συμμετοχές του στη διοργάνωση ενώ έχει πετύχει τουλάχιστον ένα τρίποντο σε 13 σερί ματς στην Euroleague.<br />- Ο Αντρές Νοτσιόνι χρειάζεται 5 κοψίματα για να φτάσει τα 100 στον θεσμό.<br />- Ο Τζέισι Κάρολ έχει πετύχει τουλάχιστον ένα τρίποντο στις 10 από τις τελευταίες 11 συμμετοχές του.<br />- Ο Σέρχιο Ροντρίγκεθ μετράει 11 συνεχόμενες εύστοχες βολές.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Τακτική και δίτερμα</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/omades/Panathinaikos/taktikh-kai-diterma.3391615.html"/>
+		<link rel="@supertitle" title="Η ΠΡΟΠΟΝΗΣΗ ΤΗΣ ΠΕΜΠΤΗΣ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/omades/Panathinaikos/article2876739.ece/BINARY/w620/1125176.jpg" title="" credits="" caption=""/>
+		<category term="Panathinaikos" label="Παναθηναϊκός"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="omades" label="Ομάδες"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391615</id>
+		<updated>2015-04-02T13:28:00+02:00</updated>
+		<published>2015-04-02T13:28:00+02:00</published>
+		<summary>Με τακτική και δίτερμα συνεχίστηκε η προετοιμασία του Παναθηναϊκού για την εντός έδρας αναμέτρηση με τον Αστέρα Τρίπολης, το ερχόμενο Σάββατο.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Με πρωινή προπόνηση στο Κορωπί συνέχισαν την Πέμπτη την προετοιμασία τους για το ματς με τον Αστέρα Τρίπολης οι ποδοσφαιριστές του Παναθηναϊκού.</p><p align="left">Το πρόγραμμα των πράσινων περιλάμβανε αρχικά ζέσταμα, ακολούθως μια άσκηση πέντε εναντίον δυο, ασκήσεις τακτικής και οικογενειακό δίτερμα.</p> <p align="left">Οι παίκτες του Παναθηναϊκού θα προπονηθούν ξανά το απόγευμα της Παρασκευής.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Δεν το βάζει κάτω ο Πουρτουλίδης</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/omades/Iraklis/den-to-vazei-katw-o-poyrtoylidhs.3391605.html"/>
+		<link rel="@supertitle" title="ΣΤΑ ΠΙΤΣ Ο ΤΣΙΛΙΑΝΙΔΗΣ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/omades/Iraklis/article3391612.ece/BINARY/w620/1226507.jpg" title="" credits="" caption=""/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="omades" label="Ομάδες"/>
+		<category term="Iraklis" label="Ηρακλής"/>
+		<author>
+			<name>Πάρης Τσελεπίδης</name>
+		</author>
+		<id>3391605</id>
+		<updated>2015-04-02T13:25:00+02:00</updated>
+		<published>2015-04-02T13:26:00+02:00</published>
+		<summary>Το θέλω του Νίκου Πουρτουλίδη να προλάβει το παιχνίδι της Κυριακής με την Λάρισα είχε σαν αποτέλεσμα ο αρχηγός του Ηρακλή να ξεπεράσει το διάστρεμμα που είχε υποστεί το περασμένο Σάββατο κόντρα στον Αγροτικό Αστέρα.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Ο Νίκος Πουρτουλίδης δείχνει αποφασισμένος να ανατρέψει τα εις βάρος του δεδομένα που υπήρχανε στο ξεκίνημα της εβδομάδας στην συμμετοχή του στο παιχνίδι της Κυριακής του Ηρακλή κόντρα στην Λάρισα.</p><p>Ο αρχηγός του Ηρακλή είχε υποστεί διάστρεμμα στον αριστερό του αστράγαλο στο παιχνίδι του περασμένου Σαββάτου κόντρα στον Αγροτικό Αστέρα στον Εύοσμο.</p> <p>Αρχικά η συμμετοχή του ήταν αμφίβολη. Το γεγονός ότι η μαγνητική που υποβλήθηκε ήταν καθαρή είχε σαν αποτέλεσμα να φέρει χαμόγελα. Ωστόσο η σκέψη να προφυλαχθεί παρέμενε εν όψει της συνέχειας της χρονιάς και ειδικότερα για τον πρώτο ημιτελικό της Μεγάλης Πέμπτης με την Skoda Ξάνθη στο Καυτανζόγλειο Στάδιο.</p> <p>Ο Πουρτουλίδης με το ειδικό πρόγραμμα που ακολούθησε από την Δευτέρα σε καθημερινή βάση κατάφερε να ξεπεράσει σε σημαντικό βαθμό το διάστρεμμα που είχε υποστεί και σήμερα να τεθεί στην διάθεση του Νίκου Παπαδόπουλου. Ο τεχνικός του Ηρακλή εξάλλου ήθελε να έχει όλους τους ποδοσφαιριστές του στην διάθεσή του για το ραντεβού της Κυριακής με την Λάρισα. Πολύ περισσότερο τον αρχηγό του και ένα από τα βασικά γρανάζια και της φετινής χρονιάς.</p> <p>Από χθες εξάλλου στην διάθεση του Παπαδόπουλου βρίσκεται και ο Νίκος Ζιαμπάρης. Ο δυναμικός κεντρικός αμυντικός του Ηρακλή ξεπέρασε πλήρως το αιμάτωμα που είχε υποστεί από το περιμετρικό κάγκελο στο γήπεδο του Ευόσμου με τον Αγροτικό Αστέρα.</p> <p>Σε αντίθεση με τον Ζιαμπάρη και τον Πουρτουλίδη ερωτηματικό υπάρχει όσον αφορά την συμμετοχή του Κοσμά Τσιλιανίδη. Ο 20χρονος ακραίος χαφ του Ηρακλή επέστρεψε από την παρουσία του στην Εθνική Ελπίδων και το φιλικό της περασμένης Δευτέρας με την Κροατία στο Περιστέρι με ενοχλήσεις στους κοιλιακούς του. Ενοχλήσεις που προήλθανε από τα συνεχόμενα παιχνίδια που έχει δώσει με τον Ηρακλή σε Football League και Κύπελλο και δεν αποκλείεται να του στερήσουνε την παρουσία του κόντρα στην Λάρισα και η συμμετοχή του είναι αμφίβολη.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Φεύγει ο Λορία, εκκρεμεί νέα επαφή</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/omades/Paok/feugei-o-loria-ekkremei-nea-epafh.3391603.html"/>
+		<link rel="@supertitle" title="ΔΙΑΦΟΡΑ ΣΤΟΝ ΤΡΟΠΟ ΠΟΥ ΘΑ ΜΟΙΡΑΖΟΝΤΑΙ ΤΑ ΧΡΗΜΑΤΑ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/article3101111.ece/BINARY/w620/1158297.jpg" title="" credits="" caption="Λόρια"/>
+		<category term="Paok" label="ΠΑΟΚ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="omades" label="Ομάδες"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<author>
+			<name>Κώστας Πετρωτός</name>
+		</author>
+		<id>3391603</id>
+		<updated>2015-04-02T13:22:00+02:00</updated>
+		<published>2015-04-02T13:22:00+02:00</published>
+		<summary>Πως κατέληξε η νέα συζήτηση των ανθρώπων του ΠΑΟΚ με τον Γεωργιανό τερματοφύλακα, Λορία και τον εκπρόσωπό του.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Ο Λορία αποχαιρετά σήμερα (2/4) την Θεσσαλονίκη χωρίς να έχει επέλθει συμφωνία με τον ΠΑΟΚ. </p><p>Ο Γεωργιανός τερματοφύλακας και ο εκπρόσωπός του είχαν και την Πέμπτη (2/4) συζητήσεις με τους ανθρώπους του Δικεφάλου, κατά τις οποίες διαπιστώθηκε διαφορά, όχι τόσο μεγάλη στο οικονομικό, όση είχε διαπιστωθεί χθες, αλλά, κυρίως, στον τρόπο που θα χωρίζονται τα χρήματα, σε πάγιες απολαβές και μπόνους.</p><p>Η κουβέντα γίνεται για τετραετές συμβόλαιο, αλλά το ζήτημα, τουλάχιστον προς το παρόν, &quot;παγώνει&quot;, ίσως και γιατί ο ΠΑΟΚ θέλει να περιμένει πρώτα την έλευση του νέου τεχνικού διευθυντή και από εδώ και πέρα οι επαφές το πιο πιθανό είναι να γίνονται εξ' αποστάσεως μόνο με τον ατζέντη του. </p> <p>Η υπόθεση, λοιπόν, παραμένει ανοιχτή και μένει να φανεί ποια θα είναι η οριστική κατάληξη.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Η αποστολή της Αυστραλίας στο παγκόσμιο</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Sports/Stivos/h-apostolh-ths-aystralias-sto-pagkosmio.3391560.html"/>
+		<link rel="@supertitle" title="ΠΕΝΤΕ ΜΗΝΕΣ ΝΩΡΙΤΕΡΑ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/Stivos/article3391545.ece/BINARY/w620/pea.jpg" title="" credits="" caption=""/>
+		<category term="Stivos" label="Στίβος"/>
+		<category term="Sports" label="Σπορ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώτα Κουνάλη</name>
+		</author>
+		<id>3391560</id>
+		<updated>2015-04-02T13:14:00+02:00</updated>
+		<published>2015-04-02T13:14:00+02:00</published>
+		<summary>Η χρυσή Ολυμπιονίκης στα 100μ. εμπόδια Σάλι Πίρσον ηγείται της 26μελούς ομάδας της Αυστραλίας για το παγκόσμιο πρωτάθλημα ανοιχτού στίβου στο Πεκίνο.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Πέντε μήνες νωρίτερα πριν από το παγκόσμιο πρωτάθλημα ανοιχτού στίβου (22-30/8) έχουμε την πρώτη αποστολή. Πρόκειται για την Αυστραλία με την ομοσπονδία της χώρας να ανακοινώνει τη σύνθεση της ομάδας μετά την ολοκλήρωση του πρωταθλήματος.</p><p>Επικεφαλής είναι η &quot;χρυσή&quot; Ολυμπιονίκης στα 100μ. εμπόδια, Σάλι Πίρσον, η οποία θα επιχειρήσει να ανακτήσει τον παγκόσμιο τίτλο που έχασε στη Μόσχα από την Αμερικανίδα Μπριάνα Ρόλινς.</p> <p>Συνολικά 26 αθλητές απαρτίζουν την αυστραλιανή ομάδα. Σε αυτή συμπεριλαμβάνονται πέρα από την Πίρσον και οι άλλοι δύο αθλητές που κατέκτησαν μετάλλια στη Μόσχα: Η &quot;αργυρή&quot; στον ακοντισμό Κιμ Μικλ και ο &quot;χάλκινος&quot; στα 50χλμ. βάδην, Τζάρεντ Τάλεντ. </p><blockquote class="twitter-tweet" lang="el"><p>26 athletes have been CONFIRMED for <a href="https://twitter.com/hashtag/Beijing2015?src=hash">#Beijing2015</a> today. CONGRATULATIONS to all those selected. Bring it on! <a href="http://t.co/iu31HVBguR">pic.twitter.com/iu31HVBguR</a></p>&mdash; Athletics Australia (@AthsAust) <a href="https://twitter.com/AthsAust/status/583465837664673793">April 2, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Στην Ελλάδα μέχρι να αναρρώσει ο Φετφατζίδης</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/ellada/sthn-ellada-mexri-na-anarrwsei-o-fetfatzidhs.3391538.html"/>
+		<link rel="@supertitle" title="ΠΗΡΕ ΑΔΕΙΑ ΑΠΟ ΤΗΝ ΟΜΑΔΑ ΤΟΥ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/article3391579.ece/BINARY/w620/1225545.jpg" title="" credits="" caption="Φετφατζίδης"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="diethnes-podosfairo" label="Διεθνή"/>
+		<category term="Italy" label="Ιταλία"/>
+		<category term="ethniki_elladas" label="Εθνική Ελλάδας"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391538</id>
+		<updated>2015-04-02T13:14:00+02:00</updated>
+		<published>2015-04-02T13:16:00+02:00</published>
+		<summary>Ο Γιάννης Φετφατζίδης θα παραμείνει στη χώρα μας για λίγες ακόμα μέρες μέχρι να ξεπεράσει το σοκ του δυστυχήματος που έλαβε χώρα Ουγγαρία.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p><a href="http://www.sport24.gr/football/ellada/ethniki_elladas/troxaio-sth-voydapesth-gia-treis-diethneis.3385446.html" title="">Την Δευτέρα (30/3) το ταξί που επέβαιναν οι τρεις διεθνείς ποδοσφαιριστές της Ελλάδας</a>, Φετφατζίδης, Μόρας και Ταχτσίδης, <a href="http://www.sport24.gr/football/ellada/ethniki_elladas/kathhsyxastikoi-oi-anthrwpoi-toy-fetfatzidh.3385624.html" title="">συγκρούστηκε με διερχόμενο όχημα</a> με αποτέλεσμα να σκοτωθεί ο ένας οδηγός. </p><p>Τα τρία παιδιά είναι καλά, με τον Γιάννη Φετφατζίδη ωστόσο να τραυματίζεται στο μέτωπο και τον αυχένα. Βέβαια το μεγαλύτερο "τραύμα" είναι ψυχολογικό και καλείται να ξεπεράσει ο άσος της Κιέβο. </p><p>Αυτός είναι ο λόγος που ο ιταλικός σύλλογος έδωσε άδεια στον &quot;Φέτφα&quot; μέχρι την Δευτέρα με σκοπό να βρεθεί κοντά στα συγγενικά του πρόσωπα και να πάρει κουράγιο.</p> <p>Από την πρώτη στιγμή συμπαίκτες, φίλοι, συγγενείς, ακόμα και ο απλός κόσμος είναι στο πλευρό του Έλληνα άσου και τον στηρίζει.</p> <p>Τον Φετφατζίδη εξέτασε ξανά ο γιατρός της Εθνικής και ευτυχώς δεν έχει κάτι ανησυχητικό. Απλά του έχει ζητηθεί να φοράει συνέχεια κολάρο για τον αυχένα του και φυσικά να προσέχει τα ράμματα στο μέτωπο. </p> <p>Όσο οι μέρες θα κυλούν τόσο θα περνά ο πόνος που αισθάνεται και ταυτόχρονα θα φτιάχνει η ψυχολογία του. </p> <p>Όπως λένε οι δικοί του άνθρωποι: <em>&quot;Είναι δυνατός χαρακτήρας και θα το ξεπεράσει, απλά θέλει λίγο χρόνο&quot;. </em></p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Μεταγραφικός στόχος της Τότεναμ ο Αφελάι</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/omades/Olympiakos/metagrafikos-stoxos-ths-totenam-o-afelai.3391551.html"/>
+		<link rel="@supertitle" title="ΑΝΑΦΟΡΑ ΣΤΟ ΔΙΕΘΝΗ ΤΥΠΟ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/omades/Olympiakos/article3030406.ece/BINARY/w620/1145813.jpg" title="" credits="" caption=""/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="omades" label="Ομάδες"/>
+		<category term="Olympiakos" label="Ολυμπιακός"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391551</id>
+		<updated>2015-04-02T13:07:00+02:00</updated>
+		<published>2015-04-02T13:16:00+02:00</published>
+		<summary>Η Τότεναμ θα κινηθεί για την απόκτηση του Ιμπραχίμ Αφελάι το ερχόμενο καλοκαίρι. Δείτε τι γράφει δημοσίευμα ξένης ιστοσελίδας.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Τον μεταγραφικό της προγραμματισμό κάνει η Τότεναμ εν όψει του καλοκαιριού και στα πλάνα του προπονητής της Μαουρίτσιο Ποκετίνο, συμπεριλαμβάνεται ο Ιμπραχίμ Αφ
+			]]>
+			<![CDATA[
+			ελάι του Ολυμπιακού. Σύμφωνα με δημοσίευμα της αγγλικής ιστοσελίδας <a href="http://hereisthecity.com/en-gb/2015/04/02/barcelonas-free-agent-ibrahim-afellay-can-solve-tottenhams-right/" title="">hereisthecity.com</a> ο Αφελάι ενδέχεται να πάρει μεταγραφή στην ομάδα του Λονδίνου.</p><p>Όπως αναφέρει η ιστοσελίδα, οι Τάουνσεντ και Λαμέλα δεν έχουν κερδίσει την εμπιστοσύνη του Αργεντίνου προπονητή που ψάχνει για λύσεις.</p> <p>Η κλήση του Αφελάι στην εθνική Ολλανδίας και η συμμετοχή του στην βασική 11αδα σε επίσημα ματς των &quot;οράνιε&quot; φαίνεται ότι έπεισαν τον Ποκετίνο να ενδιαφερθεί για τον άσο του Ολυμπιακού, παρότι στους &quot;ερυθρόλευκους&quot; δεν έχει δικαιολογήσει την φήμη που τον συνόδευε όταν ήρθε στο Λιμάνι το περασμένο καλοκαίρι.</p> <p>Η ιστοσελίδα τον παρουσιάζει ως την ιδανική λύση για την θέση του μεσοεπιθετικού και προτείνει στην διοίκηση της ομάδας να κινηθεί γρήγορα για την απόκτηση του! Ο Αφελάι μένει ελεύθερος από την Μπαρτσελόνα το καλοκαίρι ενώ λήγει ο δανεισμός του από τον Ολυμπιακό.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Ο νικητής που αντιπαθούν οι Βρετανοί</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Sports/Stivos/o-nikhths-poy-antipathoun-oi-vretanoi.3390432.html"/>
+		<link rel="@supertitle" title="ΟΤΑΝ ΒΓΗΚΕ ΑΠΟ ΤΗ ΣΚΙΑ ΤΟΥ ΚΑΡΛ ΛΙΟΥΙΣ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/Stivos/article3390410.ece/BINARY/w620/57240.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/Sports/Stivos/article3390414.ece/BINARY/w620/mw18169.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/Sports/Stivos/article3390411.ece/BINARY/w620/18492.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="embed" type="youTube" href="http://www.sport24.gr/multimedia/video/telikos-100-metrwn-seoul.3390537.html" title="Τελικός 100 μέτρων (Σεούλ)" code="vTM_mvA4kas"/>
+		<link rel="enclosure" comment="embed" type="youTube" href="http://www.sport24.gr/multimedia/video/koursa-toy-aiwna-1991.3390376.html" title="Κούρσα του αιώνα 1991" code="ilSVFecILb4"/>
+		<link rel="enclosure" comment="embed" type="youTube" href="http://www.sport24.gr/multimedia/video/telikos-100m-varkelwnh-1992.3390362.html" title="Tελικός 100μ. Βαρκελώνη 1992" code="R2d27GX_8bw"/>
+		<link rel="enclosure" comment="embed" type="youTube" href="http://www.sport24.gr/multimedia/video/telikos-100-metrwn-1996.3390457.html" title="Τελικός 100 μέτρων 1996" code="pqijESw6xHg"/>
+		<category term="Stivos" label="Στίβος"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="Sports" label="Σπορ"/>
+		<author>
+			<name>Γιώτα Κουνάλη</name>
+		</author>
+		<id>3390432</id>
+		<updated>2015-04-02T13:03:00+02:00</updated>
+		<published>2015-04-02T13:03:00+02:00</published>
+		<summary>Ο Λίνφορντ Κρίστι χάρισε στην υιοθετημένη πατρίδα του τον λαμπρότερο τίτλο στο στίβο. Τα... κατορθώματα του ωστόσο εκτός αγώνων, του στέρησαν μια θέση στις "καρδιές" του βρετανικού κοινού.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Κανένας Έλληνας δεν έχει ξεχάσει τον Λίνφορντ Κρίστι ντυμένο αρχαίο Έλληνα να χορεύει συρτάκι αγκαλιά με τη Μέρλιν Ότι και τη Νίκη Ξάνθου σε συνέντευξη Τύπου για
+			]]>
+			<![CDATA[
+			το παγκόσμιο πρωτάθλημα ανοιχτού στίβου το 1997 στην Αθήνα.</p><p>Αυτή είναι μια πλευρά του κορυφαίου Ευρωπαίου σπρίντερ. Οι άλλες εικόνες είναι "το βλέμμα που σκοτώνει"
+			]]>
+			<![CDATA[
+			στην εκκίνηση του τελικού των 100 μέτρων στους Ολυμπιακούς Αγώνες της Βαρκελώνης το 1992, αλλά και ο γύρος του θριάμβου στην Ατλάντα τέσσερα χρόνια μετά και ενώ είχε α
+			]]>
+			<![CDATA[
+			ποκλειστεί με διπλή άκυρη εκκίνηση.</p><p>Ο Λίνφορντ Κρίστι λοιπόν, ένας από τους σπουδαιότερους σπρίντερ που γέννησε η Τζαμάικα (σ.σ. μετακόμισε στη Μεγάλη Βρετανία στα επτά του χρόνια) γίνεται σήμερα (2/4) 55 ετών. Ας τον θυμηθούμε.</p> <p>Γεννημένος στο Σεντ Άντριου της Τζαμάικα, την ίδια γειτονιά στην οποία μεγάλωσε και ο &quot;θρύλος&quot; του νησιού, Μπομπ Μάρλεϊ το 1960, ταξίδεψε στο Λονδίνο επτά χρόνια μετά για να ζήσει μόνιμα μαζί με τους γονείς του.</p> <p>Όσο εκείνοι δούλευαν για το μεροκάματο, ο μικρός Λίνφορντ έβρισκε &quot;καταφύγιο&quot; στο στάδιο. Δεν ήταν αποδεκτός από τους λευκούς συμμαθητές του και χρόνια μετά όταν ήταν ο διασημότερος αθλητής στη Μεγάλη Βρετανία, η αστυνομία τον σταματούσε στο δρόμο. Όχι για να του ζητήσουν αυτόγραφο, αλλά πίστευαν πως η Aston Martin ή η Jaquar που οδηγούσε, ήταν κλεμμένη. Πώς άλλωστε ένας μαύρος θα μπορούσε να αγοράσει ένα τέτοιο αυτοκίνητο.</p> <p><img id="_4dcd6883-6123-4865-a4b2-200066457f17" src="http://www.sport24.gr/Sports/Stivos/article3390411.ece/BINARY/18492.jpg" width="120" />&nbsp;</p> <p>Ο σωματότυπος του ήταν ιδανικός για στίβο, ήταν γρήγορος, όμως ο Λίνφορντ δεν έβλεπε αποτελέσματα. Παρακολούθησε τους Ολυμπιακούς Αγώνες του Λος Άντζελες από την τηλεόραση, θαυμάζοντας και ζηλεύοντας τα κατορθώματα του Καρλ Λιούις.</p> <p>Μονάχα όταν άλλαξε προπονητή και εμπιστεύτηκε την τύχη του στον Ρον Ρόνταν, ξεκίνησε να διακρίνεται. Η βελτίωση των επιδόσεων σε συνδυασμό με την αλλαγή στην εμφάνιση του, προκάλεσαν δυσμενή σχόλια. Συναθλητές, αντίπαλοι και εκπρόσωποι των βρετανικών ΜΜΕ υποστήριζαν πως έπαιρνε αναβολικά, στεροειδή. Αυτή η &quot;σκιά&quot; τον ακολούθησε σε ολόκληρη την καριέρα του και ατυχώς τον έβαλε στο παρασκήνιο.</p> <p>Αναδείχθηκε πρωταθλητής Ευρώπης το 1984 στη Στουτγάρδη με χρόνο, αλλά... κουμάντο στα 100 μέτρα έκαναν οι εκπρόσωποι των Ηνωμένων Πολιτειών και ο Καναδός Μπεν Τζόνσον, από τον οποίο είχε γνωρίσει την ήττα στον τελικό των Κοινοπολιτειακών Αγώνων.</p> <p>Όταν ο Τζόνσον πιάστηκε ντοπέ στη Σεούλ στο μεγαλύτερο σκάνδαλο ντόπινγκ στους Ολυμπιακούς Αγώνες, ο Κρίστι... επωφελήθηκε εκ των υστέρων. Εξασφάλισε το χάλκινο μετάλλιο από το παγκόσμιο της Ρώμης το 1987 (10.14 ο χρόνος του, 9.93 ο νικητής Λιούις), ενώ ανέβηκε στο δεύτερο σκαλοπάτι των Ολυμπιακών Αγώνων της Σεούλ.</p> <p>Στην κούρσα είχε τερματίσει τρίτος πίσω από τον Τζόνσον και τον Λιούις. Ο χρόνος του Κρίστι ήταν 9.97 δευτερόλεπτα, μεγάλο ρεκόρ Ευρώπης και η πρώτη φορά στην ιστορία των 100 μέτρων που ένας σπρίντερ είχε &quot;σπάσει&quot; το φράγμα των δέκα δευτερολέπτων δίχως να κατακτήσει το χρυσό μετάλλιο.</p> <p><a href="http://www.sport24.gr/multimedia/video/telikos-100-metrwn-seoul.3390537.html" id="_e76707e0-3132-477f-b2bb-661d8ef8fe15">Τελικός 100 μέτρων (Σεούλ)</a><iframe height="250" src="http://www.youtube.com/embed/vTM_mvA4kas" frameborder="0" allowfullscreen=""></iframe>&nbsp;</p> <p>Βέβαια πέρασε και ο ίδιος την αγωνία του, όταν βρέθηκε θετικός στην απαγορευμένη ουσία &quot;ψευτοεφεδρίνη&quot; σε έλεγχο που υποβλήθηκε μετά τον προκριματικό των 200 μέτρων. Το πάνελ που &quot;καταδίκασε&quot; τον Τζόνσον, &quot;αθώωσε&quot; τον Λίνφορντ Κρίστι εξαιτίας αμφιβολιών.</p> <p>Τα χρόνια που ακολούθησαν ο Κρίστι επιβεβαίωσε την κυριαρχία του επί ευρωπαϊκού εδάφους και ήταν ανάμεσα στους πρωταγωνιστές των 100 και 60 μέτρων στα παγκόσμια πρωταθλήματα, ποτέ πρώτος ωστόσο.</p> <p>Στην &quot;κούρσα του αιώνα&quot; στο Τόκιο το 1991 όπου οι έξι από τους οκτώ φιναλίστ τερμάτισαν σε χρόνο κάτω από τα 10 δευτερόλεπτα, ο Κρίστι ήταν τέταρτος με 9.92, ακόμη ένα ρεκόρ Ευρώπης. Η αμερικανική 3άδα Κάρλ Λιούις-Λιρόι Μπάρελ-Ντένις Μίτσελ φαινόταν πως θα κυριαρχήσει και στους Ολυμπιακούς Αγώνες ένα χρόνο μετά.</p> <p><a href="http://www.sport24.gr/multimedia/video/koursa-toy-aiwna-1991.3390376.html" id="_4ed21106-a361-4a51-8595-06b9955a84e3">Κούρσα του αιώνα 1991</a><iframe height="250" src="http://www.youtube.com/embed/ilSVFecILb4" frameborder="0" allowfullscreen=""></iframe></p> <p>Ο Λιούις όμως, ο αθλητής που &quot;ζήλεψε&quot; ο Λίνφορντ το 1984 και τον έβρισκε μπροστά του σε όλες τις επόμενες διοργανώσεις, είχε ξεκινήσει να χάνει όσα είχε χτίσει. Όταν ο Βρετανός έμαθε πως ο Αμερικανός είχε αποτύχει στα τράιαλς των Ηνωμένων Πολιτειών στα 100 και στα 200 μέτρα, άρα δεν θα είχε συμμετοχή σε αυτά τα αγωνίσματα στη Βαρκελώνη, χαμογέλασε πλατιά.</p> <p>Γνώριζε πως πλέον άνοιγε ο δρόμος για το βάθρο. &quot;<em>Στην εκκίνηση πρέπει να δείξεις στους άλλους πως δεν τους φοβάσαι. Άλλοι χοροπηδούν, βαράνε τον εαυτό τους, εγώ απλά στέκομαι, αυτοσυγκεντρώνομαι κοιτάζοντας τον τερματισμό. Είχα φίλου σε εκείνο τον τελικό. Αλλά δεν τους χρειάζεσαι όταν τρέχεις</em>&quot;, δήλωσε χρόνια μετά.</p> <p>Στον τελικό των Ολυμπιακών Αγώνων στο Ολυμπιακό στάδιο της Βαρκελώνης τερμάτισε πρώτος σε χρόνο 9.96. Ήταν 32 ετών και 121 ημερών ο μεγαλύτερος σε ηλικία νικητής στο 100άρι.</p> <p>&quot;<em>Τα 100 μέτρα είναι ακριβώς σαν να οδηγείς ένα αυτοκίνητο. Βάζεις την πρώτη, τη δεύτερη μέχρι να φτάσεις στην πέμπτη μετά τα 60 μέτρα. Εκεί προσπαθείς να διατηρήσεις την ταχύτητα. Αυτό είναι. Μετά χαλαρώνεις</em>&quot;. Πανηγύρισε την επιτυχία του με τον καλύτερο του φίλο, τον παγκόσμιο ρέκορντμαν στα 110μ. εμπόδια, Κόλιν Τζάκσον.</p> <p><a href="http://www.sport24.gr/multimedia/video/telikos-100m-varkelwnh-1992.3390362.html" id="_d592a852-12a5-4a8c-839d-dd00c2e5a1d6">Tελικός 100μ. Βαρκελώνη 1992</a><iframe height="250" src="http://www.youtube.com/embed/R2d27GX_8bw" frameborder="0" allowfullscreen=""></iframe></p> <p>Ποιος τον έπιανε από εκεί και μετά τον Λίνφορντ. Στέφθηκε παγκόσμιος πρωταθλητής το 1993 στη Στουτγκάρδη και ήταν ο κάτοχος των τεσσάρων σπουδαιότερων τίτλων στα 100 μέτρα (Ολυμπιακοί, παγκόσμιο, ευρωπαϊκό, Κοινοπολιτεία). Υπέγραφε εμπορικές συμφωνίες και για να έχει τον έλεγχο της καριέρας του, έστησε τη δική του εταιρεία μάνατζμεντ μαζί με τον Τζάκσον. Την ονόμασαν &quot;Nuff Respect&quot;, αν και αργότερα η συνεργασία και η φιλία τους, διαλύθηκε.</p> <p><img id="_e1a1751a-2f77-4bf6-9973-00bf6a3e3d13" src="http://www.sport24.gr/Sports/Stivos/article3390414.ece/BINARY/mw18169.jpg" width="120" /></p> <p>Υπολογίζεται πως κατά τη διάρκεια της καριέρας του ο Λίνφορντ κέρδισε 10.000.000 λίρες, ενώ έγινε πλουσιότερος καΆ 100.000 λίρες για να αντιμετωπίσει τον Λιούις σε μια &quot;μονομαχία&quot; στο Γκέιτσχεντ το 1993, χρονιά που αναδείχθηκε κορυφαίος αθλητής στη Μεγάλη Βρετανία στα βραβεία του BBC.</p> <p>To 1994 έδωσε μια συνέντευξη, λέγοντας πως πρέπει να συμπεριφέρονται σε όσους κάνουν χρήση απαγορευμένων ουσιών. Η απάντηση του συγκλόνισε, τόσο ωμή ήταν: &quot;<em>Μπορούν να τους κρεμάνε. Δεν με ενδιαφέρει. Η ποινή δεν με επηρεάζει, γιατί εγώ δεν παίρνω αναβολικά</em>&quot;.</p> <p>Από εκείνη τη χρονιά και μετά ξεκίνησε η &quot;δύση&quot; της καριέρας του. Υπήρχαν καινούργιοι σπρίντερ πλέον που διεκδικούσαν τον Ολυμπιακό τίτλο του στην Ατλάντα: Ο Τζαμαϊκανός Ντόνοβαν Μπέιλι που έτρεχε για τον Καναδά, ο Άτο Μπόλντον από το Τρίνινταντ και Τομπάγκο, ο Αμερικανός Τζον Ντράμοντ και φυσικά δύο παλιοί του αντίπαλοι, ο Μίτσελ και ο Φράνκι Φρέντερικς από τη Ναμίμπια.</p> <p>Στον τελικό της Ατλάντα ο Κρίστι είδε τον Μπέιλι να σηκώνει τα χέρια και να πανηγυρίζει τη νίκη από τη φυσούνα. Είχε κάνει διπλή άκυρη εκκίνηση, απέτυχε να υπερασπιστεί τον τίτλο του. Μακριά από τους νικητές έκανε το δικό του γύρο θριάμβου. Ήταν οι τελευταίοι του Ολυμπιακοί Αγώνες.</p> <p><a href="http://www.sport24.gr/multimedia/video/telikos-100-metrwn-1996.3390457.html" id="_a6e6b243-eea9-4c6b-b8d7-b18cd9e74941">Τελικός 100 μέτρων 1996</a><iframe height="250" src="http://www.youtube.com/embed/pqijESw6xHg" frameborder="0" allowfullscreen=""></iframe></p> <p>Το 1999 πιάστηκε ντοπέ στην απαγορευμένη ουσία ναδρολόνη. Βάσει των κανονισμών στη Μεγάλη Βρετανία ο αθλητής που συλλαμβάνεται χάνει το δικαίωμα να κάνει αγώνες ξανά. Η τιμωρία ακολουθεί τον Λίνφορντ Κρίστι ακόμη και όταν έγινε προπονητής. Οι αθλητές του κατέκτησαν μετάλλια, με τον Ντάρεν Κάμπελ να ανεβαίνει στο πρώτο σκαλί του βάθρου το 2004 στη σκυταλοδρομία 4χ100μ, αλλά ο Λίνφορντ δεν είχε δικαίωμα να πατήσει στο ΟΑΚΑ.</p> <p>Αντάλλαξε βαριές κουβέντες με τον Μπέιλι, τον Λιούις, αλλά ο μεγαλύτερος του αντίπαλος έτρεχε στις μεσαίες αποστάσεις. Πρόκειται για τον Σεμπάστιαν Κόε, τον επικεφαλής της οργανωτικής επιτροπής των Ολυμπιακών Αγώνων του 2012 και υποψήφιο για την προεδρία της παγκόσμιας ομοσπονδίας (IAAF). &quot;<em>Aυτός τί έκανε για τον στίβο; Όταν έτρεχα εγώ, ήταν σαν να έμπαινα στη &quot;μάχη&quot; για να υπερασπιστώ τη χώρα μου. Έβαλα το βρετανικό σπριντ στον παγκόσμιο χάρτη. Δεν τον αντέχω τον τύπο</em>&quot;.</p> <p>Η κόντρα τους κρατάει από τη δεκαετία του '80 και πραγματικά αν μπορούσε ο Λίνφορντ Κρίστι, θα έβγαζε πρόεδρο της IAAF τον Σεργκέι Μπούμπκα. Προτιμάει να ασχολείται ωστόσο με το χόμπι του, την κηπουρική, ενώ είχε και το δικό του πρόγραμμα στην τηλεόραση. Υπήρξε &quot;ο γρηγορότερος άνθρωπος στον κόσμο&quot; και &quot;ο γρηγορότερος παππούς στον κόσμο&quot; το 1995 όταν γεννήθηκε η εγγονή του, η Σακίρα!</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Preview: Μακάμπι – Γαλατάσαραϊ</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/Euroleague/preview-makampi-galatasarai.3391524.html"/>
+		<link rel="@supertitle" title="Η ΕΥΚΑΙΡΙΑ ΤΗΣ 'ΟΜΑΔΑΣ ΤΟΥ ΛΑΟΥ'"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_Limoges_csp/article3391492.ece/BINARY/w620/SOFO.jpg" title="" credits="" caption=""/>
+		<category term="eb-news" label="Ειδήσεις"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="eb_galatasaray" label="Galatasaray Liv Hospital Istanbul"/>
+		<category term="eb_maccabi_tel_aviv" label="Maccabi Electra Tel Aviv"/>
+		<category term="Euroleague" label="Euroleague"/>
+		<author>
+			<name>Γιάννης Σταυρουλάκης</name>
+		</author>
+		<id>3391524</id>
+		<updated>2015-04-02T12:58:00+02:00</updated>
+		<published>2015-04-02T13:03:00+02:00</published>
+		<summary>Η Μακάμπι θέλει να "κλειδώσει" μια θέση στα playoffs της Euroleague μπροστά στο κοινό της κόντρα στη Γαλατάσαραϊ (02/04, 21:05), περιμένοντας παράλληλα τα… ευχάριστα νέα από το ΟΑΚΑ και τον Παναθηναϊκό.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Η πρωταθλήτρια Ευρώπης Μακάμπι έχει την ευκαιρία να εξασφαλίσει απόψε (02/04, 21:05) τη συμμετοχή της στα playoffs σε περίπτωση νίκης επί της Γαλατάσαραϊ  στο Τελ Αβίβ και <
+			]]>
+			<![CDATA[
+			strong><a href="http://euroleague.sport24.gr/article/3391410/preview-panathhnaikos-almpa-verolinoy.html" title="">ήττας της Άλμπα από τον Παναθηναϊκό, στο ΟΑΚΑ</a></strong>.</p><p><strong><a href="euroleague.sport24.gr/stats/standings" title="">Η κατάταξη στον Ε' όμιλο</a></strong></p> <p>Αν η Μακάμπι ηττηθεί από τη Γαλατά ή αν η Άλμπα φύγει με το &quot;διπλό&quot; από την Αθήνα, οι δυο ομάδες θα λύσουν τις διαφορές τους στο μεταξύ τους ματς στο Βερολίνο, την επόμενη εβδομάδα.</p> <p><strong>Ενδιαφέροντα στοιχεία</strong></p> <p><strong>Μακάμπι<br /></strong>- Ο κόουτς Γκάι Γκούντες έχει χρησιμοποιήσει 12 διαφορετικούς παίκτες στις βασικές πεντάδες της Μακάμπι, φέτος. Ουδείς έχει ξεκινήσει πενταδάτος σε όλες τις αναμετρήσεις των Ισραηλινών στην Euroleague.<br />- O Σοφοκλής Σχορτσανίτης υπήρξε συμπαίκτης με τον Ζόραν Έρτσεγκ της Γαλατάσαραϊ στον Ολυμπιακό, τη σεζόν 2008-'09<br />-Ο Άλεξ Τάιους πέτυχε το πρώτο double-double της καριέρας του στην Euroleague την περσινή σεζόν, κόντρα στη Γαλατάσαραϊ. Συγκεκριμένα, είχε 12 πόντους και 11 ριμπάουντ στη νίκη της &quot;ομάδας του λαού&quot;.</p> <p><strong>Γαλατάσαραϊ<br /></strong>- Συνολικά 19 παίκτες έχουν εμφανιστεί στους αγώνες της Γαλατάσαραϊ από τον κόουτς Εργκίν Αταμάν στη φετινή Euroleague.<br />- Ο Μαρτίνας Πότσιους χρειάζεται δυο τρίποντα για να φτάσει τα 100 στην καριέρα του στην Euroleague. Παράλληλα, έχει πετύχει τουλάχιστον ένα τρίποντο στις 9 από τις τελευταίες 10 συμμετοχές του στη διοργάνωση.<br />- Ο Κερέμ Γκονλούμ έχει σημειώσει 10 συνεχόμενες εύστοχες βολές.<br />- Ο Ζόραν Έρτσεγκ έχει σημειώσει 11 σερί εύστοχες βολές.<br />-Ο Τζάστιν Κάρτερ έχει κάνει τουλάχιστον ένα κλέψιμο στις 8 από τις τελευταίες 9 συμμετοχές του στη διοργάνωση.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Εξασφάλισε άδεια ο Καλογέρης</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/omades/Aris/eksasfalise-adeia-o-kalogerhs.3391479.html"/>
+		<link rel="@supertitle" title="ΔΟΚΙΜΑΖΕΙ Ο ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ Στην προετοιμασία του Άρη για το μεθαυριανό ντέρμπι του 1ου ομίλου της Γ΄ Εθνικής με τον Πανσερραϊκό στο «Κλεάνθης Βικελίδης» ενσωματώθηκε ο Αλέξανδρος Καλογέρης."/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/article3391496.ece/BINARY/w620/1224650.jpg" title="" credits="" caption="Καλογέρης"/>
+		<category term="Aris" label="Άρης"/>
+		<category term="GEth_S" label="Γ' Εθνική"/>
+		<category term="omades" label="Ομάδες"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<author>
+			<name>Πάρης Τσελεπίδης</name>
+		</author>
+		<id>3391479</id>
+		<updated>2015-04-02T12:55:00+02:00</updated>
+		<published>2015-04-02T12:55:00+02:00</published>
+		<summary>Ο Αλέξανδρος Καλογέρης κατάφερε να εξασφαλίσει άδεια από την μονάδα του και να ενσωματωθεί στην προετοιμασία του Άρη για το μεθαυριανό ντέρμπι του 1ου ομίλου της Γ΄ Εθνικής με τον Πανσερραϊκό στο "Κλεάνθης Βικελίδης".</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Ο Καλογέρης ακολούθησε χθες ατομικό πρόγραμμα καθώς δεν πρόλαβε να είναι παρών στην προπόνηση σε αντίθεση με σήμερα που θα δώσει το παρών. Μάλιστα οι δοκιμές στην προπόνηση από τον Καλαϊτζίδη σήμερα και αύριο θα δείξουνε και κατά πόσο θα είναι στην βασική ενδεκάδα.</p><p>Αυτό που προβληματίζει τον τεχνικό του Άρη είναι ότι έχασε τις τρεις πρώτες προπονήσεις της ομάδας στα πλαίσια της προετοιμασίας για το αυριανό παιχνίδι με τον Πανσερραϊκό.</p> <p>Σε περίπτωση που ο Καλαϊτζίδης αφήσει τον Καλογέρη στον πάγκο τότε ο παρτενέρ του Σανιά στον άξονα της μεσαίας γραμμής θα είναι ένας από τους Σουνά, Γκίνο και Λεμονή. Ωστόσο δεν αποκλείεται να προωθηθεί ο Γκόλιας και την θέση του στο κεντρικό αμυντικό δίδυμο ως παρτενέρ του Σαμαρά να πάρει ο Φερνάντες.</p> <p>Οι προπονήσεις του Άρη μεταφέρθηκαν από χθες στο &laquo;Κλεάνθης Βικελίδης&raquo; με την διάρκειά τους να έχει μειωθεί αρκετά, ώστε οι ποδοσφαιριστές του να είναι &laquo;φρέσκοι&raquo; για το παιχνίδι του Σαββάτου. Ο Καλαϊτζίδης πάντως φροντίζει να κάνει συχνά πυκνά συστάσεις που αφορούν κυρίως την τακτική σε άμυνα και επίθεση.</p> <p>Πίεση για το εύκολο λάθος ζητάει συνεχώς ο Καλαϊτζίδης που θέλει να δει από την ομάδα του μία εικόνα πολύ καλύτερη από αυτή της περασμένης Κυριακής στην Αρναία. Στην σημερινή προπόνηση εξάλλου πρόκειται να δοκιμάσει να προπονηθεί και ο Βασίλης Κωνσταντινίδης μετά την διάταση που υπέστη στο τελευταίο παιχνίδι. Ανάλογα με το πως θα είναι θα συμπεριληφθεί ή όχι στην αποστολή.</p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>"Καμπάνα" σε Αιγάλεω</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/ElladaBasket/Eska/kampana-se-aigalew.3391456.html"/>
+		<link rel="@supertitle" title="ΓΙΑ ΕΠΕΙΣΟΔΙΑ ΣΕ ΑΓΩΝΑ ΠΑΙΔΩΝ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/ElladaBasket/Eska/article3391463.ece/BINARY/w620/ESKA-GENERAL.jpg" title="" credits="" caption=""/>
+		<category term="Eska" label="ΕΣΚΑ"/>
+		<category term="ElladaBasket" label="Ελλάδα"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3391456</id>
+		<updated>2015-04-02T12:50:00+02:00</updated>
+		<published>2015-04-02T12:50:00+02:00</published>
+		<summary>Η ΕΣΚΑ τιμώρησε το Αιγάλεω για τα επεισόδια σε αγώνα της ομάδας Παίδων με αυτή της Αναγέννησης Πετραλώνων. Σειρά παίρνει ο Αθλητικός Εισαγγελέας.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Πριν από μία εβδομάδα (πιο συγκεκριμένα, στις 24/3), ο αγώνας του Αιγάλεω με την Αναγέννηση Πετραλώνων για το πρωτάθλημα Παίδων της ΕΣΚΑ διεκόπη μετά από σοβαρά επεισόδια μεταξύ των φιλάθλων των ομάδων. Η σύρραξη που προκλήθηκε έφτασε μέχρι... το παρκέ, με τους διαιτητές και τους προπονητές να μαζεύουν τα παιδιά στα αποδυτήρια προκειμένου να τα προστατεύσουν.</p><p>Η αντίδραση της ΕΣΚΑ στα επεισόδια ήταν άμεση αφού σήμερα (2/4) ανακοινώθηκε η τιμωρία του Αιγάλεω, θεωρώντας τους οπαδούς του ως υπαίτους των επεισοδίων. Αυτή βέβαια είναι μόνο η αρχή, αφού τώρα τον λόγο θα πάρει ο Αθλητικός Εισαγγελέας.</p> <p><strong>Όπως ανακοινώθηκε από την ΕΣΚΑ, στο Αιγάλεω επιβάλλεται</strong>:</p> <table> <tbody> <tr> <td><p>1) Μηδενισμός παιδικής ομάδας του ΑΟ Αιγάλεω με το σκορ της διακοπής. (Άρθρο 82 του πειθαρχικού δικαίου).</p><p>2) Αφαίρεση δύο (2) βαθμών από τον βαθμολογικό πίνακα του πρωταθλήματος Παίδων της επόμενης αγωνιστικής περιόδου 2015-2016. (Άρθρο 82 του πειθαρχικού δικαίου).</p><p>3) Ποινή αποκλεισμού τεσσάρων (4) αγωνιστικών ημερών κεκλεισμένων των θυρών στην έδρα της παιδικής ομάδας του σωματείου.(Άρθρο 82 του πειθαρχικού δικαίου).</p><p>4) Καταβολή ζημιών του γηπέδου Απόλλωνος (Βάσει προκήρυξης Παίδων - Εφήβων).</p><p>5) Παραπομπή φακέλου στον Αθλητικό Εισαγγελέα</p></td> </tr> </tbody> </table>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Ξεκίνησαν οι απολογίες των κατηγορουμένων</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/ellada/ksekinhsan-oi-apologies-twn-kathgoroymenwn.3391432.html"/>
+		<link rel="@supertitle" title="ΘΑ ΖΗΤΗΣΟΥΝ ΠΡΟΘΕΣΜΙΑ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/article3391454.ece/BINARY/w620/dikastiria.jpg" title="" credits="" caption="Δικαστήρια Ευελπίδων"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="@top2" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391432</id>
+		<updated>2015-04-02T12:47:00+02:00</updated>
+		<published>2015-04-02T12:48:00+02:00</published>
+		<summary>Στο γραφείο του ειδικού ανακριτή διαφθοράς, Γιώργο Ανδρεάδη, βρίσκονται την Πέμπτη (2/4) οι πρώτοι κατηγορούμενοι για την υπόθεση της εγκληματικής οργάνωσης στο ελληνικό ποδόσφαιρο με σκοπό να απολογηθούν.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Με μία μέρα καθυστέρηση θα γίνει η <a href="http://www.sport24.gr/football/ellada/thn-pempth-oi-apologies-ston-anakrith-diafthoras.3389460.html" title="">απολογία των πρώτων κατηγορουμένων</a> της πολύκροτης υπόθεσης για την εγκληματική οργάνωση στο ελληνικό ποδόσφαιρο.</p><p>Η πρώτη... φουρνιά βρίσκεται στο γραφείο του κ. Ανδρεάδη στην Ευελπίδων με σκοπό να πάρει τη δικογραφία στα χέρια της και στη συνέχεια θα ζητήσει προθεσμία για να απολογηθεί εκ νέου. </p><p>Βέβαια πρέπει να τονίσουμε πως η όλη διαδικασία θα συνεχιστεί και τις επόμενες ημέρες, αφού την Παρασκευή θα βρεθούν στον ειδικό ανακριτή κι άλλοι κατηγορούμενοι. </p> <p>Επίσης ενδιαφέρον έχει να δούμε ποιοι από αυτούς θα παρουσιαστούν και ποιοι όχι. </p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Την ημέρα που ο Arturo Gatti παραλίγο να σκοτώσει τον αντίπαλο του</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Sports/OtherSports/fight-sports/thn-hmera-poy-o-arturo-gatti-paraligo-na-skotwsei-ton-antipalo-toy.3391430.html"/>
+		<link rel="@supertitle" title="ΕΓΚΛΗΜΑΤΙΚΟ ΛΑΘΟΣ ΤΗΣ ΟΜΟΣΠΟΝΔΙΑΣ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391434.ece/BINARY/w620/gamache.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="embed" type="youTube" href="http://www.sport24.gr/multimedia/video/arturo-gatti.3391431.html" title="Arturo Gatti" code="ijLl3i3NGF4"/>
+		<category term="fight-sports" label="Fightsports"/>
+		<category term="OtherSports" label="Άλλα Σπορ"/>
+		<category term="Sports" label="Σπορ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391430</id>
+		<updated>2015-04-02T12:46:00+02:00</updated>
+		<published>2015-04-02T12:46:00+02:00</published>
+		<summary>Ο Αrturo Gatti κατέστρεψε την καριέρα του αντιπάλου του. Ο Joey Gamacho οδηγήθηκε στο νοσοκομείο με εγκεφαλική αιμορραγία.</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Ένας από τους πιο επιθετικούς πυγμάχους στην ιστορία του αθλήματος, ο Arturo Gatti συνήθιζε να τελειώνει τα παιχνίδια του με εμφατικό τρόπο και το ίδιο έκανε τον Φεβρουάριο του 2000 ενάντια στον, επίσης πρώην πρωταθλητή, Joey Gamacho.</p><p>Ο Gamacho δέχτηκε 2 νοκ ντάουν στον πρώτο γύρο και βγήκε νοκ άουτ στον 2ο με σκληρό τρόπο. Όταν ξύπνησε από το ΚΟ αρνήθηκε να τον &quot;κουβαλήσουν&quot; στο φορείο και παραλίγο να πεθάνει αργότερα στο νοσοκομείο από εγκεφαλική αιμορραγία.</p> <p>Η &quot;μάχη&quot; όμως αυτή δεν είχε τελειώσει γι αυτόν. Μέσα στον αγώνα ήταν εμφανής η διαφορά των κιλών υπέρ του Gatti και ο Gamacho έκανε μήνυση προς την πυγμαχική ομοσπονδία για... μη σωστή καταμέτρηση του βάρους του. Η ζημιά που αποκόμισε όχι μόνο του σταμάτησε την καριέρα του σε εκείνο το σημείο αλλά του προκάλεσε εγκεφαλικά προβλήματα που ακόμη και 10 χρόνια μετά όταν η υπόθεση έφτασε στα δικαστήρια και ο Gatti είχε πεθάνει.</p> <p>Ο Gamacho είχε φτάσει σε σημείο να σκέφτεται συχνά την αυτοκτονία αφού οι πολύ ισχυρές ημικρανίες συνοδευόντουσαν από πολύ συχνή απώλεια μνήμης σε βαθμό που ανάγκαζε να κρατάει ένα σημειωματάριο μαζί του για να σημειώνει τα πράγματα που δεν ήθελε να ξεχάσει. 10 χρόνια μετά το δικαστήριο αναγνώρισε έλλειψη προσοχής από την ομοσπονδία στη ζύγιση αλλά όχι αρκετή για να αποζημιώσει τον Gamacho...</p> <p> <a href="http://www.sport24.gr/multimedia/video/arturo-gatti.3391431.html" id="_f526f587-8cd7-48fe-9258-075fe50bfa74">Arturo Gatti&nbsp;</a><iframe height="250" src="http://www.youtube.com/embed/ijLl3i3NGF4" frameborder="0" allowfullscreen=""></iframe> </p> <p><strong>Διαβάστε ακόμη στο&nbsp;<a href="http://fightsports.gr/">fightsports.gr</a>&nbsp;&nbsp;</strong><br /></p> <p><a href="http://www.fightsports.gr/%CE%B1%CF%84%CE%B1%CE%BE%CE%B9%CE%BD%CF%8C%CE%BC%CE%B7%CF%84%CE%B1/%CE%B2%CE%AF%CE%BD%CF%84%CE%B5%CE%BF-%CF%83%CE%BF%CE%BA-%CE%B7-%CE%B1%CF%80%CE%AC%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%B7-%CE%B5%CE%BA%CF%80%CE%B1%CE%AF%CE%B4%CE%B5%CF%85%CF%83%CE%B7-%CF%84%CE%BF%CF%85/#.VRuUgPmsVuI">Βίντεο - σοκ: Η απάνθρωπη εκπαίδευση του Ρωσικού στρατού</a> <br /><a href="http://www.fightsports.gr/%CE%B1%CF%84%CE%B1%CE%BE%CE%B9%CE%BD%CF%8C%CE%BC%CE%B7%CF%84%CE%B1/%CE%BF-%CE%BC%CE%B1%CF%81%CE%B1%CE%BD%CF%84%CF%8C%CE%BD%CE%B1-%CE%AD%CE%B3%CE%B9%CE%BD%CE%B5-%CF%81%CF%8C%CE%BA%CE%B9/#.VRz6lfmsVuI">Ο Μαραντόνα έγινε… Ρόκι!</a><br /><a href="http://www.fightsports.gr/%CE%B1%CF%84%CE%B1%CE%BE%CE%B9%CE%BD%CF%8C%CE%BC%CE%B7%CF%84%CE%B1/%CE%AD%CF%84%CF%83%CE%B9-%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%AE%CE%B8%CE%B7%CE%BA%CE%B1%CE%BD-%CE%BF%CE%B9-%CF%80%CE%BF%CE%BB%CE%B5%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%84%CE%AD%CF%87/#.VRzpLvmsVuI"><u>Έτσι δημιουργήθηκαν οι πολεμικές τέχνες των Σπαρτιατών στην ταινία 300! (ΒΙΝΤΕΟ)</u></a></p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Αυτοί που τα πήραν όλα</title>
+		<type>news</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/Euroleague/aytoi-poy-ta-phran-ola.3301830.html"/>
+		<link rel="@supertitle" title="ΤΟ ΚΛΕΙΣΤΟ ΚΛΑΜΠ ΤΩΝ TRIPLE CROWN"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_olympiacos/article3361395.ece/BINARY/w620/eso.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_panathinaikos/article3361358.ece/BINARY/w620/pao+triple+crown.jpg" credits="" caption=""/>
+		<link rel="enclosure" comment="inline" type="image/jpeg" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_maccabi_tel_aviv/article3301973.ece/BINARY/w620/triple-crown.jpg" credits="" caption=""/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="eb-afieromata" label="Αφιερώματα"/>
+		<category term="euroleague_group_b" label="NewSite euroleague groups"/>
+		<category term="ElladaBasket" label="Ελλάδα"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="Euroleague" label="Euroleague"/>
+		<author>
+			<name>Αναστάσης Καραμουσαδάκης</name>
+		</author>
+		<id>3301830</id>
+		<updated>2015-04-02T12:35:00+02:00</updated>
+		<published>2015-04-02T13:56:00+02:00</published>
+		<summary>Οι ομάδες που έχουν καταφέρει να πανηγυρίσουν τουλάχιστον ένα Triple Crown είναι λίγες. Αυτή την αγωνιστική στην Euroleague θα κοντραριστούν 4 εξ αυτών. Δείτε ποιοι το κατάφεραν και πόσες φορές έχουν ζήσει την εμπειρία ενός "treble".</summary>
+		<content:encoded>
+			<![CDATA[
+			<p>Οι μεγάλες διοργανώσεις φιλοξενούν μεγάλα παιχνίδια κι αυτός είναι ένας από τους λόγους που η Euroleague είναι η κορυφαία λίγκα της Ευρώπης κι εκ των κορυφαίων στον κό
+			]]>
+			<![CDATA[
+			σμο. Η 13η αγωνιστική του ΤΟΡ 16 αποδεικνύει του λόγου το αληθές.</p><p>ΤΣΣΚΑ - Ολυμπιακός (3/4, 20.00) και Μπαρτσελόνα - Ρεάλ Μαδρίτης (2/4, 21.45) είναι δύο αγώνες με... ειδικό βάρος, καθώς εκτός από την πλούσια ιστορία υπάρχει και κάτι ακόμα που ενώνει αυτούς τους 4 "γίγαντες". Όλοι είναι μέλη ενός... "κλειστού κλαμπ" που λίγοι έχουν την τιμή να βρίσκονται. Και οι τέσσερις έχουν στην τροπαιοθήκη τους τουλάχιστον ένα <strong>Triple Crown</strong>!</p><p>Με αφορμή αυτές τις αναμετρήσεις το <strong>Euroleague Greece</strong> σας θυμίζει τις, μόλις, <strong>12 ομάδες </strong>που έχουν καταφέρει να κατακτήσουν <strong>Triple Crown </strong>στην ιστορία του ευρωπαϊκού μπάσκετ. Από την μεγάλη <strong>Ρεάλ</strong> του <strong>Λόλο Σάινθ </strong>και του <strong>Κλίφορντ Λιούκ</strong> το <strong>1965, </strong>μέχρι την περσινή <strong>Μακάμπι</strong> των <strong>Ντέιβιντ Μπλου</strong> και <strong>Σοφοκλή Σχορτσανίτη</strong> προσπάθησαν πολλοί, όμως τελικά, λίγοι ήταν αυτοί που κατάφεραν να <strong />κάνουν το <strong>3 στα 3 σε Ευρώπη και εγχώριο πρωτάθλημα</strong>.</p><p>Η ομάδα που έχει καταφέρει περισσότερες φορές να φτάσει στην κατάκτηση των τριών τίτλων την ίδια χρονιά είναι η Μακάμπι Τελ Αβίβ. Οι παίκτες των Ισραηλινών 6 σεζόν έχουν... βαρεθεί να σηκώνουν τρόπαια. Την ακολουθούν με 2 Triple Crown οι Ρεάλ, Παναθηναϊκός, Ίνις Βαρέζε και Γιουγκοπλάστικα, η οποία, όμως έχει την ιδιαιτερότητα ότι το δεύτερο &quot;treble&quot; το πήρε ως Pop '84.</p> <p><img id="_330eb613-4836-49d7-8f4b-1fa0bb469501" src="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_panathinaikos/article3361358.ece/BINARY/pao+triple+crown.jpg" width="120" />&nbsp;</p> <h2>Οι 12 ομάδες που το κατάφεραν</h2> <p><strong>Μακάμπι Τελ Αβίβ</strong> (6): 1977, 1981, 2001*, 2004, 2005, 2014</p> <p><strong>Ρεάλ</strong> <strong>Μαδρίτης</strong> (2): 1965, 1974</p> <p><strong>Παναθηναϊκός</strong> (2): 2007, 2009</p> <p><strong>Ίνις</strong> <strong>Βαρέζε</strong> (2): 1970, 1973</p> <p><strong>Γιουγκοπλάστικα Σπλιτ/Pop '84</strong> (2): 1990, 1991</p> <p><strong>Τσιμπόνα</strong> <strong>Ζάγκρεμπ</strong> (1): 1985</p> <p><strong>Τρέισερ</strong> <strong>Μιλάνο</strong> (1): 1987</p> <p><strong>Παρτιζάν</strong> (1): 1992</p> <p><strong>Ολυμπιακός</strong> (1): 1997</p> <p><strong>Κίντερ</strong> <strong>Μπολόνια</strong> (1): 2001*</p> <p><strong>Μπαρτσελόνα</strong> (1): 2003</p> <p><strong>ΤΣΣΚΑ</strong> <strong>Μόσχας</strong> (1): 2006</p> <p><u><strong>ΣΥΝΟΛΙΚΑ</strong>: 21 φορές </u>έγινε Triple Crown στην Ευρώπη</p> <p>* <u>Το 2001 υπάρχουν 2 πρωταθλητές Ευρώπης, καθώς η Μακάμπι Τελ Αβίβ κατέκτησε την Suproleague που γινόταν από την Fiba και η Κίντερ Μπολόνια την Euroleague που διοργανώθηκε από την Uleb</u></p> <p><img id="_697edda2-5533-4fd0-9a89-8fb6b7442087" src="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_maccabi_tel_aviv/article3301973.ece/BINARY/triple-crown.jpg" width="120" /></p> <p><strong><a href="http://www.sport24.gr/web-tv/superbasketball/live-sbb/super-basketball-top-16-day-13.3389369.html" title="">Ο πρόεδρος του ΕΣΑΚΕ, Γιώργος Χαλβατζάκης, θα είναι καλεσμένος στη Super Basketball που θα μεταδοθεί ζωντανά μετά το τέλος του αγώνα Παναθηναϊκός-Άλμπα Βερολίνου (00.00). Παρουσιάζουν οι Στ. Τριαντάφυλλος και Γιάννης Φιλέρης. Συμμετέχουν Π. Διαμαντόπουλος, Τ. Μαγουλάς και Ν. Μπάκουλη</a></strong>. </p>
+			]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>True To My Love Salon Cape</title>
+		<type>news</type>
+		<link rel="alternate" href="http://ladylike.gr/articles/shopping_list/omorfia_shopping/true-to-my-love-salon-cape.3508999.html"/>
+		<link rel="@supertitle" title=""/>
+		<product price="50" href="http://go.linkwi.se/z/10526-0/CD14896/?lnkurl=http%3A%2F%2Fedhardystyle.gr"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://ladylike.gr/articles/shopping_list/omorfia_shopping/article3508998.ece/BINARY/w620/cape.jpg" title="" credits="" caption=""/>
+		<category term="omorfia_shopping" label="Ομορφιά"/>
+		<category term="ece_frontpage" label="ladylike"/>
+		<category term="shopping_list" label="Shopping"/>
+		<category term="articles" label="Άρθρα"/>
+		<author>
+			<name>Ιωάννα Μαμάη</name>
+		</author>
+		<id>3508999</id>
+		<updated>2015-06-04T13:41:00+02:00</updated>
+		<published>2015-06-04T13:41:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[
+			<p> </p><p>Κομμωχιτώνας για επαγγελματίες με το σχέδιο True To My Love και την υπογραφή του Don Ed Hardy. Έχει χρώμα μαύρο και δεύτερο σχέδιο στον φόντο. Μακριά λωρίδα VELCRO για ρύθμιση μεγέθους στον λαιμό. Ελαφρύ, poly-satin αντιστατικό υλικό. Αντιστέκεται στο νερό και στους λεκκέδες.</p>
+			]]>
+		</content:encoded>
+	</entry>
+</feed>

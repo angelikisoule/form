@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+  	<parent>
+    	<groupId>gr.media24.mSites</groupId>
+    	<artifactId>mSites</artifactId>
+    	<version>1.0</version>
+  	</parent>
+  	<artifactId>mSites.atom</artifactId>
+  	<name>mSites.atom</name>
+  	<dependencies>
+  	  	<!-- Apache Commons Dependencies -->
+	   	<dependency>
+	    	<groupId>org.apache.commons</groupId>
+	       	<artifactId>commons-lang3</artifactId>
+      	</dependency>
+  		<!-- Log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+           	<artifactId>log4j</artifactId>
+       	</dependency>
+       	<dependency>
+           	<groupId>org.slf4j</groupId>
+           	<artifactId>slf4j-log4j12</artifactId>
+           	<type>jar</type>
+       	</dependency>
+       	<!-- XML Pull Parsing API -->
+		<dependency>
+           	<groupId>xmlpull</groupId>
+           	<artifactId>xmlpull</artifactId>
+        </dependency>
+		<dependency>
+            <groupId>xpp3</groupId>
+            <artifactId>xpp3</artifactId>
+        </dependency>
+  	</dependencies>
+</project>

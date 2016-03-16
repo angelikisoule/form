@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<title>sport24</title>
+	<link rel="self" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=picture&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=50"/>
+	<link rel="first" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=picture&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=50"/>
+	<link rel="next" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=picture&amp;view=generic/v2/latest-atom&amp;page=2&amp;items=50"/>
+	<link rel="last" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=picture&amp;view=generic/v2/latest-atom&amp;page=611&amp;items=50"/>
+	<link rel="alternate" href="http://www.sport24.gr/"/>
+	<subtitle>sport24</subtitle>
+	<id>http://www.sport24.gr/</id>
+	<icon>
+		http://www.sport24.gr/skins/bugs-fixed/img/logo-big-transparent_1.png
+	</icon>
+	<updated>2015-04-02T12:06:00+02:00</updated>
+	<entry>
+		<title>Ατρόμητος - Κέρκυρα</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391371.ece"/>
+		<credits>Picture Credits</credits>
+		<caption>Ατρόμητος - Κέρκυρα</caption>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391371</id>
+		<updated>2015-04-02T12:06:00+02:00</updated>
+		<published>2015-04-02T12:06:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>ΠΑΣ Γιάννινα - Ολυμπιακός</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391367.ece"/>
+		<credits/>
+		<caption>ΠΑΣ Γιάννινα - Ολυμπιακός</caption>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391367</id>
+		<updated>2015-04-02T12:03:00+02:00</updated>
+		<published>2015-04-02T12:03:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>ΠΑΟΚ - Ξάνθη</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391365.ece"/>
+		<credits/>
+		<caption>ΠΑΟΚ - Ξάνθη</caption>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391365</id>
+		<updated>2015-04-02T12:02:00+02:00</updated>
+		<published>2015-04-02T12:02:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Εργοτέλης - Πανθρακικός</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391358.ece"/>
+		<credits/>
+		<caption>Εργοτέλης - Πανθρακικός</caption>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391358</id>
+		<updated>2015-04-02T11:59:00+02:00</updated>
+		<published>2015-04-02T11:59:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Brook Lopez</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391357.ece"/>
+		<credits/>
+		<caption/>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Χάρης Σταύρου</name>
+		</author>
+		<id>3391357</id>
+		<updated>2015-04-02T11:59:00+02:00</updated>
+		<published>2015-04-02T11:59:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Πανιώνιος - Παναιτωλικός</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391351.ece"/>
+		<credits/>
+		<caption>Πανιώνιος - Παναιτωλικός</caption>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391351</id>
+		<updated>2015-04-02T11:57:00+02:00</updated>
+		<published>2015-04-02T11:57:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Σφαιρόπουλος</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/Euroleague/eb-news/article3391348.ece"/>
+		<credits/>
+		<caption/>
+		<link rel="@supertitle" title=""/>
+		<category term="eb-news" label="Ειδήσεις"/>
+		<category term="Euroleague" label="Euroleague"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3391348</id>
+		<updated>2015-04-02T11:56:00+02:00</updated>
+		<published>2015-04-02T11:56:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Πλατανιάς - Βέροια</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/football/article3391340.ece"/>
+		<credits/>
+		<caption>Πλατανιάς - Βέροια</caption>
+		<link rel="@supertitle" title=""/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Γιώργος Χριστοφόρου</name>
+		</author>
+		<id>3391340</id>
+		<updated>2015-04-02T11:54:00+02:00</updated>
+		<published>2015-04-02T11:54:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>1215640.jpg</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/incoming/article3391329.ece"/>
+		<credits/>
+		<caption/>
+		<link rel="@supertitle" title=""/>
+		<category term="ece_incoming" label="New Articles"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Θοδωρής Ρούσσος</name>
+		</author>
+		<id>3391329</id>
+		<updated>2015-04-02T11:51:00+02:00</updated>
+		<published>2015-04-02T11:51:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Πεκέρ Ερντογκάν</title>
+		<type>picture</type>
+		<link rel="alternate" href="http://www.sport24.gr/Basket/Euroleague/eb-news/eb_laboral_kutxa/article3391315.ece"/>
+		<credits/>
+		<caption/>
+		<link rel="@supertitle" title=""/>
+		<category term="eb_laboral_kutxa" label="Laboral Kutxa Vitoria"/>
+		<category term="eb-news" label="Ειδήσεις"/>
+		<category term="Euroleague" label="Euroleague"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Αλέξανδρος Τρίγκας</name>
+		</author>
+		<id>3391315</id>
+		<updated>2015-04-02T11:41:00+02:00</updated>
+		<published>2015-04-02T11:41:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+</feed>

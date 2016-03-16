@@ -1,0 +1,21 @@
+#Temporary Files
+*~
+
+#Eclipse
+.classpath
+.project
+.settings/
+
+#Maven
+target/
+
+#Javadocs
+doc/
+
+#Bootstrap
+mSites.admin/src/main/webapp/static/admin/bootstrap-3.3.2/dist/
+mSites.admin/src/main/webapp/static/admin/bootstrap-3.3.2/node_modules/
+
+#builder.py
+build
+src/main/webapp/design/build/

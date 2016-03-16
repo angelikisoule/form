@@ -1,0 +1,209 @@
+/***** Carousel Opinions *****/
+
+#carousel-opinions {
+	margin-bottom:22px;
+	padding-bottom:28px;
+}
+#carousel-opinions .carousel-inner {
+	background:#05cb98;
+	background-image:url(/static/ladylike/images/xs/Opinions.png);
+  	background-repeat:no-repeat;
+  	background-position:center 17px;
+  	background-size:150px 69px;
+}
+#carousel-opinions .carousel-inner .header{
+	display: block;
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+#carousel-opinions .opinionsLogo {
+	height:69px;
+	width:auto;
+	margin:17px auto 0 auto;
+}
+#carousel-opinions .carousel-caption {
+	position:static;
+	padding:85px 50px 0 50px;
+	padding-bottom:0;
+	text-shadow:none;
+}
+#carousel-opinions .carousel-control {
+	background:none;
+	width:38px;
+	z-index:9999;
+	height:290px;
+}
+#carousel-opinions .arrowLeft {
+	display:inline-block;
+	width:20px;
+	height:34px;
+	background:none;
+	background-image:url(/static/ladylike/images/xs/ArrowLeftOpinions.png);
+	background-repeat:no-repeat;
+	background-position-x:center;
+  	background-position-y:center;
+  	background-size:20px 34px;
+	position:absolute;
+	top:125px;
+	right:0;
+	z-index:99;
+}
+#carousel-opinions .arrowRight {
+	display:inline-block;
+	width:20px;
+	height:34px;
+	background:none;
+	background-image:url(/static/ladylike/images/xs/ArrowRightOpinions.png);
+	background-repeat:no-repeat;
+	background-position-x:center;
+  	background-position-y:center;
+  	background-size:20px 34px;
+	position:absolute;
+	top:125px;
+	left:0;
+	z-index:99;
+}
+#carousel-opinions .carousel-indicators {
+	bottom:0;
+	margin-bottom:0;
+	height:28px;
+	padding-top:5px;
+}
+#carousel-opinions .carousel-indicators li {
+	width:12px;
+	height:12px;
+	margin:0;
+	background-color:#cccccc;
+}
+#carousel-opinions .carousel-indicators li.active {
+	background-color:#05cb98;
+}
+#carousel-opinions .carousel-author-name {
+	display:inline-block;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	font-size:13px;
+	line-height:13px;
+	height:21px;
+	font-style:italic;
+	position:relative;
+	top:-10px;
+}
+#carousel-opinions .carousel-author-name a {
+	display:block;
+	color:#e6faf5;
+	text-decoration:none;
+	height:21px;
+	position:relative;
+	top:10px;
+}
+#carousel-opinions .border {
+	padding:0 30px;
+	border-bottom:1px solid #9bead6;
+}
+#carousel-opinions .border span {
+	display:block;
+	position:relative;
+	top:7px;
+	background:#05cb98;
+	padding:0 10px;
+}
+#carousel-opinions .carousel-title {
+	display:block;
+	text-decoration:none;
+	position:relative;
+	top:-10px;
+	margin-top:20px;
+}
+#carousel-opinions .carousel-title span {
+	display:block;
+	color:#e6faf5;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	font-size:24px;
+	line-height:24px;
+	font-weight:300;
+	padding:0 20px;
+}
+#carousel-opinions .carousel-author-picture {
+	display:block;
+	width:115px;
+	height:115px;
+	margin:0 auto;
+	border-radius:100%;
+	background-repeat:no-repeat;
+	background-size:115px;
+	opacity:0.9;
+}
+#carousel-opinions .carousel-author-picture.siati {
+	background-image:url(/static/ladylike/images/xs/siati.png);	
+}
+#carousel-opinions .carousel-author-picture.xagia {
+	background-image:url(/static/ladylike/images/xs/xagia.png);	
+}
+#carousel-opinions .carousel-author-picture.saitaki {
+	background-image:url(/static/ladylike/images/xs/saitaki.png);	
+}
+#carousel-opinions .carousel-author-picture.despoina {
+	background-image:url(/static/ladylike/images/xs/despoina.png);	
+}
+#carousel-opinions .carousel-author-picture.mamai {
+	background-image:url(/static/ladylike/images/xs/mamai.png);	
+}
+#carousel-opinions .carousel-author-picture.marietta {
+	background-image:url(/static/ladylike/images/xs/marietta.png);	
+}
+#carousel-opinions .carousel-author-picture.marion {
+	background-image:url(/static/ladylike/images/xs/marion.png);	
+}
+#carousel-opinions .carousel-control:focus, #carousel-opinions .carousel-control:hover, #carousel-opinions .carousel-control:visited {
+	opacity:0.5;
+}
+#carousel-opinions .carousel-control:active {
+	opacity:0.9;
+}
+/* open menu */
+body.open-sidebar .carousel{
+	z-index: 1;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	#carousel-opinions .carousel-inner {
+		background-image:url(/static/ladylike/images/sm/Opinions.png);
+	}
+	#carousel-opinions .arrowLeft {
+		background-image:url(/static/ladylike/images/sm/ArrowLeftOpinions.png);
+	}
+	#carousel-opinions .arrowRight {
+		background-image:url(/static/ladylike/images/sm/ArrowRightOpinions.png);
+	}
+	#carousel-opinions .carousel-author-picture.siati {
+		background-image:url(/static/ladylike/images/sm/siati.png);	
+	}
+	#carousel-opinions .carousel-author-picture.xagia {
+		background-image:url(/static/ladylike/images/sm/xagia.png);	
+	}
+	#carousel-opinions .carousel-author-picture.saitaki {
+		background-image:url(/static/ladylike/images/sm/saitaki.png);	
+	}
+	#carousel-opinions .carousel-author-picture.despoina {
+		background-image:url(/static/ladylike/images/sm/despoina.png);	
+	}
+	#carousel-opinions .carousel-author-picture.mamai {
+		background-image:url(/static/ladylike/images/sm/mamai.png);	
+	}
+	#carousel-opinions .carousel-author-picture.marietta {
+		background-image:url(/static/ladylike/images/sm/marietta.png);	
+	}
+	#carousel-opinions .carousel-author-picture.marion {
+		background-image:url(/static/ladylike/images/sm/marion.png);	
+	}
+}

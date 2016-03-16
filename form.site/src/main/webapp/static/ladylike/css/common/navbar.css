@@ -1,0 +1,449 @@
+/* gallery and product articles */
+.galleryBody .navbar-fixed-bottom, .galleryBody .navbar-fixed-top{
+	position: relative;
+	margin-top: -65px;
+}
+.shoppingProduct .navbar-fixed-bottom, .shoppingProduct .navbar-fixed-top {
+	position: relative;
+	margin-top: -60px;
+}
+body.open-sidebar {
+	overflow-y: hidden;
+	 width: 100%;
+	 overflow: hidden;
+	 position: fixed;
+}
+.galleryBody #sidebar-toggle {
+	position: relative;
+}
+/***** Navbar *****/
+.navbar, .navbar .container-fluid {
+	height:51px;
+	z-index: 99999;
+}
+.navbar {
+	margin-bottom:0;
+	border:none;
+    transition: top 0.2s ease-in-out;
+}
+.nav-up {
+    top: -80px;
+}
+.navbar .brand {
+	display:block;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/Logo.png);
+	background-size:202px 39px;
+	width:202px;
+	height:39px;
+	margin:6px 0;
+	position: relative;
+	right:0;
+	top:0;
+}
+.navbar .menu {
+	display:block;
+	float:right;
+	background-image:url(/static/ladylike/images/xs/Toggle.png);
+	background-size:28px 21px;
+	width:28px;
+	height:21px;
+	margin:15px 0;
+}
+#sidebar, #sidebar-toggle, .brand, .navbar form, .xartaki {
+  	-webkit-transition: right 0.4s ease-in-out;
+  	-moz-transition: right 0.4s ease-in-out;
+  	-ms-transition: right 0.4s ease-in-out;
+  	-o-transition: right 0.4s ease-in-out;
+  	transition: right 0.4s ease-in-out;
+}
+.swipe-area {
+	position:fixed;
+	width:50px;
+	right:0px;
+	top:0;
+	height:230%;
+	background-color:transparent;
+  	z-index:9999;
+  	display:none;
+}
+#sidebar { 
+	position: fixed;
+	width: 261px;
+	top:51px;
+	right: -247px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  	z-index: 999999;
+	/* padding-left: 50px; */
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+  	margin-right: -14px !important;
+  	-webkit-overflow-scrolling: touch;
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #ff5050;
+}
+#sidebar ul li {
+	margin: 0 0 0 10px;
+	position: relative;
+	display: block;
+	border-bottom: 1px solid #9c2525;
+	min-height: 46px;
+}
+#sidebar ul li:first-child {
+	border-top: 1px solid #9c2525;
+}
+#sidebar ul li.white {
+	background-color: #fff;
+	margin-left: 0px;
+	padding-left: 10px;
+}
+#sidebar ul li.white div {
+	min-height: 46px;
+}
+#sidebar ul li.white a {
+	color:  #9c2525;
+}
+#sidebar ul li a {
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	color:#ffffff;
+	font-size:20px;
+	font-weight: 300;
+	line-height: 15px;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	top: 17px;
+	position: relative;
+	  letter-spacing: 1.5px;
+}
+#sidebar ul li:last-child div {
+	border-bottom: none;
+}
+#sidebar-toggle {
+	display: block;
+	position: relative;
+	right: 10px;
+	top: 0px;
+	z-index: 100000;
+}
+#sidebar-toggle .bar {
+	display: block;
+	width: 18px;
+	margin-bottom: 3px;
+	height: 2px;
+	background-color: #fff;
+	border-radius: 1px;
+}
+.main-content #sidebar-toggle .bar:last-child {
+	margin-bottom: 0;
+}
+/*open sidebar menu */
+.navbar.open-sidebar #sidebar-toggle {
+right:256px;
+}
+body.open-sidebar .swipe-area {
+	right: 248px;
+}
+#sidebar a {
+	outline: 0;
+}
+.navbar.open-sidebar #sidebar-toggle {
+	right:253px;
+	background-image:url(/static/ladylike/images/xs/close_button.png);
+	background-size:21px 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#sidebar.open-sidebar .swipe-area {
+	right:248px;
+}
+.navbar .brand.open-sidebar {
+	right:253px;
+}
+/* submenu */
+#sidebar .btn-primary {
+	width: 45px;
+	position: relative;
+	right: -185px;
+	background-color: transparent;
+  	border-left: 1px #9c2525 solid;
+  	border-top: none !important;
+  	border-right: none;
+  	border-bottom: none;
+  	border-radius: 0;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	height: 31px;
+  	top: -7px;
+  	background-size:22px 11px;
+}
+#sidebar .btn.btn-primary[aria-expanded="true"] {
+	background-image:url(/static/ladylike/images/xs/Arrow-menu-up.png);
+}
+#sidebar .white .btn.btn-primary[aria-expanded="true"] {
+	background-image:url(/static/ladylike/images/xs/Arrow-menu-red-up.png);
+}
+#sidebar .btn.btn-primary[aria-expanded="false"] {
+	background-image:url(/static/ladylike/images/xs/Arrow-menu.png);
+}
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+	background-color: transparent;
+	border-color: #9c2525;
+}
+#sidebar ul.collapse, #sidebar ul.collapsing {
+	background-color: #e33b3b;
+	margin-left: -11px;
+	margin-top: 0;
+}
+#sidebar ul.collapse li , #sidebar ul.collapsing li {
+	border: none;
+	height: 36px;
+	padding: 0;
+	margin: 0;
+	min-height: initial;
+}
+#sidebar ul.collapse li:last-child , #sidebar ul.collapsing li:last-child {
+	height: 45px;
+}
+#sidebar ul.collapse li:first-child , #sidebar ul.collapsing li:first-child {
+	height: 40px;
+}
+#sidebar ul.collapse li:first-child a, #sidebar ul.collapsing li:first-child a {
+	  line-height: 21px;
+}
+#sidebar ul.collapse li a, #sidebar ul.collapsing li a { 
+	border:none;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+  	line-height: 10px;
+  	text-align: left;
+  	margin-left: 58px;
+  	margin-bottom: -1px !important;
+  	z-index: 1;
+  	position: relative;
+  	letter-spacing: 0.3px;
+}
+#sidebar ul.collapse.in {
+	margin-bottom: -1px !important;
+	z-index: 1;
+	position: relative;
+}
+.btn.active, .btn:active {
+	box-shadow: none;
+}
+#sidebar .bottom-menu .title {
+	background-color:#e33b3b;
+	width:247px;
+	height:22px;
+	color:#9c2525;
+	font-size:13px;
+	line-height:23px;
+	font-weight:400;
+	text-align:center;
+}
+#sidebar .bottom-menu {
+	background-color:#ff5050;
+	width:247px;
+	height:280px;
+}
+#sidebar .social {
+	margin: 20px auto 0;
+	height: 17px;
+	width: 202px;
+}
+#sidebar .social div {
+	background-size:21px 17px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 17px;
+	float: left;
+	width: 21px; 
+	margin-left: 24px;
+}
+#sidebar .social div a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#sidebar .social div.followFacebook {
+	background-size:10px 21px;
+	background-image: url(/static/ladylike/images/xs/Facebook.png);
+	margin-left: 0;
+	width: 10px;
+	height: 21px;
+}
+#sidebar .social div.followTwitter {
+	background-size:21px 17px;
+	background-image: url(/static/ladylike/images/xs/Twitter.png);
+}
+#sidebar .social div.followPinterest {
+	background-size:16px 21px;
+	background-image: url(/static/ladylike/images/xs/Pinterest.png);
+	width: 16px;
+  	height: 21px;
+}
+#sidebar .social div.followInstagram {
+	background-size:18px 17px;
+	background-image: url(/static/ladylike/images/xs/Instagram.png);
+}
+#sidebar .social div.followYouTube {
+	background-size:17px 13px;
+	background-image: url(/static/ladylike/images/xs/YouTube.png);
+}
+#sidebar .newsletter-button {
+	width: 223px;
+	height: 30px;
+	text-align: center;
+	position: relative;
+	clear: both;
+	float: none;
+	background-color: #9a2424; 
+	border-radius: 13px;
+	margin: 20px auto 40px;
+}
+#sidebar .newsletter-button a {
+	font-family: 'pf_din_text_comp_proregular',sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+  	text-decoration: none;
+  	position: relative;
+  	top: 2px;
+}
+#sidebar.open-sidebar {
+	right: 0px;
+}
+#sidebar .bottom-menu .full-site {
+	margin-bottom:0;
+	line-height:1;
+	text-align: center;
+}
+#sidebar .bottom-menu .full-site a {
+	color:#fff;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:300;
+	text-align:center;
+	text-decoration:none;
+}
+#sidebar .bottom-menu .copyrights {
+	text-align: center;
+}
+#sidebar .bottom-menu .copyrights p {
+	font-family: 'Open Sans', sans-serif;
+	color:  #ffffff;
+	font-size: 8px;
+	font-weight: 400;
+	transform: scaleY(1.0082);
+}
+/* search */
+.navbar form {
+	display: block;
+	position: fixed;
+	right: -253px;
+	top: 0px;
+	z-index: 1;
+	background-color: #ff5050;
+  	width: 246px;
+  	height: 51px;
+}
+.navbar.open-sidebar form {
+	right: 1px;
+}
+.navbar form input.searchname {
+	width: 226px;
+	top: 11px;
+	position: relative;
+	right:-7px;
+	height: 27px;
+	font-family: 'Open Sans', sans-serif;
+	color:  #b2b2b2;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: left;
+	transform: scaleY(1.0082);
+	background-color: #eeeeee;
+	border-width: 0px; border: none;
+}
+.navbar form input.searchname:focus {
+	outline: 0;
+}
+.navbar form a.searchbutton {
+	display:block;
+	width:30px;
+	height:21px;
+	position:relative;
+	top:-13px;
+	right:-204px;
+	border-left: 1px solid #b2b2b2;
+	background-size:14px 14px;
+	background-image: url(/static/ladylike/images/xs/Magnifier.png);
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.xartaki {
+	height: 400px;
+	background-color: #ff5050;
+	position: fixed;
+	top: -51px;
+	margin-bottom: -162px;
+	width: 247px;
+	right: -247px;
+}
+.xartaki.open-sidebar {
+	right: 0px;
+}
+.copyrights hr {
+	margin-top:10px;
+	margin-bottom:12px;
+	width:50px;
+	border-top:1px solid #fff;
+}
+.copyrights a.company {
+	display:block;
+	background-image:url(/static/ladylike/images/xs/24MediaMenu.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:35px 38px;
+	width:35px;
+	height:38px;
+	margin:0 auto;
+}
+.copyrights p {
+	margin-top:7px;
+	margin-bottom:15px;
+}
+.copyrights p:last-child {
+	margin-top:0;
+	margin-bottom:0;
+	color:#9c2525 !important;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	.navbar .brand {background-image:url(/static/ladylike/images/sm/Logo.png);}
+	.navbar .menu {background-image:url(/static/ladylike/images/xs/Toggle.png); }
+	.navbar.open-sidebar #sidebar-toggle{background-image:url(/static/ladylike/images/sm/close_button.png)}
+	#sidebar .btn.btn-primary[aria-expanded="true"]{background-image:url(/static/ladylike/images/sm/Arrow-menu-up.png);}
+	#sidebar .white .btn.btn-primary[aria-expanded="true"]{background-image:url(/static/ladylike/images/sm/Arrow-menu-red-up.png);}
+	#sidebar .btn.btn-primary[aria-expanded="false"]{background-image:url(/static/ladylike/images/sm/Arrow-menu.png);}
+	#sidebar .social div.followFacebook{background-image: url(/static/ladylike/images/sm/Facebook.png); }
+	#sidebar .social div.followTwitter{background-image: url(/static/ladylike/images/sm/Twitter.png);}
+	#sidebar .social div.followPinterest{background-image: url(/static/ladylike/images/sm/Pinterest.png);}
+	#sidebar .social div.followInstagram{background-image: url(/static/ladylike/images/sm/Instagram.png);}
+	#sidebar .social div.followYouTube{background-image: url(/static/ladylike/images/sm/YouTube.png);}
+	.navbar form a.searchbutton{background-image: url(/static/ladylike/images/sm/Magnifier.png);}
+	.copyrights a.company {background-image:url(/static/ladylike/images/sm/24MediaMenu.png);}
+}

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<title>sport24</title>
+	<link rel="self" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=advertorial&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=50"/>
+	<link rel="first" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=advertorial&amp;view=generic/v2/latest-atom&amp;page=1&amp;items=50"/>
+	<link rel="next" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=advertorial&amp;view=generic/v2/latest-atom&amp;page=2&amp;items=50"/>
+	<link rel="last" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609&amp;profile=c3BvcnQyNHJvaQ==&amp;types=advertorial&amp;view=generic/v2/latest-atom&amp;page=42&amp;items=50"/>
+	<link rel="alternate" href="http://www.sport24.gr/"/>
+	<subtitle>sport24</subtitle>
+	<id>http://www.sport24.gr/</id>
+	<icon>
+		http://www.sport24.gr/skins/bugs-fixed/img/logo-big-transparent_1.png
+	</icon>
+	<updated>2015-04-02T12:48:00+02:00</updated>
+	<entry>
+		<title>Ο Ibaka στο ρόλο του σωτήρα</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://nba.sport24.gr/article/3391390/o-ibaka-sto-rolo-tou-swtira"/>
+		<link rel="@supertitle" title="Η ΤΑΙΝΙΑ ΠΟΥ ΠΡΕΠΕΙ ΝΑ ΔΕΙΣ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391450.ece/BINARY/w620/Son+of+the+Congo.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391450.ece/BINARY/w620/Son+of+the+Congo.jpg" credits="" caption=""/>
+		<category term="nba-greece" label="NBA Greece"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="USA" label="ΗΠΑ"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<author>
+			<name>Χάρης Σταύρου</name>
+		</author>
+		<id>3391457</id>
+		<updated>2015-04-02T12:48:00+02:00</updated>
+		<published>2015-04-02T12:48:00+02:00</published>
+		<summary>
+			Είδαμε το "Son of the Congo", βγάζουμε το καπέλο στον σπουδαίο Serge Ibaka και σου προτείνουμε να ακολουθήσεις το ίδιο μονοπάτι.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: Ατρόμητος - Κέρκυρα</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2017"/>
+		<link rel="@supertitle" title="LIVE: Ατρόμητος - Κέρκυρα"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391371.ece/BINARY/w620/1177180.jpg" title="" credits="" caption="Ατρόμητος - Κέρκυρα"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391371.ece/BINARY/w620/1177180.jpg" credits="" caption="Ατρόμητος - Κέρκυρα"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391368</id>
+		<updated>2015-04-02T12:06:00+02:00</updated>
+		<published>2015-04-02T12:06:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα Ατρόμητος - Κέρκυρα για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: Πανιώνιος - Παναιτωλικός</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2013"/>
+		<link rel="@supertitle" title="LIVE: Πανιώνιος - Παναιτωλικός"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391351.ece/BINARY/w620/1177860.jpg" title="" credits="" caption="Πανιώνιος - Παναιτωλικός"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391351.ece/BINARY/w620/1177860.jpg" credits="" caption="Πανιώνιος - Παναιτωλικός"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<author>
+			<name>Χάρης Σταύρου</name>
+		</author>
+		<author>
+			<name>Νίκος Παπαδόπουλος</name>
+		</author>
+		<id>3391346</id>
+		<updated>2015-04-02T12:06:00+02:00</updated>
+		<published>2015-04-02T12:06:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα Πανιώνιος - Παναιτωλικός για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: ΠΑΣ Γιάννινα - Ολυμπιακός</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2016"/>
+		<link rel="@supertitle" title="LIVE: ΠΑΣ Γιάννινα - Ολυμπιακός"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391367.ece/BINARY/w620/1177138.jpg" title="" credits="" caption="ΠΑΣ Γιάννινα - Ολυμπιακός"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391367.ece/BINARY/w620/1177138.jpg" credits="" caption="ΠΑΣ Γιάννινα - Ολυμπιακός"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391342</id>
+		<updated>2015-04-02T12:03:00+02:00</updated>
+		<published>2015-04-02T12:03:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα ΠΑΣ Γιάννινα - Ολυμπιακός για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: ΠΑΟΚ - Ξάνθη</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2015"/>
+		<link rel="@supertitle" title="LIVE: ΠΑΟΚ - Ξάνθη"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391365.ece/BINARY/w620/1177618.jpg" title="" credits="" caption="ΠΑΟΚ - Ξάνθη"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391365.ece/BINARY/w620/1177618.jpg" credits="" caption="ΠΑΟΚ - Ξάνθη"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391344</id>
+		<updated>2015-04-02T12:02:00+02:00</updated>
+		<published>2015-04-02T12:02:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα ΠΑΟΚ - Ξάνθη για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: Εργοτέλης - Πανθρακικός</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2014"/>
+		<link rel="@supertitle" title="LIVE: Εργοτέλης - Πανθρακικός"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391358.ece/BINARY/w620/1178796.jpg" title="" credits="" caption="Εργοτέλης - Πανθρακικός"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391358.ece/BINARY/w620/1178796.jpg" credits="" caption="Εργοτέλης - Πανθρακικός"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391345</id>
+		<updated>2015-04-02T12:00:00+02:00</updated>
+		<published>2015-04-02T12:00:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα Εργοτέλης - Πανθρακικός για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Εγινε του alley-oop!</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://nba.sport24.gr/article/3391337/egine-tou-alley-oop"/>
+		<link rel="@supertitle" title="ΕΤΟΙΜΟΣ; ΑΛΛΟ ΕΝΑ ΣΠΟΥΔΑΙΟ TOP-10"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391357.ece/BINARY/w620/GettyImages-468036572.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3391357.ece/BINARY/w620/GettyImages-468036572.jpg" credits="" caption=""/>
+		<category term="nba-greece" label="NBA Greece"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="USA" label="ΗΠΑ"/>
+		<category term="Basket" label="Μπάσκετ"/>
+		<author>
+			<name>Χάρης Σταύρου</name>
+		</author>
+		<id>3391360</id>
+		<updated>2015-04-02T12:00:00+02:00</updated>
+		<published>2015-04-02T12:00:00+02:00</published>
+		<summary>
+			"Τρελή" βραδιά η χθεσινή στο ΝΒΑ, με πολλά φαντασμαγορικά alley-oop, αλλά και το νικητήριο καλάθι του Brook Lopez στην κορυφή.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: Πλατανιάς - Βέροια</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2011"/>
+		<link rel="@supertitle" title="LIVE: Πλατανιάς - Βέροια"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/football/article3391340.ece/BINARY/w620/1176868.jpg" title="" credits="" caption="Πλατανιάς - Βέροια"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/football/article3391340.ece/BINARY/w620/1176868.jpg" credits="" caption="Πλατανιάς - Βέροια"/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391335</id>
+		<updated>2015-04-02T11:54:00+02:00</updated>
+		<published>2015-04-02T11:54:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα Πλατανιάς - Βέροια για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>LIVE: Παναθηναϊκός - Αστέρας Τρίπολης</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.sport24.gr/matchcenter/#tab=match&amp;matchid=2012"/>
+		<link rel="@supertitle" title="LIVE: Παναθηναϊκός - Αστέρας Τρίπολης"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/incoming/article3184293.ece/BINARY/w620/1178024.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/incoming/article3184293.ece/BINARY/w620/1178024.jpg" credits="" caption=""/>
+		<category term="SuperLeague" label="Super League"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="ellada" label="Ελλάδα"/>
+		<category term="football" label="Ποδόσφαιρο"/>
+		<author>
+			<name/>
+		</author>
+		<id>3391336</id>
+		<updated>2015-04-02T11:54:00+02:00</updated>
+		<published>2015-04-02T11:54:00+02:00</published>
+		<summary>
+			Παρακολουθήστε ζωντανά από το Sport24.gr την εξέλιξη του αγώνα Παναθηναϊκός - Αστέρας Τρίπολης για την 30η αγωνιστική της Superleague.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+	<entry>
+		<title>Καλοκαιρία</title>
+		<type>advertorial</type>
+		<link rel="alternate" href="http://www.deltiokairou.gr/gr/article/60915/o-kairos-tin-pempti-2-04-2015-kalokairia/"/>
+		<link rel="@supertitle" title="Πρόγνωση ημέρας"/>
+		<link rel="enclosure" comment="teaser" type="image/jpeg" href="http://www.sport24.gr/genika/advertorial/deltiokairou/article3391234.ece/BINARY/w620/iliosimeras2042015.jpg" credits="" caption=""/>
+		<category term="deltiokairou" label="Deltiokairou.gr"/>
+		<category term="advertorial_genika" label="Advertorial"/>
+		<category term="genika" label="Γενικά"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<author>
+			<name>Ιωάννα Μαμάη</name>
+		</author>
+		<id>3391232</id>
+		<updated>2015-04-02T10:56:00+02:00</updated>
+		<published>2015-04-02T10:56:00+02:00</published>
+		<summary/>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+</feed>

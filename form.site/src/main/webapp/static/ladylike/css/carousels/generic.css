@@ -1,0 +1,64 @@
+/***** Carousel *****/
+#carousel-generic .carousel-control {
+	width:0;
+	z-index:9999;
+	background-image:none;
+}
+#carousel-generic .arrowLeft {
+	display:inline-block;
+	width:41px;
+	height:49px;
+	background-color:rgba(0, 0, 0, 0.7);
+	background-image:url(/static/ladylike/images/xs/ArrowLeft.png);
+	background-repeat:no-repeat;
+	background-position:center;
+  	background-size:20px 34px;
+	position:absolute;
+	top:45%;
+	left:-10px;
+	z-index:99;
+}
+#carousel-generic .arrowRight {
+	display:inline-block;
+	width:40px;
+	height:49px;
+	background-color:rgba(0, 0, 0, 0.7);
+	background-image:url(/static/ladylike/images/xs/ArrowRight.png);
+	background-repeat:no-repeat;
+	background-position:center;
+  	background-size:20px 34px;
+	position:absolute;
+	top:45%;
+	right:-10px;
+	z-index:99;
+}
+#carousel-generic .captions p {
+	padding-top:10px;
+	font-family:'Open Sans', sans-serif;
+	font-size:12px;
+	line-height:14px;
+	font-weight:400;
+	color:#4c4c4c;
+	margin-bottom:0;
+}
+#carousel-generic .carousel-control:focus, #carousel-generic .carousel-control:hover, #carousel-generic .carousel-control:visited {
+	opacity:0.5;
+}
+#carousel-generic .carousel-control:active {
+	opacity:0.9;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	#carousel-generic .arrowLeft {
+		background-image:url(/static/ladylike/images/sm/ArrowLeft.png);
+	}
+	#carousel-generic .arrowRight {
+		background-image:url(/static/ladylike/images/sm/ArrowRight.png);
+	}
+}

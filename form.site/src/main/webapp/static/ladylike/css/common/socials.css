@@ -1,0 +1,104 @@
+/* gallery and product articles */
+.galleryBody .row.socials, .shoppingProduct .row.socials {
+	position:relative;
+	margin:0 -10px 20px -10px;
+}
+.galleryBody .row.socials {
+	display:block;	
+}
+body.open-sidebar.galleryBody .row.socials {
+	z-index: 1;
+}
+/* Articles */
+.row.socials {
+	background-color: #ff5050;
+	height:50px;
+	margin-bottom:70px;
+	display:none;
+	position:fixed;
+	right:0;  
+	left:0;  
+	z-index:1030;  
+	top:0;
+	margin:0;
+}
+.row.socials div {
+	height:50px;
+	background-repeat:no-repeat;
+  	background-position:center;
+  	width: 19.55%;
+}
+.row.socials div a {
+	display:block;
+  	width:100%;
+  	height:100%;
+}
+.row.socials .facebook {
+	background-color:#3b5998;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/socials-facebook.png);
+	background-size:12px 22px;
+}
+.row.socials .twitter {
+	background-color:#5fa9dd;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/socials-twitter.png);
+	background-size:26px 22px;
+}
+.row.socials .pinterest {
+	background-color:#ca2026;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/socials-pinterest.png);
+	background-size:24px 24px;
+}
+.row.socials .whatsapp {
+	background-color:#50c438;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/socials-whatsapp.png);
+	background-size:26px 26px;
+}
+.row.socials .sms {
+	background-color:#0c3654;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/socials-sms.png);
+	background-size:28px 28px;
+}
+.row.socials .next {
+	width:21.6%;
+	float:left;
+	background-image:url(/static/ladylike/images/xs/socials-arrow.png);
+	background-size:19px 34px;
+	background-position:90% center;
+	text-align:center
+}
+.row.socials .next a {
+	text-decoration:none;
+}
+.row.socials .next p {
+  	color:#ffffff;
+  	font-family:'pf_din_text_comp_proregular',sans-serif;
+  	font-size:19px;
+  	font-weight:400;
+  	line-height:53px;
+  	margin:0;
+    padding-right:30%;
+}
+.row.socials .next.empty {
+	opacity:0.7;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi){
+	.row.socials .facebook { background-image: url(/static/ladylike/images/sm/socials-facebook.png);}
+	.row.socials .twitter { background-image: url(/static/ladylike/images/sm/socials-twitter.png);}
+	.row.socials .pinterest { background-image: url(/static/ladylike/images/sm/socials-pinterest.png);}
+	.row.socials .whatsapp{	background-image: url(/static/ladylike/images/sm/socials-whatsapp.png);}
+	.row.socials .sms {	background-image: url(/static/ladylike/images/sm/socials-sms.png);}
+	.row.socials .next { background-image: url(/static/ladylike/images/sm/socials-arrow.png); }
+	.row.socials .next { background-image: url(/static/ladylike/images/sm/socials-arrow.png);}
+}

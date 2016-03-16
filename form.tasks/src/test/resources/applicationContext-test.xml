@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p"
+		xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:jee="http://www.springframework.org/schema/jee"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+        xmlns:task="http://www.springframework.org/schema/task"
+        xmlns:util="http://www.springframework.org/schema/util"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        					http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        					http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+        					http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        					http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+        					http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        					http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd
+        					http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="driverClass" value="org.hsqldb.jdbcDriver" />
+        <property name="jdbcUrl" value="jdbc:hsqldb:mem:testDB" />
+        <property name="user" value="sa" />
+        <property name="password" value="" />
+    </bean>
+    
+    <util:properties id="hibernateProperties">
+     	<prop key="hibernate.connection.url">jdbc:hsqldb:mem:tskr</prop>
+      	<prop key="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</prop>
+      	<!-- Use An Extended Class Of The Default org.hibernate.dialect.HSQLDialect -->
+      	<prop key="hibernate.dialect">gr.media24.mSites.data.utils.ExtendedHSQLDialect</prop>
+      	<prop key="hibernate.show_sql">false</prop>
+      	<prop key="hibernate.use_sql_comments">true</prop>
+      	<prop key="hibernate.hbm2ddl.auto">create-drop</prop>
+      	<prop key="hibernate.connection.username">sa</prop>
+      	<prop key="hibernate.connection.password"></prop>
+      	<prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.SingletonEhCacheProvider</prop>
+      	<prop key="hibernate.cache.use_query_cache">false</prop>
+      	<prop key="hibernate.cache.use_second_level_cache">false</prop>
+      	<prop key="hibernate.generate_statistics">false</prop>
+      	<prop key="hibernate.cache.provider_configuration_file_resource_path">/ehcache.xml</prop>
+	</util:properties>
+
+    <!-- Session Factory -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean" 
+    	p:dataSource-ref="dataSource"
+    	p:hibernateProperties-ref="hibernateProperties"
+    	p:packagesToScan="gr.media24.mSites.data.entities" />
+
+	<!-- Transaction Manager -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager" p:sessionFactory-ref="sessionFactory" />
+
+	<!-- Beans -->
+	<bean id="articleDao" class="gr.media24.mSites.data.dao.hibernate.HibernateArticleDao"/>
+	<bean id="articleRelatedArticleDao" class="gr.media24.mSites.data.dao.hibernate.HibernateArticleRelatedArticleDao"/>
+	<bean id="publicationDao" class="gr.media24.mSites.data.dao.hibernate.HibernatePublicationDao"/>
+	<bean id="categoryDao" class="gr.media24.mSites.data.dao.hibernate.HibernateCategoryDao"/>
+    <bean id="pictureDao" class="gr.media24.mSites.data.dao.hibernate.HibernatePictureDao"/>
+    <bean id="authorDao" class="gr.media24.mSites.data.dao.hibernate.HibernateAuthorDao"/>
+    <bean id="storyDao" class="gr.media24.mSites.data.dao.hibernate.HibernateStoryDao"/>
+    <bean id="advertorialDao" class="gr.media24.mSites.data.dao.hibernate.HibernateAdvertorialDao"/>
+    <bean id="videoDao" class="gr.media24.mSites.data.dao.hibernate.HibernateVideoDao"/>	
+    <bean id="photostoryDao" class="gr.media24.mSites.data.dao.hibernate.HibernatePhotostoryDao"/>
+    <bean id="newspaperDao" class="gr.media24.mSites.data.dao.hibernate.HibernateNewspaperDao"/>
+    <bean id="feedDao" class="gr.media24.mSites.data.dao.hibernate.HibernateFeedDao"/>
+    <bean id="sectionDao" class="gr.media24.mSites.data.dao.hibernate.HibernateSectionDao"/>
+    <bean id="tagDao" class="gr.media24.mSites.data.dao.hibernate.HibernateTagDao"/>
+    <!-- Escenic Updater Feeds -->
+    <bean id="escenicUpdater" class="gr.media24.mSites.tasks.escenic.EscenicUpdater"/>
+    <bean id="escenicUpdaterFactory" class="gr.media24.mSites.tasks.escenic.EscenicUpdaterFactory"/>
+	<!-- Api Updater Feeds -->
+    <bean id="apiUpdater" class="gr.media24.mSites.tasks.api.ApiUpdater"/>
+    <bean id="apiUpdaterFactory" class="gr.media24.mSites.tasks.api.ApiUpdaterFactory"/>
+</beans>

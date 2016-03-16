@@ -1,0 +1,95 @@
+/***** Category Opinions *****/
+.article .editor div {
+    color:#999999;
+    font-family:'pf_din_text_comp_proregular',sans-serif;
+    font-size:16px;
+    font-style:italic;
+    font-weight:normal;
+    line-height:61px;
+    border-bottom:3px solid #05cb98;
+    margin-top:-15px;
+    margin-bottom:29px;
+}
+.article .editor div span {
+    color:#05cb98;
+}
+.article .editor div.image {
+    background-repeat:no-repeat;
+    background-position:0;
+    padding-left:70px;
+    padding-bottom:10px;
+}
+.more {
+    text-align:center;
+}
+.more a {
+	display:inline-block;
+  	width:auto;
+  	background:#ff5050;
+  	font-family:'Open Sans', sans-serif;
+  	font-size:11px;
+  	font-weight:600;
+  	line-height:30px;
+  	padding:0 14px;
+  	margin:45px 0 39px 0;
+  	border-radius:0;
+}
+.more a:link, .more a:visited, .more a:hover, .more a:active {
+    color:#fff;
+}
+.more a:active {
+	background:#000;
+}
+.article .editor div.xagia,
+.article .editor div.saitaki,
+.article .editor div.despoina,
+.article .editor div.mamai,
+.article .editor div.marietta,
+.article .editor div.marion {
+	background-size:60px;
+}
+.article .editor div.xagia {
+    background-image:url(/static/ladylike/images/xs/xagia.category.png);
+}
+.article .editor div.saitaki {
+    background-image:url(/static/ladylike/images/xs/saitaki.category.png);
+}
+.article .editor div.despoina {
+    background-image:url(/static/ladylike/images/xs/despoina.category.png);
+}
+.article .editor div.mamai {
+    background-image:url(/static/ladylike/images/xs/mamai.category.png);
+}
+.article .editor div.marietta {
+    background-image:url(/static/ladylike/images/xs/marietta.category.png);
+}
+.article .editor div.marion {
+    background-image:url(/static/ladylike/images/xs/marion.category.png);
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	.article .editor div.xagia {
+    	background-image:url(/static/ladylike/images/sm/xagia.category.png);
+	}
+	.article .editor div.saitaki {
+	    background-image:url(/static/ladylike/images/sm/saitaki.category.png);
+	}
+	.article .editor div.despoina {
+	    background-image:url(/static/ladylike/images/sm/despoina.category.png);
+	}
+	.article .editor div.mamai {
+	    background-image:url(/static/ladylike/images/sm/mamai.category.png);
+	}
+	.article .editor div.marietta {
+	    background-image:url(/static/ladylike/images/sm/marietta.category.png);
+	}
+	.article .editor div.marion {
+	    background-image:url(/static/ladylike/images/sm/marion.category.png);
+	}
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE feed>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<title>sport24</title>
+	<link rel="self" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609profile=c3BvcnQyNHJvaQ==types=photostoryview=generic/v2/latest-atompage=1items=50"/>
+	<link rel="first" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609profile=c3BvcnQyNHJvaQ==types=photostoryview=generic/v2/latest-atompage=1items=50"/>
+	<link rel="next" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609profile=c3BvcnQyNHJvaQ==types=photostoryview=generic/v2/latest-atompage=1items=50"/>
+	<link rel="last" type="application/atom+xml" href="http://content.24media.gr/develop/articles/?sections=609profile=c3BvcnQyNHJvaQ==types=photostoryview=generic/v2/latest-atompage=1items=50"/>
+	<link rel="alternate" href="http://www.sport24.gr/"/>
+	<subtitle>sport24</subtitle>
+	<id>http://www.sport24.gr/</id>
+	<icon>
+		http://www.sport24.gr/skins/bugs-fixed/img/logo-big-transparent_1.png
+	</icon>
+	<updated>2013-11-10T15:16:00+02:00</updated>
+	<entry>
+		<title>Εικόνες από τον 31ο ΚΜΑ</title>
+		<type>photostory</type>
+		<link rel="alternate" href="http://www.sport24.gr/multimedia/eikones-apo-ton-31o-kma.2496265.html"/>
+		<link rel="@supertitle" title="Εικόνες από τον 31ο ΚΜΑ"/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496302.ece/BINARY/w620/1044483.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496304.ece/BINARY/w620/1044485.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496303.ece/BINARY/w620/1044484.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496266.ece/BINARY/w620/1044344.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496270.ece/BINARY/w620/1044355.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496267.ece/BINARY/w620/1044348.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496272.ece/BINARY/w620/1044366.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496284.ece/BINARY/w620/1044424.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496285.ece/BINARY/w620/1044428.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496282.ece/BINARY/w620/1044407.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496279.ece/BINARY/w620/1044391.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496278.ece/BINARY/w620/1044382.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496274.ece/BINARY/w620/1044374.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496275.ece/BINARY/w620/1044381.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496288.ece/BINARY/w620/1044445.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496292.ece/BINARY/w620/1044465.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496291.ece/BINARY/w620/1044458.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496289.ece/BINARY/w620/1044455.jpg" title="" credits="" caption=""/>
+		<link rel="enclosure" comment="main" type="image/jpeg" href="http://www.sport24.gr/Sports/marathon/article2496290.ece/BINARY/w620/1044457.jpg" title="" credits="" caption=""/>
+		<category term="multimedia" label="Multimedia"/>
+		<category term="ece_frontpage" label="sport24"/>
+		<category term="photostories" label="Photostories"/>
+		<author>
+			<name>Γιώτα Κουνάλη</name>
+		</author>
+		<id>2496265</id>
+		<updated>2013-11-10T15:16:00+02:00</updated>
+		<published>2015-01-21T22:51:00+02:00</published>
+		<summary>
+			Πραγματικοί ήρωες της ζωής, υπερήρωες των κόμικ, αρχαίοι Έλληνες και δεκάδες καροτσάκια. Δείτε ορισμένες χαρακτηριστικές φωτογραφίες από τον 31ο Κλασικό Μαραθώνιο.
+		</summary>
+		<content:encoded>
+			<![CDATA[ ]]>
+		</content:encoded>
+	</entry>
+</feed>

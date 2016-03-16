@@ -1,0 +1,102 @@
+/***** Carousel *****/
+#carousel-galleries {
+	margin-bottom:46px;
+}
+.galleriesBanner {
+	background-image:url(/static/ladylike/images/xs/Galleries.png);
+  	background-repeat:no-repeat;
+  	background-size:154px 74px;
+  	width:154px;
+  	height:74px;
+  	margin:0 auto;
+  	position:relative;
+  	top:17px;
+  	margin-top:-17px;
+  	z-index:999;
+}
+.galleriesBanner a{
+    display:inline-block;
+    width:154px;
+  	height:74px;
+}
+#carousel-galleries .carousel-control {
+	width:0;
+	z-index:9999;
+	background-image:none;
+}
+#carousel-galleries .arrowLeft {
+	display:inline-block;
+	width:41px;
+	height:49px;
+	background-color:rgba(0, 0, 0, 0.7);
+	background-image:url(/static/ladylike/images/xs/ArrowLeft.png);
+	background-repeat:no-repeat;
+	background-position:center;
+  	background-size:20px 34px;
+	position:absolute;
+	top:43%;
+	left:-10px;
+	z-index:99;
+}
+#carousel-galleries .arrowRight {
+	display:inline-block;
+	width:40px;
+	height:49px;
+	background-color:rgba(0, 0, 0, 0.7);
+	background-image:url(/static/ladylike/images/xs/ArrowRight.png);
+	background-repeat:no-repeat;
+	background-position:center;
+  	background-size:20px 34px;
+	position:absolute;
+	top:43%;
+	right:-10px;
+	z-index:99;
+}
+#carousel-galleries .carousel-caption {
+	padding-bottom:0;
+	bottom:0;
+}
+#carousel-galleries .carousel-caption p {
+	color:#fffefe;
+	font-family:'pf_din_text_comp_proregular',sans-serif;
+	font-size:25px;
+	font-weight:400;
+	line-height:25px;
+	margin-bottom:25px;
+	z-index:1;
+}
+#carousel-galleries .shadow {
+	position:absolute;
+	bottom:0;
+	height:25%;
+	background:-webkit-linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+	background:-moz-linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+	background:-o-linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+	background:-ms-linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+	background:linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+	z-index:0;
+}
+#carousel-galleries .carousel-control:focus, #carousel-galleries .carousel-control:hover, #carousel-galleries .carousel-control:visited {
+	opacity:0.5;
+}
+#carousel-galleries .carousel-control:active {
+	opacity:0.9;
+}
+/*
+ *
+ * Retina / High Resolution
+ *
+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+	.galleriesBanner {
+		background-image:url(/static/ladylike/images/sm/Galleries.png);
+	}
+	#carousel-galleries .arrowLeft {
+		background-image:url(/static/ladylike/images/sm/ArrowLeft.png);
+	}
+	#carousel-galleries .arrowRight {
+		background-image:url(/static/ladylike/images/sm/ArrowRight.png);
+	}
+}
