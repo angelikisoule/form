@@ -4,10 +4,9 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import gr.media24.mSites.core.service.ArticleService;
-import gr.media24.mSites.core.utils.Pager;
-import gr.media24.mSites.data.entities.Article;
-import gr.media24.mSites.data.enums.ArticleState;
+import gr.soule.form.core.service.FormService;
+import gr.soule.form.core.utils.Pager;
+import gr.soule.form.data.entities.Form;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,14 +20,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**
- * Article's Controller
- * @author npapadopoulos
+ * Form's Controller
+ * @author asoule
  */
 @Controller
-@RequestMapping("/admin/article")
-public class ArticleController {
+@RequestMapping("/admin/form")
+public class FormController {
 
-	@Autowired private ArticleService articleService;
+	@Autowired private FormService formService;
 
 	@Value("${alert.article.archive.success}")
 	private String ARCHIVE_SUCCESS;
@@ -38,14 +37,14 @@ public class ArticleController {
 		int pagerSize = (size==null) ? 20 : size.intValue();
         int pagerPage = (page==null) ? 0 : page.intValue();
         int pagerOffset = pagerSize * pagerPage;
-		Long countArticles = articleService.countArticles();
-		Pager pager = new Pager(request.getRequestURI(), countArticles, Integer.valueOf(pagerPage).longValue(), pagerSize);
-		model.addAttribute("countArticles", countArticles);
+		Long countForms = formService.countForms();
+		Pager pager = new Pager(request.getRequestURI(), countForms, Integer.valueOf(pagerPage).longValue(), pagerSize);
+		model.addAttribute("countForms", countForms);
         model.addAttribute("pagerSize", pagerSize);
         model.addAttribute("pagerPage", pagerPage);
-		model.addAttribute("articles", articleService.getArticles(pagerSize, pagerOffset));
+		model.addAttribute("articles", formService.getForms(pagerSize, pagerOffset));
 		model.addAttribute("pager", pager);
-		return "admin/article/list";
+		return "admin/form/list";
 	}
 	
 	@RequestMapping(value="archived")
@@ -53,19 +52,19 @@ public class ArticleController {
 		int pagerSize = (size==null) ? 20 : size.intValue();
         int pagerPage = (page==null) ? 0 : page.intValue();
         int pagerOffset = pagerSize * pagerPage;
-		Long countArticles = articleService.countArticlesByArticleState(ArticleState.ARCHIVED);
+		Long countArticles = formService.countArticlesByArticleState(ArticleState.ARCHIVED);
 		Pager pager = new Pager(request.getRequestURI(), countArticles, Integer.valueOf(pagerPage).longValue(), pagerSize);
 		model.addAttribute("countArticles", countArticles);
         model.addAttribute("pagerSize", pagerSize);
         model.addAttribute("pagerPage", pagerPage);
-		model.addAttribute("articles", articleService.getArticlesByArticleState(ArticleState.ARCHIVED, pagerSize, pagerOffset));
+		model.addAttribute("articles", formService.getArticlesByArticleState(ArticleState.ARCHIVED, pagerSize, pagerOffset));
 		model.addAttribute("pager", pager);
-		return "admin/article/list";
+		return "admin/form/list";
 	}
 
 	@RequestMapping(value = "archive/{id}")
 	public String archive(@PathVariable("id") Long id, RedirectAttributes redirectAttributes) {
-		articleService.archiveArticle(id);
+		formService.archiveArticle(id);
 		redirectAttributes.addFlashAttribute("successMessage", ARCHIVE_SUCCESS);
 		return "redirect:/admin/article";
 	}
@@ -78,7 +77,7 @@ public class ArticleController {
 	 */
 	@RequestMapping(value = "deleteAuthor", method = RequestMethod.GET)
 	public @ResponseBody String deleteAuthor(@RequestParam(value = "articleId", required = true) Long articleId, @RequestParam(value = "authorId", required = true) Long authorId) {
-		if(articleService.deleteArticleAuthor(articleId, authorId)) {
+		if(formService.deleteArticleAuthor(articleId, authorId)) {
 			return "success";
 		}
 		return "error";
@@ -91,7 +90,7 @@ public class ArticleController {
 	 */
 	@RequestMapping(value = "deleteCategory", method = RequestMethod.GET)
 	public @ResponseBody String deleteCategory(@RequestParam(value = "articleId", required = true) Long articleId, @RequestParam(value = "categoryId", required = true) Long categoryId) {
-		articleService.deleteArticleCategory(articleId, categoryId);
+		formService.deleteArticleCategory(articleId, categoryId);
 		return null;
 	}
 	
@@ -102,7 +101,7 @@ public class ArticleController {
 	 */
 	@RequestMapping(value = "deleteRelatedArticle", method = RequestMethod.GET)
 	public @ResponseBody String deleteRelatedArticle(@RequestParam(value = "articleId", required = true) Long articleId, @RequestParam(value = "relatedArticleId", required = true) Long relatedArticleId, @RequestParam(value = "enclosureComment", required = false) String enclosureComment) {
-		articleService.deleteArticleRelatedArticle(articleId, relatedArticleId, enclosureComment);
+		formService.deleteArticleRelatedArticle(articleId, relatedArticleId, enclosureComment);
 		return null;
 	}
 	
@@ -114,17 +113,17 @@ public class ArticleController {
 	@RequestMapping(value = "/searchArticle", method = RequestMethod.GET)
 	@ResponseBody
 	public List<String> searchArticle(@RequestParam("term") String term) {
-		return articleService.searchArticlesByAttributesLike(term);
+		return formService.searchArticlesByAttributesLike(term);
 	}
 	
 	/**
 	 * Return The View For Editing An Article Given A eceArticleId Selected From The Autocomplete Form 
-	 * @param eceArticleId Article's eceArticleId
+	 * @param id Article's eceArticleId
 	 * @return Article's Editing View
 	 */
-	@RequestMapping(value = "/searchResult/{eceArticleId}", method = RequestMethod.GET)
-	public String searchResult(@PathVariable("eceArticleId") String eceArticleId) {
-		Article article = articleService.getArticleByEceArticleId(eceArticleId);
-		return "redirect:/admin/" + article.getArticleType().toString().toLowerCase() + "/update/" + article.getId();
+	@RequestMapping(value = "/searchResult/{id}", method = RequestMethod.GET)
+	public String searchResult(@PathVariable("id") String id) {
+		Form form = formService.getFormById(id);
+		return "redirect:/admin/" + form.getArticleType().toString().toLowerCase() + "/update/" + form.getId();
 	}
 }

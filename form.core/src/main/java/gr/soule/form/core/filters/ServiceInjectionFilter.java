@@ -1,7 +1,7 @@
 package gr.soule.form.core.filters;
 
-import gr.media24.mSites.core.Settings;
-import gr.media24.mSites.core.service.ArticleService;
+
+import gr.soule.form.core.Settings;
 
 import java.io.IOException;
 
@@ -19,7 +19,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 */
 public class ServiceInjectionFilter implements Filter {
 
-   @Autowired ArticleService articleService;
    @Autowired Settings settings;
 
    public void init(FilterConfig filterConfig) throws ServletException {
@@ -27,7 +26,6 @@ public class ServiceInjectionFilter implements Filter {
    }
 
    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-       request.setAttribute("articleService", articleService);
        request.setAttribute("settings", settings);
        chain.doFilter(request, response);
    }
