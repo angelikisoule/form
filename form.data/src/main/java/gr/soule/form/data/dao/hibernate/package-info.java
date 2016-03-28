@@ -1,4 +1,4 @@
 /**
- * @author npapadopoulos
+ * @author asoule
  */
-package gr.media24.mSites.data.dao.hibernate;
+package gr.soule.form.data.dao.hibernate;

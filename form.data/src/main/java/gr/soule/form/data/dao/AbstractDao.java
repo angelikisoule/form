@@ -1,10 +1,10 @@
-package gr.media24.mSites.data.dao;
+package gr.soule.form.data.dao;
 
 import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author npapadopoulos
+ * @author asoule
  * Generic Class's DAO Interface
  * @param <T> Generic Class
  */

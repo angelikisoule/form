@@ -1,14 +1,15 @@
-package gr.media24.mSites.data.dao.hibernate;
+package gr.soule.form.data.dao.hibernate;
+
+import gr.soule.form.data.dao.RoleDao;
+import gr.soule.form.data.entities.Role;
 
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import gr.media24.mSites.data.dao.RoleDao;
-import gr.media24.mSites.data.entities.Role;
 
 /**
  * Role's DAO Implementation
- * @author npapadopoulos
+ * @author asoule
  */
 @Repository
 public class HibernateRoleDao extends HibernateAbstractDao<Role> implements RoleDao {

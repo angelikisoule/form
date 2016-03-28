@@ -1,8 +1,8 @@
-package gr.media24.mSites.data.dao;
+package gr.soule.form.data.dao;
 
 /**
  * UserDetails' DAO Interface
- * @author npapadopoulos
+ * @author asoule
  */
 public interface UserDetailsDao {
 

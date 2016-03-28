@@ -1,14 +1,15 @@
-package gr.media24.mSites.data.dao.jdbc;
+package gr.soule.form.data.dao.jdbc;
+
+import gr.soule.form.data.dao.UserDetailsDao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import gr.media24.mSites.data.dao.UserDetailsDao;
 
 /**
  * UserDetails' DAO Implementation
- * @author npapadopoulos
+ * @author asoule
  */
 @Repository
 public class JdbcUserDetailsDao implements UserDetailsDao {

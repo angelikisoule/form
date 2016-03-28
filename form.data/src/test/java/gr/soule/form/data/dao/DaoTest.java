@@ -242,8 +242,8 @@ public class DaoTest {
         
         Picture picture = new Picture();
         picture.setEceArticleId("3429416");
-        picture.setArticleType(ArticleType.PICTURE);
-        picture.setArticleState(ArticleState.NEW);
+        picture.setArticleType(FormType.PICTURE);
+        picture.setArticleState(State.NEW);
         picture.setTitle("Picture 1");
         picture.setAlternate("http://news247.gr/eidiseis/afieromata/article3429416.ece/BINARY/w620/t1.jpg");
         pictureDao.persistOrMerge(picture);
@@ -251,8 +251,8 @@ public class DaoTest {
         
         picture = new Picture();
         picture.setEceArticleId("3429417");
-        picture.setArticleType(ArticleType.PICTURE);
-        picture.setArticleState(ArticleState.NEW);
+        picture.setArticleType(FormType.PICTURE);
+        picture.setArticleState(State.NEW);
         picture.setTitle("Picture 2");
         picture.setAlternate("http://news247.gr/eidiseis/afieromata/article3429417.ece/BINARY/w620/t2.jpg");
         picture.setCredits("Picture Credits");
@@ -261,8 +261,8 @@ public class DaoTest {
         
         picture = new Picture();
         picture.setEceArticleId("3429418");
-        picture.setArticleType(ArticleType.PICTURE);
-        picture.setArticleState(ArticleState.EDIT);
+        picture.setArticleType(FormType.PICTURE);
+        picture.setArticleState(State.EDIT);
         picture.setTitle("Picture 3");
         picture.setAlternate("http://news247.gr/eidiseis/afieromata/article3429418.ece/BINARY/w620/t3.jpg");
         picture.setCredits("Picture Credits");
@@ -272,8 +272,8 @@ public class DaoTest {
    
         picture = new Picture();
         picture.setEceArticleId("3427664");
-        picture.setArticleType(ArticleType.PICTURE);
-        picture.setArticleState(ArticleState.NEW);
+        picture.setArticleType(FormType.PICTURE);
+        picture.setArticleState(State.NEW);
         picture.setTitle("Picture 4");
         picture.setAlternate("http://news247.gr/eidiseis/paraksena/article3427664.ece/BINARY/w620/5.jpg");
         pictureDao.persistOrMerge(picture);
@@ -288,8 +288,8 @@ public class DaoTest {
         
     	Video video = new Video();
     	video.setEceArticleId("3431365");
-    	video.setArticleType(ArticleType.VIDEO);
-    	video.setArticleState(ArticleState.NEW);
+    	video.setArticleType(FormType.VIDEO);
+    	video.setArticleState(State.NEW);
         video.setTitle("System of a Down - Live in Armenia");
         video.setAlternate("http://news247.gr/multimedia/videos/system-of-a-down-live-in-armenia.3431365.html");
         video.setVideoId("D-LZBh7x9a8");
@@ -300,8 +300,8 @@ public class DaoTest {
         
         video = new Video();
         video.setEceArticleId("3431071");
-        video.setArticleType(ArticleType.VIDEO);
-    	video.setArticleState(ArticleState.NEW);
+        video.setArticleType(FormType.VIDEO);
+    	video.setArticleState(State.NEW);
         video.setTitle("Σπίγκελ");
         video.setAlternate("http://content.24media.gr/develop/article?article=3431071&profile=c3BvcnQyNHJvaQ==&view=generic/v2/article-atom");
         video.setVideoId("3431071");
@@ -312,8 +312,8 @@ public class DaoTest {
         
         video = new Video();
         video.setEceArticleId("3430051");
-        video.setArticleType(ArticleType.VIDEO);
-    	video.setArticleState(ArticleState.ARCHIVED);
+        video.setArticleType(FormType.VIDEO);
+    	video.setArticleState(State.ARCHIVED);
         video.setTitle("Το τρίποντο του Πρίντεζη");
         video.setAlternate("http://www.sport24.gr/multimedia/video/to-triponto-toy-printezh-servikh-perigrafh.3430051.html");
         video.setVideoId("AlJOp80_hdc");
@@ -334,8 +334,8 @@ public class DaoTest {
     	
     	Newspaper newspaper = new Newspaper();
     	newspaper.setEceArticleId("3430180");
-    	newspaper.setArticleType(ArticleType.NEWSPAPER);
-    	newspaper.setArticleState(ArticleState.NEW);
+    	newspaper.setArticleType(FormType.NEWSPAPER);
+    	newspaper.setArticleState(State.NEW);
     	newspaper.setTitle("ESPRESSO");
     	newspaper.setAlternate("http://news247.gr/newspapers/Afternoon/espresso/espresso.3430180.html");
     	newspaper.setLink("http://news247.gr/newspapers/Afternoon/espresso/article3430180.ece/BINARY/w300/20610579.jpg");
@@ -351,8 +351,8 @@ public class DaoTest {
     	
     	Photostory photostory = new Photostory();
     	photostory.setEceArticleId("2496265");
-    	photostory.setArticleType(ArticleType.PHOTOSTORY);
-    	photostory.setArticleState(ArticleState.NEW);
+    	photostory.setArticleType(FormType.PHOTOSTORY);
+    	photostory.setArticleState(State.NEW);
     	photostory.setTitle("Εικόνες από τον 31ο ΚΜΑ");
     	photostory.setLeadText("Πραγματικοί ήρωες της ζωής, υπερήρωες των κόμικ, αρχαίοι Έλληνες και δεκάδες καροτσάκια.");
     	photostory.setAlternate("http://www.sport24.gr/multimedia/eikones-apo-ton-31o-kma.2496265.html");
@@ -369,8 +369,8 @@ public class DaoTest {
     	
     	Advertorial advertorial = new Advertorial();
     	advertorial.setEceArticleId("3432337");
-    	advertorial.setArticleType(ArticleType.ADVERTORIAL);
-    	advertorial.setArticleState(ArticleState.NEW);
+    	advertorial.setArticleType(FormType.ADVERTORIAL);
+    	advertorial.setArticleState(State.NEW);
     	advertorial.setTitle("Αγκαλιά με την πρόκριση");
     	advertorial.setSupertitle("ΡΕΚΟΡ ΡΙΜΠΑΟΥΝΤ ΑΠΟ ΤΟΝ HOWARD");
     	advertorial.setLeadText("Ο Harden σημείωσε ατομικό ρεκόρ πόντων στα Playoffs και το Houston επιβίωσε στο run and gun παιχνίδι που έγινε στο Dallas, κάνοντας το 3-0 στη σειρά.");
@@ -388,8 +388,8 @@ public class DaoTest {
         
     	Story story = new Story();
     	story.setEceArticleId("3429600");
-    	story.setArticleType(ArticleType.STORY);
-    	story.setArticleState(ArticleState.NEW);
+    	story.setArticleType(FormType.STORY);
+    	story.setArticleState(State.NEW);
     	story.setTitle("Παραλίγο να δει τα ραδίκια 'ανάποδα'... στην προσπάθειά του να τα μαζέψει"); //Pulitzer Prize Is Waiting For Us
     	story.setBody("Article's Body");
     	story.setAlternate("http://news247.gr/eidiseis/koinonia/eglima/paraligo-na-dei-ta-radikia-anapoda-sthn-prospatheia-toy-na-ta-mazepsei.3429600.html");
@@ -402,8 +402,8 @@ public class DaoTest {
         
         story = new Story();
     	story.setEceArticleId("3431303");
-    	story.setArticleType(ArticleType.STORY);
-    	story.setArticleState(ArticleState.NEW);
+    	story.setArticleType(FormType.STORY);
+    	story.setArticleState(State.NEW);
     	story.setTitle("Έξαλλοι οι Ινδιάνοι με τη νέα ταινία του Άνταμ Σάντλερ");
     	story.setSupertitle("Έξαλλοι οι Ινδιάνοι με τη νέα ταινία του Άνταμ Σάντλερ");
     	story.setBody("Article's Body");
@@ -417,8 +417,8 @@ public class DaoTest {
         
         story = new Story();
     	story.setEceArticleId("3430210");
-    	story.setArticleType(ArticleType.STORY);
-    	story.setArticleState(ArticleState.NEW);
+    	story.setArticleType(FormType.STORY);
+    	story.setArticleState(State.NEW);
     	story.setTitle("Στριπτιζέζ κηδειών : Δεύτε τελευταίον ασπασμόν με εξωτικές χορεύτριες");
     	story.setSupertitle("Στριπτιζέζ κηδειών: Δεύτε τελευταίον ασπασμόν με εξωτικές χορεύτριες");
     	story.setLeadText("Νέα ήθη στην Κίνα. Προσλαμβάνουν στριπτιζέζ για να προσελκύουν κόσμο στις νεκρώσιμες τελετές, προκαλώντας τη οργισμένη αντίδραση των Αρχών");

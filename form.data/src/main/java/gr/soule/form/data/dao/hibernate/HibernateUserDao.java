@@ -1,6 +1,10 @@
-package gr.media24.mSites.data.dao.hibernate;
+package gr.soule.form.data.dao.hibernate;
 
-import java.util.List;
+import gr.soule.form.data.dao.UserDao;
+import gr.soule.form.data.entities.Role;
+import gr.soule.form.data.entities.User;
+
+import java.util.List; 
 
 import org.hibernate.Query;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,13 +12,10 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Repository;
 
-import gr.media24.mSites.data.dao.UserDao;
-import gr.media24.mSites.data.entities.Role;
-import gr.media24.mSites.data.entities.User;
 
 /**
  * User's DAO Implementation
- * @author npapadopoulos
+ * @author asoule
  */
 @Repository
 public class HibernateUserDao extends HibernateAbstractDao<User> implements UserDao {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   	<modelVersion>4.0.0</modelVersion>
-  	<groupId>gr.media24.form</groupId>
+  	<groupId>gr.soule.form</groupId>
   	<artifactId>form</artifactId>
   	<version>1.0</version>
   	<packaging>pom</packaging>
   	<name>form</name>
-  	<url>http://www.24media.gr/</url>
+  	<url>http://www.asoule.gr/</url>
 	<developers>
 		<developer>
 			<id>asoule</id>

@@ -1,13 +1,14 @@
-package gr.media24.mSites.data.dao;
+package gr.soule.form.data.dao;
+
+import gr.soule.form.data.entities.Role;
+import gr.soule.form.data.entities.User;
 
 import java.util.List;
 
-import gr.media24.mSites.data.entities.Role;
-import gr.media24.mSites.data.entities.User;
 
 /**
  * User's DAO Interface
- * @author npapadopoulos
+ * @author asoule
  */
 public interface UserDao extends AbstractDao<User> {
 

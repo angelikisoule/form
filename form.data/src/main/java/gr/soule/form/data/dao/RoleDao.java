@@ -1,10 +1,10 @@
-package gr.media24.mSites.data.dao;
+package gr.soule.form.data.dao;
 
-import gr.media24.mSites.data.entities.Role;
+import gr.soule.form.data.entities.Role;
 
 /**
  * Role's DAO Interface
- * @author npapadopoulos
+ * @author asoule
  */
 public interface RoleDao extends AbstractDao<Role> {
 	

@@ -94,14 +94,14 @@ public class ArticleDaoTest extends DaoTest {
     public void getByArticleTypeTest() {
         int maxArticles = 10;
         int offset = 2;
-        List<Article> result = articleDao.getByArticleType(ArticleType.STORY, maxArticles, null);
+        List<Article> result = articleDao.getByArticleType(FormType.STORY, maxArticles, null);
         //There Are 3 Results All Instances Of Story.class
         Assert.assertEquals(3, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
         Assert.assertTrue(result.get(1) instanceof Story);
         Assert.assertTrue(result.get(2) instanceof Story);
         //If An offset = 2 Is Set There Is Only One Result
-        result = articleDao.getByArticleType(ArticleType.STORY, maxArticles, offset, null);
+        result = articleDao.getByArticleType(FormType.STORY, maxArticles, offset, null);
         Assert.assertEquals(1, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
     }
@@ -111,7 +111,7 @@ public class ArticleDaoTest extends DaoTest {
      */
     @Test
     public void countByArticleTypeTest() {
-    	Long count = articleDao.countByArticleType(ArticleType.STORY);
+    	Long count = articleDao.countByArticleType(FormType.STORY);
         Long expectedResult = 3L;
     	Assert.assertEquals(expectedResult, count);
     }
@@ -121,17 +121,17 @@ public class ArticleDaoTest extends DaoTest {
     	int maxArticles = 10;
     	int offset = 1;
     	//There Is A PICTURE In EDIT State
-    	List<Article> result = articleDao.getByArticleState(ArticleState.EDIT, maxArticles);
+    	List<Article> result = articleDao.getByArticleState(State.EDIT, maxArticles);
     	Assert.assertEquals(1, result.size());
-    	Assert.assertTrue(result.get(0).getArticleType().equals(ArticleType.PICTURE));
+    	Assert.assertTrue(result.get(0).getArticleType().equals(FormType.PICTURE));
     	//If An offset = 1 Is Set There Are No Results
-    	result = articleDao.getByArticleState(ArticleState.EDIT, maxArticles, offset);
+    	result = articleDao.getByArticleState(State.EDIT, maxArticles, offset);
     	Assert.assertNull(result);
     }
     
     @Test
     public void countByArticleStateTest() {
-    	Long count = articleDao.countByArticleState(ArticleState.EDIT);
+    	Long count = articleDao.countByArticleState(State.EDIT);
     	Long expectedResult = 1L;
     	Assert.assertEquals(expectedResult, count);
     }
@@ -175,7 +175,7 @@ public class ArticleDaoTest extends DaoTest {
     public void getBySectionUniqueNameArticleTypeTest() {
     	String sectionUniqueName = "shopping-list";
     	String publicationName = "ladylike";
-        ArticleType articleType = ArticleType.STORY;
+        FormType articleType = FormType.STORY;
         int maxArticles = 10;
         int offset = 2;
         
@@ -193,7 +193,7 @@ public class ArticleDaoTest extends DaoTest {
     public void countBySectionUniqueNameArticleTypeTest() {
     	String sectionUniqueName = "shopping-list";
     	String publicationName = "ladylike";
-        ArticleType articleType = ArticleType.STORY;
+        FormType articleType = FormType.STORY;
         Long expectedResult = 3L;
         Long count = articleDao.countBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType);
         Assert.assertEquals(expectedResult, count);
@@ -207,7 +207,7 @@ public class ArticleDaoTest extends DaoTest {
     	String sectionUniqueName = "celebrities";
     	String groupName = "@main1";
     	String publicationName = "ladylike";
-        ArticleType articleType = ArticleType.STORY;
+        FormType articleType = FormType.STORY;
         int maxArticles = 10;
         int offset = 1;
         
@@ -226,7 +226,7 @@ public class ArticleDaoTest extends DaoTest {
     	String sectionUniqueName = "Women";
     	String groupName = "@main2";
         String publicationName = "ladylike";
-    	ArticleType articleType = ArticleType.STORY;
+    	FormType articleType = FormType.STORY;
         Long expectedResult = 1L;
         Long count = articleDao.countBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType);
         Assert.assertEquals(expectedResult, count);

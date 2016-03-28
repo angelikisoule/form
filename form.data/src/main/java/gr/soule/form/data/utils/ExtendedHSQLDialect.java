@@ -1,4 +1,4 @@
-package gr.media24.mSites.data.utils;
+package gr.soule.form.data.utils;
 
 import java.sql.Types;
 

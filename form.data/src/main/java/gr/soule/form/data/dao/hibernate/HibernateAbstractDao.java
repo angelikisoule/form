@@ -1,4 +1,6 @@
-package gr.media24.mSites.data.dao.hibernate;
+package gr.soule.form.data.dao.hibernate;
+
+import gr.soule.form.data.dao.AbstractDao;
 
 import java.io.Serializable;
 import java.lang.reflect.Method;
@@ -12,10 +14,9 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ReflectionUtils;
 
-import gr.media24.mSites.data.dao.AbstractDao;
 
 /**
- * @author npapadopoulos
+ * @author asoule
  * Generic Class's DAO Implementation
  * @param <T> Generic Class
  */

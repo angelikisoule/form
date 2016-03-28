@@ -1,4 +1,4 @@
 /**
- * @author npapadopoulos
+ * @author asoule
  */
-package gr.media24.mSites.data.dao.jdbc;
+package gr.soule.form.data.dao.jdbc;

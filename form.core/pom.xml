@@ -2,22 +2,22 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>gr.media24.mSites</groupId>
-        <artifactId>mSites</artifactId>
+        <groupId>gr.soule.form</groupId>
+        <artifactId>form</artifactId>
         <version>1.0</version>
     </parent>
-    <artifactId>mSites.core</artifactId>
-    <name>mSites.core</name>
+    <artifactId>form.core</artifactId>
+    <name>form.core</name>
     <dependencies>
         <!-- Module Dependencies -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>mSites.data</artifactId>
+            <artifactId>form.data</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>mSites.tasks</artifactId>
+            <artifactId>form.tasks</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!-- Other Dependencies -->
