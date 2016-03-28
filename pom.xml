@@ -38,7 +38,6 @@
     	<module>form.tasks</module>
 		<module>form.atom</module>
     	<module>form.core</module>
-    	<module>form.site</module>
   	</modules>
 	<properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

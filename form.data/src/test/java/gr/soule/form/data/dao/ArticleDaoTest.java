@@ -1,4 +1,4 @@
-package gr.media24.mSites.data.dao;
+package gr.soule.form.data.dao;
 
 import java.util.LinkedHashSet;
 import java.util.List;

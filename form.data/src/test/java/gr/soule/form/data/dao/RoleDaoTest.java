@@ -1,15 +1,15 @@
-package gr.media24.mSites.data.dao;
+package gr.soule.form.data.dao;
 
-import java.util.List;
+import gr.soule.form.data.entities.Role;
+
+import java.util.List ;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import gr.media24.mSites.data.entities.Role;
-
 /**
- * @author npapadopoulos
+ * @author asoule
  */
 public class RoleDaoTest extends DaoTest {
 
