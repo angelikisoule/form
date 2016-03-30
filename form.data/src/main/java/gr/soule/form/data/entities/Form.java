@@ -5,15 +5,19 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Lob;
+import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-@NamedQuery(
-		name = "getFormById",
-		query = "FROM Form WHERE id=:id")
+@NamedQueries({
+	@NamedQuery(name = "getFormById",
+				query = "FROM Form WHERE id=:id"),
+    @NamedQuery(name="countForms",
+                query="SELECT COUNT(f)")
+}) 
 @Entity
 @Table(name = "form")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE, region = "SHORT_TERM")

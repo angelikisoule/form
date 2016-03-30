@@ -1,4 +1,4 @@
-package gr.media24.mSites.core.service;
+package gr.soule.form.core.service;
 
 import org.junit.After;
 import org.junit.Before;

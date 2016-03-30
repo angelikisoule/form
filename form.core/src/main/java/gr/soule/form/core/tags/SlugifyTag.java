@@ -1,6 +1,6 @@
 package gr.soule.form.core.tags;
 
-import gr.media24.mSites.core.utils.URLDecorator;
+import gr.soule.form.core.utils.URLDecorator;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.tagext.TagSupport;

@@ -1,5 +1,7 @@
 package gr.soule.form.data.dao;
 
+import gr.soule.form.data.entities.Form;
+
 import java.util.LinkedHashSet;
 import java.util.List;
 
@@ -8,31 +10,27 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import gr.media24.mSites.data.entities.Article;
-import gr.media24.mSites.data.entities.Story;
-import gr.media24.mSites.data.enums.ArticleState;
-import gr.media24.mSites.data.enums.ArticleType;
 
 /**
- * @author npapadopoulos
+ * @author asoule
  */
-public class ArticleDaoTest extends DaoTest {
+public class FormDaoTest extends DaoTest {
 
-	@Autowired private ArticleDao articleDao;
+	@Autowired private FormDao formDao;
 
     /**
      * Article's getByEceArticleId Method
      */
     @Test
-    public void getByEceArticleIdTest() {
-    	Article article = articleDao.getByEceArticleId("1010101");
-    	Assert.assertNull(article);
-    	article = articleDao.getByEceArticleId("3429600");
-    	Assert.assertNotNull(article);
+    public void getIdTest() {
+    	Form form = formDao.getById("1010101");
+    	Assert.assertNull(form);
+    	form = formDao.getById("3429600");
+    	Assert.assertNotNull(form);
     	//Check Article's Related Authors, Categories And Articles
-    	Assert.assertTrue(article.getAuthors().size() == 1);
-    	Assert.assertTrue(article.getCategories().size() == 2);
-    	Assert.assertTrue(article.getRelatedArticles().size() == 2);
+    	Assert.assertTrue(form.getAuthors().size() == 1);
+    	Assert.assertTrue(form.getCategories().size() == 2);
+    	Assert.assertTrue(form.getRelatedArticles().size() == 2);
     }
 	
     /**
@@ -40,10 +38,10 @@ public class ArticleDaoTest extends DaoTest {
      */
     @Test
     public void getAllTest() {
-    	List<Article> allArticles = articleDao.getAll();
-    	Assert.assertTrue(allArticles.size() == articles.size());
-    	allArticles = articleDao.getAll(1);
-    	Assert.assertTrue(allArticles.size() == 1);
+    	List<Form> allForms = formDao.getAll();
+    	Assert.assertTrue(allForms.size() == forms.size());
+    	allForms = formDao.getAll(1);
+    	Assert.assertTrue(allForms.size() == 1);
     }
     
     /**
@@ -51,7 +49,7 @@ public class ArticleDaoTest extends DaoTest {
      */
     @Test
     public void countAllTest() {
-    	Long count = articleDao.countAll();
+    	Long count = formDao.count();
     	Assert.assertTrue(count > 0);
     }
     
@@ -65,12 +63,12 @@ public class ArticleDaoTest extends DaoTest {
     	int maxArticles = 10;
     	int offset = 1;
     	
-    	List<Article> result = articleDao.getBySectionUniqueName(sectionUniqueName, publicationName, maxArticles, null);
+    	List<Article> result = formDao.getBySectionUniqueName(sectionUniqueName, publicationName, maxArticles, null);
         Assert.assertEquals(2, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
         Assert.assertTrue(result.get(1) instanceof Story);
         //If An offset = 1 Is Set There Is Only One Result
-        result = articleDao.getBySectionUniqueName(sectionUniqueName, publicationName, maxArticles, offset, null);
+        result = formDao.getBySectionUniqueName(sectionUniqueName, publicationName, maxArticles, offset, null);
         Assert.assertEquals(1, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
     }
@@ -83,7 +81,7 @@ public class ArticleDaoTest extends DaoTest {
     	String uniqueName = "celebrities";
     	String publicationName = "ladylike";
         Long expectedResult = 2L;
-        Long count = articleDao.countBySectionUniqueName(uniqueName, publicationName);
+        Long count = formDao.countBySectionUniqueName(uniqueName, publicationName);
         Assert.assertEquals(expectedResult, count);
     }
     
@@ -94,14 +92,14 @@ public class ArticleDaoTest extends DaoTest {
     public void getByArticleTypeTest() {
         int maxArticles = 10;
         int offset = 2;
-        List<Article> result = articleDao.getByArticleType(FormType.STORY, maxArticles, null);
+        List<Article> result = formDao.getByArticleType(FormType.STORY, maxArticles, null);
         //There Are 3 Results All Instances Of Story.class
         Assert.assertEquals(3, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
         Assert.assertTrue(result.get(1) instanceof Story);
         Assert.assertTrue(result.get(2) instanceof Story);
         //If An offset = 2 Is Set There Is Only One Result
-        result = articleDao.getByArticleType(FormType.STORY, maxArticles, offset, null);
+        result = formDao.getByArticleType(FormType.STORY, maxArticles, offset, null);
         Assert.assertEquals(1, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
     }
@@ -111,7 +109,7 @@ public class ArticleDaoTest extends DaoTest {
      */
     @Test
     public void countByArticleTypeTest() {
-    	Long count = articleDao.countByArticleType(FormType.STORY);
+    	Long count = formDao.countByArticleType(FormType.STORY);
         Long expectedResult = 3L;
     	Assert.assertEquals(expectedResult, count);
     }
@@ -121,17 +119,17 @@ public class ArticleDaoTest extends DaoTest {
     	int maxArticles = 10;
     	int offset = 1;
     	//There Is A PICTURE In EDIT State
-    	List<Article> result = articleDao.getByArticleState(State.EDIT, maxArticles);
+    	List<Article> result = formDao.getByArticleState(State.EDIT, maxArticles);
     	Assert.assertEquals(1, result.size());
     	Assert.assertTrue(result.get(0).getArticleType().equals(FormType.PICTURE));
     	//If An offset = 1 Is Set There Are No Results
-    	result = articleDao.getByArticleState(State.EDIT, maxArticles, offset);
+    	result = formDao.getByArticleState(State.EDIT, maxArticles, offset);
     	Assert.assertNull(result);
     }
     
     @Test
     public void countByArticleStateTest() {
-    	Long count = articleDao.countByArticleState(State.EDIT);
+    	Long count = formDao.countByArticleState(State.EDIT);
     	Long expectedResult = 1L;
     	Assert.assertEquals(expectedResult, count);
     }
@@ -147,11 +145,11 @@ public class ArticleDaoTest extends DaoTest {
         int maxArticles = 10;
         int offset = 1;
 
-        List<Article> result = articleDao.getBySectionUniqueNameGroupName(sectionUniqueName, groupName, publicationName, maxArticles, null);
+        List<Article> result = formDao.getBySectionUniqueNameGroupName(sectionUniqueName, groupName, publicationName, maxArticles, null);
         Assert.assertEquals(1, result.size());
         Assert.assertTrue(result.get(0) instanceof Story);
         //If An offset = 1 Is Set There Are No Results
-        result = articleDao.getBySectionUniqueNameGroupName(sectionUniqueName, groupName, publicationName, maxArticles, offset, null);
+        result = formDao.getBySectionUniqueNameGroupName(sectionUniqueName, groupName, publicationName, maxArticles, offset, null);
         Assert.assertNull(result);
     }
 
@@ -164,7 +162,7 @@ public class ArticleDaoTest extends DaoTest {
     	String groupName = "@main1";
         String publicationName = "ladylike";
     	Long expectedResult = 2L;
-        Long count = articleDao.countBySectionUniqueNameGroupName(sectionUniqueName, groupName, publicationName);
+        Long count = formDao.countBySectionUniqueNameGroupName(sectionUniqueName, groupName, publicationName);
         Assert.assertEquals(expectedResult, count);
     }
 
@@ -179,10 +177,10 @@ public class ArticleDaoTest extends DaoTest {
         int maxArticles = 10;
         int offset = 2;
         
-        List<Article> result = articleDao.getBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType, maxArticles, null);
+        List<Article> result = formDao.getBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType, maxArticles, null);
         Assert.assertEquals(3, result.size());
         //If An offset = 2 Is Set There Is Only One Result
-        result = articleDao.getBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType, maxArticles, offset, null);
+        result = formDao.getBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType, maxArticles, offset, null);
         Assert.assertEquals(1, result.size());
     }
     
@@ -195,7 +193,7 @@ public class ArticleDaoTest extends DaoTest {
     	String publicationName = "ladylike";
         FormType articleType = FormType.STORY;
         Long expectedResult = 3L;
-        Long count = articleDao.countBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType);
+        Long count = formDao.countBySectionUniqueNameArticleType(sectionUniqueName, publicationName, articleType);
         Assert.assertEquals(expectedResult, count);
     }
 
@@ -211,10 +209,10 @@ public class ArticleDaoTest extends DaoTest {
         int maxArticles = 10;
         int offset = 1;
         
-        List<Article> result = articleDao.getBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType, maxArticles, null);
+        List<Article> result = formDao.getBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType, maxArticles, null);
         Assert.assertEquals(2, result.size());
         //If An offset = 1 Is Set There Is Only One Result
-        result = articleDao.getBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType, maxArticles, offset, null);
+        result = formDao.getBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType, maxArticles, offset, null);
         Assert.assertEquals(1, result.size());
     }
     
@@ -228,7 +226,7 @@ public class ArticleDaoTest extends DaoTest {
         String publicationName = "ladylike";
     	FormType articleType = FormType.STORY;
         Long expectedResult = 1L;
-        Long count = articleDao.countBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType);
+        Long count = formDao.countBySectionUniqueNameGroupNameArticleType(sectionUniqueName, groupName, publicationName, articleType);
         Assert.assertEquals(expectedResult, count);
     }
     
@@ -272,7 +270,7 @@ public class ArticleDaoTest extends DaoTest {
     	String sectionName = "newsletter@topStories1";
     	String publicationName = "ladylike";
     	int expectedResult = 3;
-    	LinkedHashSet<Article> result = articleDao.getBySection(sectionName, publicationName, false);
+    	LinkedHashSet<Article> result = formDao.getBySection(sectionName, publicationName, false);
         Assert.assertEquals(expectedResult, result.size());
     	for(Article article : result) {
     		Assert.assertTrue(article instanceof Story);
@@ -287,7 +285,7 @@ public class ArticleDaoTest extends DaoTest {
     	String sectionName = "newsletter@topStories1";
     	String publicationName = "ladylike";
     	Long expectedResult = 3L;
-    	Long count = articleDao.countBySection(sectionName, publicationName);
+    	Long count = formDao.countBySection(sectionName, publicationName);
     	Assert.assertEquals(expectedResult, count);
     }
     

@@ -1,4 +1,4 @@
-package gr.media24.mSites.core.controllers;
+package gr.soule.form.core.controllers;
 
 import org.junit.After;
 import org.junit.Before;

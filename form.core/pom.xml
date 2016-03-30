@@ -15,11 +15,11 @@
             <artifactId>form.data</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>form.tasks</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--         <dependency> -->
+<!--             <groupId>${project.groupId}</groupId> -->
+<!--             <artifactId>form.tasks</artifactId> -->
+<!--             <version>${project.version}</version> -->
+<!--         </dependency> -->
         <!-- Other Dependencies -->
         <!-- Spring Framework -->
         <dependency>

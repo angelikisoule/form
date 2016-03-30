@@ -26,17 +26,17 @@
 		</developer>
 	</developers>
 	<!-- 24MEDIA Repositories -->
-	<repositories>
-    	<repository>
-            <id>ALAPL</id>
-            <url>https://github.com/nikosk/ALAPL/raw/master/releases/</url>
-        </repository>
-    </repositories>
+<!-- 	<repositories> -->
+<!--     	<repository> -->
+<!--             <id>ALAPL</id> -->
+<!--             <url>https://github.com/nikosk/ALAPL/raw/master/releases/</url> -->
+<!--         </repository> -->
+<!--     </repositories> -->
   	<modules>
     	<module>form.admin</module>
     	<module>form.data</module>
-    	<module>form.tasks</module>
-		<module>form.atom</module>
+<!--     	<module>form.tasks</module> -->
+<!-- 		<module>form.atom</module> -->
     	<module>form.core</module>
   	</modules>
 	<properties>
